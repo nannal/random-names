@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+var sample = require ('lodash.sample')
 
 export default function houses() {
   const nm1 = ['magnificent', 'cozy', 'warm and cozy', 'stylish', 'very elegant', 'gorgeous', 'grandiose', 'impressive', 'lavish', 'snug and comfortable', 'intimate and cozy', 'luxurious', 'posh and extravagant', 'nice and traditional', 'old, but wonderful'];

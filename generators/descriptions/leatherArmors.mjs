@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+var sample = require ('lodash.sample')
 
 export default function leatherArmors() {
   const nm1 = ['rounded helm', 'squared helm', 'coif', 'pointed helm', 'hood'];

@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+var sample = require ('lodash.sample')
 
 export default function remans() {
   let names;

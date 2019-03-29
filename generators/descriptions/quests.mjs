@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+var sample = require ('lodash.sample')
 
 export default function quests() {
   const type = Math.random() < 0.5 ? 0 : 1;

@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+var sample = require ('lodash.sample')
 
 export default function plateArmors() {
   const nm1 = ['rounded helm', 'squared helm', 'flat top helm', 'pointed helm'];

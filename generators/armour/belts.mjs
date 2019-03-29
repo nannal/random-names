@@ -1,6 +1,6 @@
-import sample from 'lodash/sample';
+var sample = require ('lodash.sample')
 
-export default function belts() {
+function belts() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ancient', 'Binding', 'Blessed', 'Blind', 'Broken', 'Burning', 'Condemned', 'Conquered', 'Cursed', 'Damned', 'Dark', 'Demonic', 'Distant', 'Divine', 'Doomed', 'Ending', 'Endless', 'Eternal', 'Faded', 'Fallen', 'Fleeting', 'Frozen', 'Hallowed', 'Haunted', 'Hellish', 'Holy', 'Imminent', 'Immortal', 'Infernal', 'Infinite', 'Lost', 'Ominous', 'Relentless', 'Sacred', 'Shattered', 'Silent', 'Smoldering', 'Timeless', 'Twisted', 'Unholy'];
   const nm2 = ['Ancestors', 'Bloodlust', 'Comrades', 'Damnation', 'Dreams', 'Fire', 'Fires', 'Fortune', 'Fortunes', 'Freedom', 'Glory', 'Hell', 'Hells', 'Honor', 'Hope', 'Illusions', 'Justice', 'Kings', 'Lands', 'Magic', 'Memories', 'Might', 'Misery', 'Nightmares', 'Nights', 'Power', 'Powers', 'Protection', 'Punishment', 'Sorrow', 'Souls', 'Torment', 'Trials', 'Vengeance', 'Visions', 'Voices', 'Warlords', 'Wars', 'Whispers', 'Worlds'];
@@ -25,3 +25,5 @@ export default function belts() {
   }
   return names.trim();
 }
+
+module.exports = belts

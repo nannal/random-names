@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+var sample = require ('lodash.sample')
 
 export default function plots() {
   const nm1 = ['calm', 'carefree', 'casual', 'fast-paced', 'hectic', 'laid-back', 'nonchalant', 'normal', 'ordinary', 'peaceful', 'quiet', 'relaxed', 'rough', 'secluded', 'smooth', 'stable', 'stressful', 'unexciting'];

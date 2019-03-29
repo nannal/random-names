@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+var sample = require ('lodash.sample')
 
 export default function schoolUniforms() {
   const nm1 = ['straight', 'striped', 'lined', 'finely striped', 'thickly striped', 'plain', 'checkered', 'loose fitting', 'narrow fitting'];
