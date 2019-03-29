@@ -3,11 +3,11 @@ Generate random names for all kinds of things
 
 # Usage
 ```javascript
-const alienNames = require('./node_modules/@xaroth8088/random-names/generators/weapons/alienNames.mjs');
+const cloaks = require('./generators/armour/cloaks.mjs');
 
-const aRandomName = alienNames();    // The .trim() is temporary until I finish output cleanup efforts
+const randomcloak = cloaks();
 
-console.log(aRandomName);
+console.log(randomcloak);
 ```
 
 ## Full List
