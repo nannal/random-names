@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function seaCreatures() {
+function seaCreatures() {
   let names;
   const nm1 = ['B', 'Bl', 'Cr', 'Ch', 'G', 'Gl', 'Gr', 'H', 'J', 'K', 'Kr', 'L', 'M', 'S', 'Sc', 'Tr', 'Z'];
   const nm2 = ['o', 'a', 'a', 'o', 'e', 'i', 'u', 'y'];
@@ -22,3 +22,4 @@ export default function seaCreatures() {
     return names;
   }
 }
+module.exports = seaCreatures

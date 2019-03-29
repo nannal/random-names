@@ -1,4 +1,4 @@
-export default function hutts() {
+function hutts() {
   let namelast;
   let names;
   let rnd;
@@ -50,3 +50,4 @@ export default function hutts() {
     return names;
   }
 }
+module.exports = hutts

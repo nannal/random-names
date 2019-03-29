@@ -1,4 +1,4 @@
-export default function grasslands() {
+function grasslands() {
   let names;
   let rnd0;
   let rnd1;
@@ -38,3 +38,4 @@ export default function grasslands() {
     return names;
   }
 }
+module.exports = grasslands

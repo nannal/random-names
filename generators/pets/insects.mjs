@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function insects() {
+function insects() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Alpha', 'Apollo', 'Aragog', 'Ash', 'Ashes', 'Asterix', 'Aztec', 'Bandit', 'Beta', 'Biggelsworth', 'Bilbo', 'Blade', 'Blitz', 'Booker', 'Boomer', 'Boots', 'Brutus', 'Buddy', 'Bugs', 'Butch', 'Buttons', 'Casper', 'Celeb', 'Chewbacca', 'Chewy', 'Chinook', 'Chuck', 'Chuckles', 'Cinder', 'Cole', 'Comet', 'Cookie', 'Cosmo', 'Critter', 'Cuddles', 'Darcy', 'Dexter', 'Doc', 'Doodle', 'Dracula', 'Echo', 'Fangs', 'Flopsie', 'Frankenstein', 'Friskie', 'Fuzz', 'Fuzzy', 'Gadget', 'Gambit', 'Ghost', 'Godzilla', 'Goliath', 'Handsome', 'Hannibal', 'Hector', 'Hercules', 'Houdini', 'Hulk', 'Hunter', 'Icky', 'Ivan', 'Jaffa', 'Jiggles', 'Jitters', 'Junior', 'Lance', 'Lancelot', 'Loki', 'Lucifer', 'Magma', 'Marble', 'Midnight', 'Mittens', 'Muffin', 'Myst', 'Nacho', 'Nemesis', 'Nightmare', 'Noodle', 'Noodles', 'Nugget', 'Omega', 'Onyx', 'Orion', 'Ozzy', 'Patches', 'Peanut', 'Pepper', 'Phantom', 'Pickles', 'Poison', 'Poppers', 'Prometheus', 'Psyche', 'Psycho', 'Punky', 'Rambo', 'Rascal', 'Rebel', 'Rex', 'Rider', 'Rufus', 'Rusty', 'Salt', 'Scooter', 'Scratch', 'Scruff', 'Scruffy', 'Shade', 'Shadow', 'Sherlock', 'Skinner', 'Skipper', 'Slinky', 'Snickers', 'Snyder', 'Sox', 'Spike', 'Spinner', 'Squeaks', 'Stitches', 'Storm', 'Striker', 'Syd', 'Sylvester', 'Symore', 'Taboo', 'Tank', 'Thor', 'Thunder', 'Tinker', 'Titan', 'Trapper', 'Tremor', 'Truffle', 'Tyson', 'Venom', 'Webster', 'Whiskers', 'Whisper', 'Wolfgang', 'Xanadu', 'Xander', 'Ziggy'];
@@ -14,3 +14,4 @@ export default function insects() {
     return names;
   }
 }
+module.exports = insects

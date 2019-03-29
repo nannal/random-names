@@ -1,4 +1,4 @@
-export default function aliens() {
+function aliens() {
   let rnd;
   let rnd2;
   let rnd3;
@@ -56,3 +56,4 @@ export default function aliens() {
     return names;
   }
 }
+module.exports = aliens

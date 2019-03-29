@@ -1,4 +1,4 @@
-export default function backstorys() {
+function backstorys() {
   let i;
   const type = Math.random() > 0.5 ? 0 : 1;
   let nm1 = ['He', 'he', 'his', 'him', 'man'];
@@ -107,3 +107,4 @@ export default function backstorys() {
   }
   return result;
 }
+module.exports = backstorys

@@ -1,4 +1,4 @@
-export default function maiars() {
+function maiars() {
   let names;
   let rnd;
   let rnd2;
@@ -48,3 +48,4 @@ export default function maiars() {
     return names;
   }
 }
+module.exports = maiars

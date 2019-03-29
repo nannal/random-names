@@ -1,4 +1,4 @@
-export default function halfElfs() {
+function halfElfs() {
   let nameLast;
   let names;
   let rnd;
@@ -99,3 +99,4 @@ export default function halfElfs() {
     return names;
   }
 }
+module.exports = halfElfs

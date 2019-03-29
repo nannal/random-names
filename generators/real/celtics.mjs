@@ -1,4 +1,4 @@
-export default function celtics() {
+function celtics() {
   let names;
   let rnd;
   let rnd1;
@@ -14,3 +14,4 @@ export default function celtics() {
     return names;
   }
 }
+module.exports = celtics

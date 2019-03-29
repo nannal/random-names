@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function succubus() {
+function succubus() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aer', 'Arlen', 'Azer', 'Boren', 'Brax', 'Bren', 'Caran', 'Char', 'Col', 'Cryn', 'Dhar', 'Drac', 'Dyn', 'Eor', 'Eran', 'Ezrin', 'Faren', 'Fhar', 'Forn', 'Fyz', 'Garan', 'Gnar', 'Grul', 'Har', 'Hurin', 'Hyir', 'Iar', 'Igar', 'Inor', 'Jar', 'Jhor', 'Joran', 'Kran', 'Kuron', 'Kyl', 'Lanar', 'Lar', 'Lohr', 'Mahr', 'Maran', 'Maz', 'Nahar', 'Naj', 'Nyr', 'Ohir', 'Ohm', 'Oran', 'Pam', 'Phir', 'Prax', 'Qahr', 'Qrin', 'Qur', 'Rhar', 'Rizar', 'Ryz', 'Sal', 'Sur', 'Suran', 'Syl', 'Thal', 'Tor', 'Traz', 'Unor', 'Ur', 'Uran', 'Vohr', 'Vox', 'Vyl', 'Wahr', 'Wes', 'Wrax', 'Xahr', 'Xal', 'Xin', 'Yhr', 'Ylan', 'Ynar', 'Zael', 'Zahr', 'Zaran', 'Zohn'];
@@ -16,3 +16,4 @@ export default function succubus() {
     return names;
   }
 }
+module.exports = succubus

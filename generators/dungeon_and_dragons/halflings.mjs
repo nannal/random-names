@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function halflings() {
+function halflings() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['An', 'Ar', 'Bar', 'Bel', 'Con', 'Cor', 'Dan', 'Dav', 'El', 'Er', 'Fal', 'Fin', 'Flyn', 'Gar', 'Go', 'Hal', 'Hor', 'Ido', 'Ira', 'Jan', 'Jo', 'Kas', 'Kor', 'La', 'Lin', 'Mar', 'Mer', 'Ne', 'Nor', 'Ori', 'Os', 'Pan', 'Per', 'Pim', 'Quin', 'Quo', 'Ri', 'Ric', 'San', 'Shar', 'Tar', 'Te', 'Ul', 'Uri', 'Val', 'Vin', 'Wen', 'Wil', 'Xan', 'Xo', 'Yar', 'Yen', 'Zal', 'Zen'];
@@ -16,3 +16,4 @@ export default function halflings() {
     return names;
   }
 }
+module.exports = halflings

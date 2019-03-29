@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function shadowhunterChronicles() {
+function shadowhunterChronicles() {
   let names;
   const type = Math.floor(Math.random() * 3.0);
   const nm1 = ['Aaron', 'Adam', 'Aidan', 'Aiden', 'Alex', 'Alexander', 'Alfie', 'Andrew', 'Anthony', 'Archie', 'Arthur', 'Ashton', 'Bailey', 'Ben', 'Benjamin', 'Billy', 'Blake', 'Bobby', 'Bradley', 'Brandon', 'Caleb', 'Callum', 'Cameron', 'Charles', 'Charlie', 'Christopher', 'Cody', 'Connor', 'Corey', 'Daniel', 'David', 'Declan', 'Dexter', 'Dominic', 'Dylan', 'Edward', 'Elliot', 'Ellis', 'Ethan', 'Evan', 'Ewan', 'Finlay', 'Finley', 'Frankie', 'Freddie', 'Frederick', 'Gabriel', 'George', 'Harley', 'Harrison', 'Harry', 'Harvey', 'Hayden', 'Henry', 'Isaac', 'Jack', 'Jackson', 'Jacob', 'Jake', 'James', 'Jamie', 'Jay', 'Jayden', 'Jenson', 'Joe', 'Joel', 'John', 'Jonathan', 'Jordan', 'Joseph', 'Josh', 'Joshua', 'Jude', 'Kai', 'Kayden', 'Kian', 'Kieran', 'Kyle', 'Leo', 'Leon', 'Lewis', 'Liam', 'Logan', 'Louie', 'Louis', 'Luca', 'Lucas', 'Luke', 'Mason', 'Matthew', 'Max', 'Michael', 'Morgan', 'Nathan', 'Nicholas', 'Noah', 'Oliver', 'Ollie', 'Oscar', 'Owen', 'Patrick', 'Peter', 'Reece', 'Reuben', 'Rhys', 'Riley', 'Robert', 'Rory', 'Ryan', 'Sam', 'Samuel', 'Scott', 'Sean', 'Sebastian', 'Spencer', 'Stanley', 'Taylor', 'Theo', 'Thomas', 'Toby', 'Tom', 'Tommy', 'Tyler', 'William', 'Zac', 'Zachary', 'Zak'];
@@ -18,3 +18,4 @@ export default function shadowhunterChronicles() {
   }
   return names;
 }
+module.exports = shadowhunterChronicles

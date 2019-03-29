@@ -1,4 +1,4 @@
-export default function restaurants() {
+function restaurants() {
   let names;
   let rnd;
   let rnd2;
@@ -18,3 +18,4 @@ export default function restaurants() {
     return names;
   }
 }
+module.exports = restaurants

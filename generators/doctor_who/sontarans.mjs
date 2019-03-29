@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function sontarans() {
+function sontarans() {
   let names;
   const nm1 = ['B', 'Br', 'D', 'Dr', 'Gr', 'J', 'K', 'Kr', 'L', 'N', 'M', 'S', 'Sk', 'Sn', 'St', 'T', 'Tr', 'V', 'Vr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'aa', 'ee'];
@@ -23,3 +23,4 @@ export default function sontarans() {
     return names;
   }
 }
+module.exports = sontarans

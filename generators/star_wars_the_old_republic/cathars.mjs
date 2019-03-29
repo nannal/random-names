@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function cathars() {
+function cathars() {
   let names;
   let lName;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -35,3 +35,4 @@ export default function cathars() {
     return names;
   }
 }
+module.exports = cathars

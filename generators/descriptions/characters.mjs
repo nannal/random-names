@@ -278,7 +278,8 @@ function charactersFemale() {
   return result;
 }
 
-export default function characters() {
+function characters() {
   const type = Math.random() > 0.5 ? 0 : 1;
   return type === 1 ? charactersFemale() : charactersMale();
 }
+module.exports = characters

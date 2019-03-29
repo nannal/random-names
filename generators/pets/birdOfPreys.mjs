@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function birdOfPreys() {
+function birdOfPreys() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ace', 'Achilles', 'Admiral', 'Ajax', 'Ammo', 'Apache', 'Apollo', 'Aquila', 'Arcane', 'Archer', 'Argos', 'Artemis', 'Ash', 'Atlas', 'Avalanche', 'Awe', 'Bandit', 'Bane', 'Blaze', 'Blight', 'Blitz', 'Blood', 'Bolt', 'Bones', 'Boon', 'Brawn', 'Brutus', 'Buck', 'Bullet', 'Bullseye', 'Butch', 'Buzz', 'Caine', 'Champ', 'Chaos', 'Chase', 'Cloud', 'Coal', 'Comet', 'Courage', 'Dagger', 'Darth', 'Diablo', 'Doom', 'Drake', 'Dread', 'Duke', 'Dusk', 'Dust', 'Echo', 'Eclipse', 'Edge', 'Force', 'Frenzy', 'Fury', 'Genghis', 'Ghost', 'Goliath', 'Gray', 'Griffin', 'Grim', 'Gunner', 'Hades', 'Hannibal', 'Havock', 'Hawke', 'Hawkeye', 'Hector', 'Hero', 'Hooch', 'Hulk', 'Hunter', 'Hyde', 'Ice', 'Jax', 'Jeckyll', 'Judge', 'Khan', 'Kindle', 'King', 'Lecter', 'Legend', 'Loki', 'Lucifer', 'Magnum', 'Maverick', 'Mayhem', 'Merlin', 'Midnight', 'Mirage', 'Myst', 'Nemesis', 'Neo', 'Nero', 'Nightmare', 'Nyx', 'Obsidian', 'Onyx', 'Orion', 'Pandora', 'Panther', 'Pepper', 'Phantom', 'Phoenix', 'Pride', 'Pyro', 'Rage', 'Rampage', 'Ranger', 'Raven', 'Razor', 'Reaper', 'Rebel', 'Ripley', 'Riptide', 'Rogue', 'Ryder', 'Sabath', 'Saber', 'Sable', 'Savage', 'Scandal', 'Scourge', 'Shade', 'Shadow', 'Shiv', 'Sky', 'Slate', 'Sly', 'Sniper', 'Snow', 'Steele', 'Storm', 'Striker', 'Surge', 'Talon', 'Tank', 'Terror', 'Thunder', 'Titan', 'Titanium', 'Torment', 'Triumph', 'Vapor', 'Viper', 'Vlad', 'Whisper', 'Wicked', 'Wrath', 'Xerxes'];
@@ -14,3 +14,4 @@ export default function birdOfPreys() {
     return names;
   }
 }
+module.exports = birdOfPreys

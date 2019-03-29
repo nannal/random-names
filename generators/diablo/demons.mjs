@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function demons() {
+function demons() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'bl', 'br', 'c', 'cr', 'ch', 'd', 'dr', 'g', 'gr', 'gh', 'h', 'j', 'k', 'kh', 'kr', 'l', 'm', 'n', 'p', 'pr', 'r', 's', 'sl', 'str', 'sthr', 'sth', 'sr', 't', 'th', 'tr', 'thr', 'v', 'vr', 'wr', 'x', 'y', 'z'];
@@ -27,3 +27,4 @@ export default function demons() {
     return names;
   }
 }
+module.exports = demons

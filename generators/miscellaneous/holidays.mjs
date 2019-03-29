@@ -1,4 +1,4 @@
-export default function holidays() {
+function holidays() {
   let names;
   let rnd;
   let rnd1;
@@ -19,3 +19,4 @@ export default function holidays() {
     return names;
   }
 }
+module.exports = holidays

@@ -1,4 +1,4 @@
-export default function ragClothings() {
+function ragClothings() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Her', 'She', 'her', 'she', 'her', 'His', 'He', 'his', 'he', 'him'];
   let nm2 = ['shirt', 't-shirt'];
@@ -72,3 +72,4 @@ export default function ragClothings() {
   result += name6;
   return result;
 }
+module.exports = ragClothings

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function museums() {
+function museums() {
   let names;
   const nm2 = ['Centre', 'Centre', 'Center', 'Center', 'Exhibition', 'Gallery', 'Gallery', 'Hall', 'Hall', 'Institute', 'Institution', 'Museum', 'Museum', 'Museum', 'Treasury', 'Vault'];
   const nm3 = ['National', 'International', 'Grand', 'Great', 'Central', 'Royal', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -16,3 +16,4 @@ export default function museums() {
     return names;
   }
 }
+module.exports = museums

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function gnome() {
+function gnome() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ba', 'Bil', 'Bim', 'Bin', 'Bink', 'Bo', 'Bom', 'Bon', 'Bonk', 'Bu', 'Bur', 'Car', 'Do', 'Don', 'Donk', 'Di', 'Dim', 'Din', 'Dink', 'El', 'Fen', 'Fil', 'Fim', 'Fin', 'Fink', 'Gel', 'Gim', 'Glim', 'Glin', 'Glink', 'Gno', 'Hin', 'Hink', 'Klo', 'La', 'Lo', 'Mit', 'Mittle', 'Nit', 'Nittle', 'Pit', 'Pith', 'Tal', 'Ten', 'Teen', 'Then', 'Thin', 'Think', 'Tin', 'To', 'Toc', 'Tyn'];
@@ -20,3 +20,4 @@ export default function gnome() {
     return names;
   }
 }
+module.exports = gnome

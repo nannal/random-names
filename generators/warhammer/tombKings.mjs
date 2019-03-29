@@ -1,4 +1,4 @@
-export default function tombKings() {
+function tombKings() {
   let names;
   let nameL;
   let rnd;
@@ -55,3 +55,4 @@ export default function tombKings() {
     return names;
   }
 }
+module.exports = tombKings

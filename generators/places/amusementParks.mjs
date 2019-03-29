@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function amusementParks() {
+function amusementParks() {
   let names;
   const nm1 = ['Angel', 'Animal', 'Aqua', 'Arcane', 'Astral', 'Astro', 'Aura', 'Beach', 'Beast', 'Carny', 'Cartoon', 'Child', 'Clown', 'Comic', 'Creep', 'Critter', 'Crypt', 'Demon', 'Dino', 'Doll', 'Dragon', 'Dread', 'Dream', 'Elf', 'Ember', 'Epic', 'Eterni', 'Ever', 'Expo', 'Fable', 'Fairy', 'Feral', 'Festi', 'Film', 'Fire', 'Forest', 'Freak', 'Fright', 'Fun', 'Game', 'Ghost', 'Giant', 'Groovy', 'Happy', 'Hell', 'Hero', 'Horror', 'Ice', 'Jungle', 'Kids', 'Luna', 'Lunar', 'Magic', 'Marina', 'Maze', 'Mega', 'Mini', 'Miracle', 'Mirror', 'Monster', 'Movie', 'Mutant', 'Never', 'Night', 'Ocean', 'Paradox', 'Phantom', 'Play', 'Quest', 'Rain', 'Rainbow', 'River', 'Robot', 'Saga', 'Sand', 'Scream', 'Secret', 'Shadow', 'Shock', 'Sky', 'Snow', 'Solar', 'Space', 'Speed', 'Spirit', 'Splash', 'Star', 'Stellar', 'Storm', 'Story', 'Summer', 'Sun', 'Super', 'Terra', 'Terror', 'Thrill', 'Titan', 'Toy', 'Undead', 'Vision', 'Warp', 'Water', 'Winter', 'Witch', 'Wizard', 'Wonder', 'Zombie', 'Zoo'];
   const nm2 = ['land', 'world', 'zone', 'park', 'town', 'fair', 'realm', 'ville', 'land', 'park', 'ventures'];
@@ -16,3 +16,4 @@ export default function amusementParks() {
     return names;
   }
 }
+module.exports = amusementParks

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function sylphs() {
+function sylphs() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'c', 'd', 'f', 'g', 'h', 'j', 'l', 'm', 'n', 's', 'v', 'w', 'z'];
@@ -25,3 +25,4 @@ export default function sylphs() {
     return names;
   }
 }
+module.exports = sylphs

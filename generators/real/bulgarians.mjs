@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function bulgarians() {
+function bulgarians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ivan', 'Dimitar', 'Miro', 'Angel', 'Deyan', 'Plamen', 'Ivailo', 'Iliya', 'Ilko', 'Konstantin', 'Kostadin', 'Martin', 'Nikolai', 'Radoslav', 'Stoyan', 'Georgi', 'Krum', 'Bogdan', 'Petar', 'Blagoi', 'Atanas', 'Todor', 'Blagun', 'Bogdan', 'Bogomil', 'Bojidar', 'Boris', 'Borislav', 'Boyko', 'Branimir', 'Desislav', 'Dragan', 'Dragomir', 'Grozdan', 'Krasimir', 'Lyuben', 'Lyubomir', 'Milan', 'Milen', 'Miroslav', 'Mladen', 'Momchil', 'Nayden', 'Nedelcho', 'Ognian', 'Ognyan', 'Petar', 'Plamen', 'Radko', 'Radomir', 'Radoslav', 'Rayko', 'Stefan', 'Spas', 'Stanimir', 'Stanislav', 'Stanko', 'Stoyan', 'Tihomir', 'Tsvetan', 'Valko', 'Ventseslav', 'Veselin', 'Vladimir', 'Vladislav', 'Yasen', 'Yavor', 'Zdravko', 'Zhelyazko', 'Zhivko', 'Zlatan', 'Zlatko', 'Aleksander', 'Anghel', 'Assen', 'Andon', 'Andrey', 'Anton', 'Apostol', 'Atanas', 'Bogdan', 'Bogomil', 'Boiko', 'Borislav', 'Boris', 'Bozhidar', 'Damyan', 'Danail', 'Daniel', 'Desislav', 'Demitar', 'Dragomir', 'Dyakon', 'Emil', 'Evgeni', 'Filip', 'Gavril', 'Georgi', 'Grigori', 'Gregor', 'Hristo', 'Ilian', 'Ivailo', 'Ivo', 'Iskren', 'Kaloyan', 'Kiril', 'Krasimir', 'Krastyo', 'Kamen', 'Lubomir', 'Ludmil', 'Lyoben', 'Lyobomir', 'Lyudmil', 'Marko', 'Miroslav', 'Momchil', 'Mihael', 'Mitko', 'Mladen', 'Nikola', 'Nikolai', 'Ognian', 'Penko', 'Petar', 'Pavel', 'Plamen', 'Radko', 'Radomir', 'Radko', 'Samuil', 'Spas', 'Stanimir', 'Stanislav', 'Stefan', 'Sasho', 'Stoyan', 'Teodor', 'Todor', 'Vasil', 'Ventsislav', 'Viktor', 'Vladimir', 'Yanko', 'Yoan', 'Yordan', 'Zhivko', 'Zlatko', 'Zdravko', 'Zlaten'];
@@ -18,3 +18,4 @@ export default function bulgarians() {
     return names;
   }
 }
+module.exports = bulgarians

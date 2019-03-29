@@ -1,4 +1,4 @@
-export default function beastmens() {
+function beastmens() {
   let names;
   let rnd;
   let rnd2;
@@ -31,3 +31,4 @@ export default function beastmens() {
     return names;
   }
 }
+module.exports = beastmens

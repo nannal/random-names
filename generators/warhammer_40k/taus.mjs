@@ -1,4 +1,4 @@
-export default function taus() {
+function taus() {
   let names;
   let rnd;
   let rnd2;
@@ -17,3 +17,4 @@ export default function taus() {
     return names;
   }
 }
+module.exports = taus

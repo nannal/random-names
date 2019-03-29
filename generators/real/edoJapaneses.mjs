@@ -1,4 +1,4 @@
-export default function edoJapaneses() {
+function edoJapaneses() {
   let names;
   let rnd;
   let rnd2;
@@ -26,3 +26,4 @@ export default function edoJapaneses() {
     return names;
   }
 }
+module.exports = edoJapaneses

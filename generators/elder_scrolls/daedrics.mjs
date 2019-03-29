@@ -1,4 +1,4 @@
-export default function daedrics() {
+function daedrics() {
   let names;
   let rnd;
   let rnd2;
@@ -49,3 +49,4 @@ export default function daedrics() {
     return names;
   }
 }
+module.exports = daedrics

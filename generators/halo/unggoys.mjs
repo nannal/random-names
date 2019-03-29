@@ -1,4 +1,4 @@
-export default function unggoys() {
+function unggoys() {
   let names;
   let rnd;
   let rnd1;
@@ -40,3 +40,4 @@ export default function unggoys() {
     return names;
   }
 }
+module.exports = unggoys

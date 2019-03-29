@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function pegasus() {
+function pegasus() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abde', 'Aby', 'Aca', 'Ache', 'Achi', 'Acta', 'Ade', 'Adme', 'Adra', 'Ae', 'Aea', 'Aeto', 'Agame', 'Aja', 'Ale', 'Amy', 'Ando', 'Anta', 'Ante', 'Apo', 'Arca', 'Arce', 'Arche', 'Argo', 'Arse', 'Arte', 'Asca', 'Atha', 'Atla', 'Baccu', 'Bazy', 'Bry', 'Cae', 'Cali', 'Capa', 'Casea', 'Cepha', 'Cory', 'Cyra', 'Dae', 'Dama', 'Damia', 'Damio', 'Daria', 'Dario', 'Deme', 'Demo', 'Dio', 'Dora', 'Dra', 'Era', 'Ere', 'Este', 'Eury', 'Fe', 'Gae', 'Gela', 'Hae', 'Helio', 'Hera', 'Hero', 'Ia', 'Ico', 'Ja', 'Ko', 'Koru', 'Kra', 'Kyri', 'La', 'Laiu', 'Lea', 'Leo', 'Leoni', 'Lo', 'Lu', 'Mela', 'Mida', 'Myro', 'Nau', 'Ne', 'Obe', 'Obia', 'Ocea', 'Pano', 'Pelia', 'Phanta', 'Phy', 'Pria', 'Pyra', 'Ra', 'Rho', 'Saba', 'Sote', 'Ste', 'Tara', 'Tela', 'Tha', 'Thano', 'Thau', 'The', 'Thye', 'Ti', 'Tiva', 'Tri', 'Ty', 'Tyro', 'Vasi', 'Xa', 'Ze', 'Zeno', 'Zo'];
@@ -16,3 +16,4 @@ export default function pegasus() {
     return names;
   }
 }
+module.exports = pegasus

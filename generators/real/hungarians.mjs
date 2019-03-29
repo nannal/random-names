@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function hungarians() {
+function hungarians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ábel', 'Ádám', 'Ákos', 'Ármin', 'Áron', 'Árpád', 'Adrián', 'Albert', 'Alex', 'Alexander', 'András', 'Antal', 'Arnold', 'Attila', 'Bálint', 'Béla', 'Balázs', 'Barna', 'Barnabás', 'Bence', 'Bendegúz', 'Benedek', 'Benjámin', 'Benjamin', 'Bertalan', 'Boldizsár', 'Botond', 'Csaba', 'Csanád', 'Csongor', 'Dániel', 'Dávid', 'Dénes', 'Dezső', 'Dominik', 'Domonkos', 'Donát', 'Endre', 'Erik', 'Ferenc', 'Flórián', 'Gábor', 'Géza', 'Gergő', 'Gergely', 'György', 'Gyula', 'Henrik', 'Imre', 'István', 'János', 'József', 'Jakab', 'Kálmán', 'Károly', 'Kevin', 'Kornél', 'Kristóf', 'Krisztián', 'Krisztofer', 'László', 'Lajos', 'Levente', 'Márió', 'Márkó', 'Márk', 'Márton', 'Máté', 'Mátyás', 'Marcell', 'Martin', 'Mihály', 'Miklós', 'Milán', 'Nándor', 'Noel', 'Norbert', 'Olivér', 'Pál', 'Péter', 'Patrik', 'Róbert', 'Rajmund', 'Renátó', 'Richárd', 'Roland', 'Rudolf', 'Sándor', 'Soma', 'Szabolcs', 'Szilárd', 'Szilveszter', 'Tamás', 'Tibor', 'Valentin', 'Viktor', 'Vilmos', 'Vince', 'Zalán', 'Zoltán', 'Zsolt', 'Zsombor'];
@@ -15,3 +15,4 @@ export default function hungarians() {
     return names;
   }
 }
+module.exports = hungarians

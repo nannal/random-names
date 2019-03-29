@@ -1,4 +1,4 @@
-export default function kobolds() {
+function kobolds() {
   let names;
   let rnd;
   let rnd2;
@@ -55,3 +55,4 @@ export default function kobolds() {
     return names;
   }
 }
+module.exports = kobolds

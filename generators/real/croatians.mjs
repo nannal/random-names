@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function croatians() {
+function croatians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Andrija', 'Ante', 'Adam', 'Aleksandar', 'Alan', 'Antonio', 'Branimir', 'Boris', 'Branko', 'Bruno', 'Božo', 'Božidar', 'Branislav', 'Budimir', 'Benjamin', 'Cvjetko', 'Dario', 'Darko', 'Damir', 'Davor', 'Dino', 'Danijel', 'David', 'Denis', 'Dominik', 'Domagoj', 'Duje', 'Dražen', 'Dubravko', 'Dinko', 'Dalibor', 'Dejan', 'Đuro', 'Emanuel', 'Ernest', 'Emil', 'Eduard', 'Edvard', 'Filip', 'Franjo', 'Florijan', 'Gabrijel', 'Goran', 'Gordan', 'Hrvoje', 'Igor', 'Ivan', 'Ivo', 'Ivica', 'Imanuel', 'Ilija', 'Josip', 'Jan', 'Juraj', 'Jakov', 'Jasmin', 'Karlo', 'Krešimir', 'Kristijan', 'Luka', 'Lucijan', 'Ljubomir', 'Ljudevit', 'Mario', 'Marko', 'Mirko', 'Matej', 'Martin', 'Marin', 'Mladen', 'Mislav', 'Miroslav', 'Matija', 'Marijan', 'Nikola', 'Nenad', 'Neven', 'Oliver', 'Petar', 'Pavao', 'Patrik', 'Renato', 'Robert', 'Stjepan', 'Silvije', 'Saša', 'Siniša', 'Šime', 'Tomislav', 'Tihomir', 'Toni', 'Teo', 'Velimir', 'Vedran', 'Viktor', 'Vinko', 'Vladimir', 'Vanja', 'Vedran', 'Zdenko', 'Zdravko', 'Zvonimir', 'Zvonko', 'Zlatko', 'Zoran', 'Žarko', 'Željko'];
@@ -15,3 +15,4 @@ export default function croatians() {
     return names;
   }
 }
+module.exports = croatians

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function plots() {
+function plots() {
   const nm1 = ['calm', 'carefree', 'casual', 'fast-paced', 'hectic', 'laid-back', 'nonchalant', 'normal', 'ordinary', 'peaceful', 'quiet', 'relaxed', 'rough', 'secluded', 'smooth', 'stable', 'stressful', 'unexciting'];
   const nm2 = ['teenage girl', 'young girl', 'woman', 'girl', 'elderly woman', 'man', 'boy', 'teenage boy', 'young guy', 'elderly man'];
   const nm3 = ['is going the complete opposite way', 'changes in an instant', 'changes for better or worse', 'is going in a different direction', 'will change forever', 'might be changing forever', 'has a chance to change, for better or worse,', 'will be changed completely', 'take a sharp turn', 'might turn out differently', 'will be permanently altered'];
@@ -31,3 +31,4 @@ export default function plots() {
   result += name3;
   return result;
 }
+module.exports = plots

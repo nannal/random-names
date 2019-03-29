@@ -1,4 +1,4 @@
-export default function cliffs() {
+function cliffs() {
   let names;
   let rnd;
   let rnd2;
@@ -39,3 +39,4 @@ export default function cliffs() {
     return names;
   }
 }
+module.exports = cliffs

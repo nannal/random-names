@@ -1,4 +1,4 @@
-export default function pokemons() {
+function pokemons() {
   let i;
   let rnd3;
   let rnTrait;
@@ -2148,3 +2148,4 @@ export default function pokemons() {
   result += name3;
   return result;
 }
+module.exports = pokemons

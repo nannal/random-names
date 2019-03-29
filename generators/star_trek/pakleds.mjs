@@ -1,4 +1,4 @@
-export default function pakleds() {
+function pakleds() {
   let names;
   let rnd;
   let rnd2;
@@ -51,3 +51,4 @@ export default function pakleds() {
     return names;
   }
 }
+module.exports = pakleds

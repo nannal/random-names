@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function argonians() {
+function argonians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Alex', 'Antigon', 'August', 'Calig', 'Claud', 'Demer', 'Dioclet', 'German', 'Her', 'Jul', 'Ner', 'Pil', 'Tib', 'Asu', 'Bun', 'Bus', 'Cha', 'Chi', 'Chu', 'Chu', 'Har', 'Hat', 'Hee', 'Hul', 'Huz', 'Ine', 'Ita', 'Mee', 'Mil', 'Nee', 'Oka', 'Pee', 'Ras', 'Ree', 'Ree', 'See', 'Ske', 'Tan', 'Tee', 'Tul', 'Uka', 'Ula', 'Uta', 'Wee', 'Wee', 'Sis', 'Yel', 'Amu', 'Dee', 'Gee', 'Jee', 'Mah', 'Otu', 'Paj', 'Ree', 'Sak', 'Sal', 'Tee', 'Tei', 'Ush', 'Wum', 'Yin', 'Dee', 'Der', 'Mad', 'Nee', 'Ush', 'Vee', 'Dee', 'She', 'Tsl', 'Asum', 'Buni', 'Bush', 'Chal', 'Chiw', 'Chul', 'Chun', 'Hara', 'Hath', 'Heed', 'Hule', 'Huze', 'Inee', 'Itan', 'Meer', 'Milo', 'Neet', 'Okaw', 'Peer', 'Rash', 'Reem', 'Rees', 'Seew', 'Skee', 'Tana', 'Teeg', 'Tul', 'Ukaw', 'Ula', 'Utad', 'Weel', 'Weer', 'Siss', 'Yeln', 'Amus', 'Deeh', 'Geel', 'Jeel', 'Mahe', 'Otum', 'Paje', 'Reen', 'Sake', 'Sali', 'Teek', 'Tein', 'Ushe', 'Wume', 'Yinz', 'Deek', 'Derk', 'Made', 'Neet', 'Usha', 'Veez', 'Deer', 'Sheh', 'Tsle'];
@@ -29,3 +29,4 @@ export default function argonians() {
     return names;
   }
 }
+module.exports = argonians

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function redguards() {
+function redguards() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ach', 'Ache', 'Aht', 'Ahta', 'Ale', 'Ales', 'Alo', 'Alon', 'Alu', 'Alus', 'Ami', 'Amir', 'Amr', 'Amre', 'Arm', 'Arma', 'Ata', 'Ataf', 'Ath', 'Atho', 'Avi', 'Avid', 'Avik', 'Aza', 'Azan', 'Azz', 'Azza', 'Bar', 'Bara', 'Bau', 'Baur', 'Bod', 'Bode', 'Bol', 'Bold', 'Bor', 'Bori', 'Bre', 'Bren', 'Cam', 'Cama', 'Cas', 'Casi', 'Casn', 'Cha', 'Char', 'Chr', 'Chre', 'Cir', 'Cirr', 'Clu', 'Clus', 'Coy', 'Coyl', 'Cur', 'Curt', 'Cyr', 'Cyru', 'Dar', 'Dara', 'Daro', 'Del', 'Delm', 'Dem', 'Deme', 'Din', 'Dino', 'Dom', 'Doma', 'Dor', 'Dori', 'Dort', 'Dud', 'Dudl', 'End', 'Endo', 'Enn', 'Enna', 'Enni', 'Ern', 'Erne', 'Fal', 'Fali', 'Far', 'Farm', 'Fih', 'Fiha', 'Fir', 'Firi', 'Fri', 'Frin', 'Gan', 'Ganc', 'Gar', 'Garr', 'Gla', 'Glan', 'Gog', 'Goga', 'Gor', 'Gre', 'Grek', 'Hae', 'Haek', 'Hal', 'Hald', 'Has', 'Hase', 'Hic', 'Hick', 'Hil', 'Hill', 'Hin', 'Hina', 'Ian', 'Ild', 'Ilde', 'Imi', 'Imin', 'Irg', 'Irgo', 'Isl', 'Isle', 'Isr', 'Isra', 'Jag', 'Jaga', 'Jai', 'Jair', 'Jal', 'Jalb', 'Jar', 'Jart', 'Jat', 'Jath', 'Jaw', 'Jawa', 'Jel', 'Jele', 'Jeli', 'Jim', 'Jin', 'Jine', 'Jon', 'Joni', 'Jun', 'Junc', 'K\'a', 'K\'av', 'Kal', 'Kalo', 'Kar', 'Karr', 'Kay', 'Kayd', 'Kaye', 'Kel', 'Kell', 'Kelv', 'Kem', 'Kema', 'Kew', 'Kewa', 'Kha', 'Khaf', 'Kin', 'Kint', 'Kit', 'Kith', 'Kot', 'Kota', 'Lak', 'Lake', 'Lan', 'Lana', 'Lat', 'Lath', 'Les', 'Lesl', 'Lho', 'Lhot', 'Lid', 'Lide', 'Lim', 'Lima', 'Man', 'Mani', 'Mar', 'Mara', 'Nac', 'Nach', 'Nam', 'Nama', 'Nan', 'Nann', 'Naz', 'Naze', 'Nazi', 'Nev', 'Nevi', 'Nis', 'Nist', 'Ori', 'Orin', 'Orr', 'Orri', 'Owy', 'Owyn', 'Pen', 'Pena', 'Phi', 'Phin', 'Pra', 'Pran', 'Pro', 'Prov', 'Pyk', 'Pyke', 'Rac', 'Racc', 'Rai', 'Raig', 'Raz', 'Raze', 'Rel', 'Rela', 'Rell', 'Rha', 'Rhan', 'Rin', 'Rini', 'Ris', 'Riss', 'Rod', 'Rode', 'Rus', 'Rusl', 'Sad', 'Sade', 'Sas', 'Saso', 'Sha', 'Shad', 'Sham', 'She', 'Shel', 'Shen', 'Sil', 'Sila', 'Sor', 'Sori', 'Sos', 'Sosc', 'Sta', 'Stan', 'Star', 'Ste', 'Sten', 'Ster', 'Sti', 'Stic', 'Tal', 'Tala', 'Tali', 'Tar', 'Tara', 'Tha', 'Thai', 'The', 'Thed', 'Ther', 'Tor', 'Torl', 'Tra', 'Tral', 'Tras', 'Tray', 'Tri', 'Trit', 'Var', 'Varn', 'Vho', 'Vhos', 'Vil', 'Vila', 'Wal', 'Wall', 'Way', 'Wayl', 'Wayn', 'Wil', 'Wilb', 'Will', 'Win', 'Wins'];
@@ -27,3 +27,4 @@ export default function redguards() {
     return names;
   }
 }
+module.exports = redguards

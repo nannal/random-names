@@ -1,4 +1,4 @@
-export default function summerIslanders() {
+function summerIslanders() {
   let names;
   let rnd2b;
   let rnd2c;
@@ -67,3 +67,4 @@ export default function summerIslanders() {
     return names;
   }
 }
+module.exports = summerIslanders

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function minishs() {
+function minishs() {
   let names;
   const nm1 = ['B', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'T'];
   const nm2 = ['e', 'i', 'o', 'e', 'i', 'o', 'a', 'u'];
@@ -11,3 +11,4 @@ export default function minishs() {
     return names;
   }
 }
+module.exports = minishs

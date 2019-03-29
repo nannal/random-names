@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function elfs() {
+function elfs() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ad', 'Ae', 'Bal', 'Bei', 'Car', 'Cra', 'Dae', 'Dor', 'El', 'Ela', 'Er', 'Far', 'Fen', 'Gen', 'Glyn', 'Hei', 'Her', 'Ian', 'Ili', 'Kea', 'Kel', 'Leo', 'Lu', 'Mira', 'Mor', 'Nae', 'Nor', 'Olo', 'Oma', 'Pa', 'Per', 'Pet', 'Qi', 'Qin', 'Ralo', 'Ro', 'Sar', 'Syl', 'The', 'Tra', 'Ume', 'Uri', 'Va', 'Vir', 'Waes', 'Wran', 'Yel', 'Yin', 'Zin', 'Zum'];
@@ -16,3 +16,4 @@ export default function elfs() {
     return names;
   }
 }
+module.exports = elfs

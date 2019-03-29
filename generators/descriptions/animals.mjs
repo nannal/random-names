@@ -1,4 +1,4 @@
-export default function animals() {
+function animals() {
   const names0 = [' and rare', ' and incredibily rare', ' and nearly extinct', ', but common', ', but very common', ' and uncommon', ' and seldom seen', ', but extremely common', ', but fairly common', ', but often seen'];
   const names1 = ['adorable', 'amazing', 'amusing', 'astonishing', 'beautiful', 'bizarre', 'captivating', 'charming', 'clever', 'curious', 'delightful', 'fierce', 'funny', 'incredible', 'lovely', 'odd', 'special', 'strange', 'unusual', 'weird'];
   const names2 = ['mammal', 'aquatic mammal', 'amphibian', 'reptile', 'fish', 'invertebrate', 'bird'];
@@ -210,3 +210,4 @@ export default function animals() {
   result += name7;
   return result;
 }
+module.exports = animals

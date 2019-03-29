@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function twileks() {
+function twileks() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['i', 'a', 'o', 'e', 'u', 'y', 'aa', 'ai', 'ao', 'ae', 'au', 'ia', 'io', 'ie', 'iu', 'oi', 'oa', 'oo', 'oe', 'ou', 'ui', 'ua', 'uu', 'uo', 'ue', 'i', 'a', 'o', 'e', 'u', 'i', 'a', 'o', 'e', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -22,3 +22,4 @@ export default function twileks() {
     return names;
   }
 }
+module.exports = twileks

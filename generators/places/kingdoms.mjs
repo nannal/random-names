@@ -1,4 +1,4 @@
-export default function kingdoms() {
+function kingdoms() {
   let names;
   let rnd;
   let rnd2;
@@ -45,3 +45,4 @@ export default function kingdoms() {
     return names;
   }
 }
+module.exports = kingdoms

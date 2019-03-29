@@ -1,4 +1,4 @@
-export default function avatarLastAirbenders() {
+function avatarLastAirbenders() {
   let names;
   let rnd;
   let rnd2;
@@ -132,3 +132,4 @@ export default function avatarLastAirbenders() {
     return names;
   }
 }
+module.exports = avatarLastAirbenders

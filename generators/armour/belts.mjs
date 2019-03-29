@@ -27,3 +27,4 @@ function belts() {
 }
 
 module.exports = belts
+module.exports = belts

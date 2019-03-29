@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function wildstarMordeshs() {
+function wildstarMordeshs() {
   let name;
   let lname;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -25,3 +25,4 @@ export default function wildstarMordeshs() {
     return name;
   }
 }
+module.exports = wildstarMordeshs

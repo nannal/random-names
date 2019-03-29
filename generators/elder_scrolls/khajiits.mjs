@@ -1,4 +1,4 @@
-export default function khajiits() {
+function khajiits() {
   let names;
   let names1;
   let names2;
@@ -32,3 +32,4 @@ export default function khajiits() {
     return names;
   }
 }
+module.exports = khajiits

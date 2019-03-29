@@ -1,4 +1,4 @@
-export default function sylphs() {
+function sylphs() {
   let names;
   let rnd;
   let rnd2;
@@ -97,3 +97,4 @@ export default function sylphs() {
     return names;
   }
 }
+module.exports = sylphs

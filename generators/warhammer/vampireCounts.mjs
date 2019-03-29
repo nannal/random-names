@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function vampireCounts() {
+function vampireCounts() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abram', 'Aleks', 'Aleksandr', 'Aleksei', 'Andrei', 'Anton', 'Artem', 'Artemiy', 'Artur', 'Bogdan', 'Boris', 'Boyan', 'Branis', 'Damir', 'David', 'Demian', 'Dimi', 'Dimitri', 'Dmitri', 'Dobro', 'Dobromir', 'Edgar', 'Georgiy', 'Gera', 'Gleb', 'Grigoriy', 'Igor', 'Igorek', 'Ilik', 'Ilya', 'Iosif', 'Isaak', 'Ivan', 'Jaromir', 'Jora', 'Karl', 'Klav', 'Klavdiy', 'Krasimir', 'Kusma', 'Lazar', 'Luka', 'Lukyan', 'Makar', 'Maks', 'Mikhail', 'Milan', 'Milomir', 'Milor', 'Milorad', 'Miron', 'Misha', 'Niko', 'Nikolay', 'Oleg', 'Osip', 'Potap', 'Prokhor', 'Radomir', 'Radoslav', 'Rasim', 'Rati', 'Ratibor', 'Ratimir', 'Rodion', 'Rodya', 'Roma', 'Roman', 'Ruslan', 'Rustem', 'Sambor', 'Sava', 'Semyon', 'Slava', 'Stanimir', 'Stanislav', 'Stas', 'Stepan', 'Timofey', 'Timur', 'Vad', 'Vadik', 'Vadim', 'Valya', 'Velimir', 'Vic', 'Victor', 'Vik', 'Viktor', 'Vitomir', 'Vitya', 'Vlad', 'Vladan', 'Vladimir', 'Vova', 'Yakov', 'Yan', 'Yanka', 'Yaroslav', 'Yasha', 'Yefim', 'Yefrem', 'Yegor', 'Yuliy', 'Yura', 'Yuri', 'Yuriy', 'Zinoviy'];
@@ -15,3 +15,4 @@ export default function vampireCounts() {
     return names;
   }
 }
+module.exports = vampireCounts

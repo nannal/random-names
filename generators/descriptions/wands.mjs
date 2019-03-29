@@ -1,4 +1,4 @@
-export default function wands() {
+function wands() {
   let name2b;
   let rnd5b;
   let rnd5c;
@@ -83,3 +83,4 @@ export default function wands() {
   result += name3;
   return result;
 }
+module.exports = wands

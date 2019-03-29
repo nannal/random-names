@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function daleks() {
+function daleks() {
   let names;
   const nm1 = ['C', 'Ch', 'D', 'Dh', 'G', 'Gh', 'K', 'Kh', 'R', 'S', 'Th', 'V'];
   const nm2 = ['a', 'aa', 'e', 'a', 'e', 'a', 'e', 'i', 'o'];
@@ -19,3 +19,4 @@ export default function daleks() {
     return names;
   }
 }
+module.exports = daleks

@@ -1,4 +1,4 @@
-export default function freeFolks() {
+function freeFolks() {
   let names;
   let rnd;
   let rnd2;
@@ -35,3 +35,4 @@ export default function freeFolks() {
     return names;
   }
 }
+module.exports = freeFolks

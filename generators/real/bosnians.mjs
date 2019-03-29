@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function bosnians() {
+function bosnians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abdulah', 'Adem', 'Adnan', 'Ado', 'Ahmed', 'Ahmo', 'Ajdin', 'Aldin', 'Alem', 'Alija', 'Almir', 'Amar', 'Amel', 'Bahir', 'Bahrija', 'Bahrudin', 'Bakir', 'Bekir', 'Began', 'Beriz', 'Benjamin', 'Besim', 'Besir', 'Bilal', 'Čamil', 'Čerim', 'Demir', 'Dilaver', 'Džafer', 'Džanan', 'Dženan', 'Džemal', 'Edib', 'Edin', 'Ejub', 'Ekrem', 'Elmedin', 'Elvedin', 'Emir', 'Enis', 'Ensar', 'Esad', 'Ezib', 'Fadil', 'Fahrudin', 'Fahret', 'Faruk', 'Faris', 'Ferid', 'Fikret', 'Fuad', 'Galib', 'Halid', 'Halil', 'Hamza', 'Haris', 'Hasan', 'Hazim', 'Hurem', 'Husein', 'Ibrahim', 'Irfan', 'Idris', 'Ismail', 'Ismet', 'Izet', 'Izudin', 'Jasmin', 'Jašar', 'Jusuf', 'Kadir', 'Kadrija', 'Kasim', 'Kemal', 'Kenan', 'Kerim', 'Mahir', 'Maid', 'Mehmed', 'Muhamed', 'Mensur', 'Merdžan', 'Mersudin', 'Mesud', 'Mevludin', 'Mirza', 'Miralem', 'Mirsad', 'Muamer', 'Munir', 'Musa', 'Mustafa', 'Nadir', 'Nedim', 'Nedžad', 'Nermin', 'Nihad', 'Nijaz', 'Nurija', 'Nusret', 'Omer', 'Osman', 'Rahim', 'Ramiz', 'Redžep', 'Resul', 'Rijad', 'Ruždija', 'Sabahudin', 'Sadik', 'Safet', 'Said', 'Sakib', 'Samed', 'Samir', 'Sead', 'Sejfudin', 'Selim', 'Semir', 'Senad', 'Sinan', 'Suad', 'Šaban', 'Šacir', 'Šefik', 'Teufik', 'Tarik', 'Uzejir', 'Vedad', 'Vehbija', 'Vildan', 'Zafer', 'Zahid', 'Zahir', 'Zejnil', 'Zijad', 'Zikret'];
@@ -15,3 +15,4 @@ export default function bosnians() {
     return names;
   }
 }
+module.exports = bosnians

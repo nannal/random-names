@@ -1,4 +1,4 @@
-export default function jawas() {
+function jawas() {
   let namelast;
   let names;
   let rnd5b;
@@ -89,3 +89,4 @@ export default function jawas() {
     return names;
   }
 }
+module.exports = jawas

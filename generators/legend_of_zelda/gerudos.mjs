@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function gerudos() {
+function gerudos() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'C', 'D', 'G', 'H', 'K', 'M', 'R', 'T'];
@@ -21,3 +21,4 @@ export default function gerudos() {
     return names;
   }
 }
+module.exports = gerudos

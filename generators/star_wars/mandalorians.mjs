@@ -1,4 +1,4 @@
-export default function mandalorians() {
+function mandalorians() {
   let namelast;
   let names;
   let rnd;
@@ -91,3 +91,4 @@ export default function mandalorians() {
     return names;
   }
 }
+module.exports = mandalorians

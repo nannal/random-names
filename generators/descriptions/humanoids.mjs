@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function humanoids() {
+function humanoids() {
   let name5;
   let name;
   let name2;
@@ -84,3 +84,4 @@ export default function humanoids() {
   result += name5;
   return result;
 }
+module.exports = humanoids

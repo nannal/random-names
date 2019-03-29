@@ -1,4 +1,4 @@
-export default function militaryVehicles() {
+function militaryVehicles() {
   let names;
   let rnd;
   let rnd2;
@@ -30,3 +30,4 @@ export default function militaryVehicles() {
     return names;
   }
 }
+module.exports = militaryVehicles

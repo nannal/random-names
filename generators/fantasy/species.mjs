@@ -1,4 +1,4 @@
-export default function species() {
+function species() {
   let j;
   let names;
   let rnd;
@@ -51,3 +51,4 @@ export default function species() {
     return names;
   }
 }
+module.exports = species

@@ -1,4 +1,4 @@
-export default function magicSchools() {
+function magicSchools() {
   let names;
   let rnd;
   let rnd2;
@@ -31,3 +31,4 @@ export default function magicSchools() {
     return names;
   }
 }
+module.exports = magicSchools

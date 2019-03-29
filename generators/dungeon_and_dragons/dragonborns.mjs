@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function dragonborns() {
+function dragonborns() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ali', 'Ar', 'Ba', 'Bal', 'Bel', 'Bha', 'Bren', 'Caer', 'Calu', 'Dur', 'Do', 'Dra', 'Era', 'Faer', 'Fro', 'Gre', 'Ghe', 'Gora', 'He', 'Hi', 'Ior', 'Jin', 'Jar', 'Kil', 'Kriv', 'Lor', 'Lumi', 'Mar', 'Mor', 'Med', 'Nar', 'Nes', 'Na', 'Oti', 'Orla', 'Pri', 'Pa', 'Qel', 'Ravo', 'Ras', 'Rho', 'Sa', 'Sha', 'Sul', 'Taz', 'To', 'Trou', 'Udo', 'Uro', 'Vor', 'Vyu', 'Vrak', 'Wor', 'Wu', 'Wra', 'Wul', 'Xar', 'Yor', 'Zor', 'Zra'];
@@ -16,3 +16,4 @@ export default function dragonborns() {
     return names;
   }
 }
+module.exports = dragonborns

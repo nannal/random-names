@@ -1,4 +1,4 @@
-export default function gnomes() {
+function gnomes() {
   let names;
   let rnd;
   let rnd2;
@@ -85,3 +85,4 @@ export default function gnomes() {
     return names;
   }
 }
+module.exports = gnomes

@@ -1,4 +1,4 @@
-export default function elezens() {
+function elezens() {
   let names;
   let rnd;
   let rnd2;
@@ -110,3 +110,4 @@ export default function elezens() {
     return names;
   }
 }
+module.exports = elezens

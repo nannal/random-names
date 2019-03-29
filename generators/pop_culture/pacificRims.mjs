@@ -1,4 +1,4 @@
-export default function pacificRims() {
+function pacificRims() {
   let names;
   let rnd;
   let rnd2;
@@ -31,3 +31,4 @@ export default function pacificRims() {
     return names;
   }
 }
+module.exports = pacificRims

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function mazeRunners() {
+function mazeRunners() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abu', 'Ahm', 'Al', 'Albert', 'Albis', 'Alby', 'Aldo', 'Alex', 'Alexander', 'Alf', 'Alfred', 'Andre', 'Antony', 'Arb', 'Archi', 'Aris', 'Arnold', 'Art', 'Arthur', 'August', 'Augustus', 'Bell', 'Ben', 'Benji', 'Bernard', 'Bernie', 'Bert', 'Bill', 'Billy', 'Boyle', 'Brian', 'Buns', 'Bunsen', 'Carl', 'Carson', 'Cav', 'Caven', 'Charles', 'Charlie', 'Chris', 'Christian', 'Clarence', 'Clark', 'Claude', 'Cloud', 'Clyde', 'Coper', 'Dalton', 'Dave', 'David', 'Davy', 'Ed', 'Eddie', 'Edwin', 'Ernest', 'Erwin', 'Farad', 'Ford', 'Francis', 'Frank', 'Franklin', 'Fred', 'Freddie', 'Frederick', 'Gale', 'George', 'Georgey', 'Gibbs', 'Glenn', 'Graham', 'Gray', 'Greg', 'Harold', 'Harvey', 'Hawk', 'Henry', 'Hodgkin', 'Hooke', 'Hops', 'Hubble', 'Hubs', 'Isaac', 'Isic', 'Ivan', 'Jack', 'James', 'Jamie', 'John', 'Johnie', 'Jules', 'Julian', 'Karl', 'Ken', 'Leo', 'Leonard', 'Locke', 'Luis', 'Luther', 'Marcello', 'Mario', 'Max', 'Mendel', 'Mich', 'Michael', 'Mike', 'Mikey', 'Mitchell', 'Morgan', 'Murray', 'Neil', 'Newt', 'Nick', 'Nobel', 'Nobs', 'Otto', 'Paul', 'Percy', 'Pete', 'Peter', 'Quimby', 'Raman', 'Ramon', 'Ramsay', 'Randy', 'Rob', 'Robbie', 'Robert', 'Ron', 'Ronald', 'Ross', 'Russ', 'Russel', 'Sal', 'Sheldon', 'Shin', 'Siggie', 'Simon', 'Smith', 'Stephen', 'Steven', 'Sven', 'Teller', 'Theo', 'Theodor', 'Thom', 'Thomas', 'Thommie', 'Tim', 'Timmy', 'Timothy', 'Tom', 'Tommie', 'Tyson', 'Vince', 'Volt', 'Wallace', 'Wallie', 'Wally', 'Walt', 'Walter', 'Watson', 'Wilhelm', 'Will', 'Willard', 'Willia', 'Wolf'];
@@ -14,3 +14,4 @@ export default function mazeRunners() {
     return names;
   }
 }
+module.exports = mazeRunners

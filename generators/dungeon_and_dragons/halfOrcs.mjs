@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function halfOrcs() {
+function halfOrcs() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ag', 'Agg', 'Ar', 'Arn', 'As', 'At', 'Atr', 'B', 'Bar', 'Bel', 'Bor', 'Br', 'Brak', 'C', 'Cr', 'D', 'Dor', 'Dr', 'Dur', 'G', 'Gal', 'Gan', 'Gar', 'Gna', 'Gor', 'Got', 'Gr', 'Gram', 'Grim', 'Grom', 'Grum', 'Gul', 'H', 'Hag', 'Han', 'Har', 'Hog', 'Hon', 'Hor', 'Hun', 'Hur', 'K', 'Kal', 'Kam', 'Kar', 'Kel', 'Kil', 'Kom', 'Kor', 'Kra', 'Kru', 'Kul', 'Kur', 'Lum', 'M', 'Mag', 'Mahl', 'Mak', 'Mal', 'Mar', 'Mog', 'Mok', 'Mor', 'Mug', 'Muk', 'Mura', 'N', 'Oggu', 'Ogu', 'Ok', 'Oll', 'Or', 'Rek', 'Ren', 'Ron', 'Rona', 'S', 'Sar', 'Sor', 'T', 'Tan', 'Th', 'Thar', 'Ther', 'Thr', 'Thur', 'Trak', 'Truk', 'Ug', 'Uk', 'Ukr', 'Ull', 'Ur', 'Urth', 'Urtr', 'Z', 'Za', 'Zar', 'Zas', 'Zav', 'Zev', 'Zor', 'Zur', 'Zus'];
@@ -18,3 +18,4 @@ export default function halfOrcs() {
     return names;
   }
 }
+module.exports = halfOrcs

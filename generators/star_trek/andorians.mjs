@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function andorians() {
+function andorians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'o', 'i', '', '', '', '', '', '', ''];
@@ -30,3 +30,4 @@ export default function andorians() {
     return names;
   }
 }
+module.exports = andorians

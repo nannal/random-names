@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function dungeons() {
+function dungeons() {
   const nm1 = ['A grand', 'A large', 'A massive', 'A minor', 'A modest', 'A narrow', 'A short', 'A small', 'A tall', 'A wide'];
   const nm2 = ['overgrown boulder', 'granite door', 'pair of granite doors', 'broken statue', 'worn statue', 'pair of worn statues', 'boulder', 'dark cave', 'murky cave', 'fallen tree', 'waterfall', 'crypt', 'broken temple', 'fallen temple', 'graveyard', 'fallen tower'];
   const nm3 = ['bog', 'boulder field', 'cliff side', 'forest', 'grove', 'marsh', 'morass', 'mountain base', 'mountain range', 'mountain top', 'snowland', 'swamp', 'thicket', 'wasteland', 'woodlands', 'woods'];
@@ -39,3 +39,4 @@ export default function dungeons() {
   result += name4;
   return result;
 }
+module.exports = dungeons

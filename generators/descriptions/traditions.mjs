@@ -1,4 +1,4 @@
-export default function traditions() {
+function traditions() {
   const nm1 = ['area', 'city', 'country', 'district', 'empire', 'nation', 'province', 'realm', 'region', 'remote town', 'remote village', 'state', 'territory', 'town', 'village'];
   const nm2 = ['B', 'C', 'D', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'X', 'Y', 'Z'];
   const nm3 = ['a', 'e', 'o', 'u'];
@@ -71,3 +71,4 @@ export default function traditions() {
   result += name3;
   return result;
 }
+module.exports = traditions

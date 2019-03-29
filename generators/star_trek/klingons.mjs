@@ -1,4 +1,4 @@
-export default function klingons() {
+function klingons() {
   let names;
   let rnd;
   let rnd2;
@@ -133,3 +133,4 @@ export default function klingons() {
     return names;
   }
 }
+module.exports = klingons

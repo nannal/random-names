@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function centralAmericanTowns() {
+function centralAmericanTowns() {
   let names;
   /* Belize */
   const nm1 = ['Are', 'Arme', 'Barra', 'Be', 'Bermu', 'Bis', 'Bisca', 'Bla', 'Bu', 'Bue', 'Burre', 'Ca', 'Cal', 'Calcu', 'Cale', 'Cama', 'Car', 'Carme', 'Caro', 'Con', 'Conce', 'Cora', 'Coro', 'Cri', 'Cris', 'Dou', 'Ga', 'Gar', 'Garde', 'Gui', 'Isa', 'Ja', 'Jaci', 'Jala', 'Jo', 'Jor', 'La', 'Lagu', 'Le', 'Lemo', 'Li', 'Libe', 'Ma', 'Mabi', 'Maf', 'Mafre', 'Mas', 'Me', 'Medi', 'Nue', 'On', 'Onta', 'Oto', 'Pa', 'Pal', 'Para', 'Parai', 'Pat', 'Patcha', 'Pla', 'Place', 'Po', 'Pomo', 'Pro', 'Ra', 'Ran', 'Sa', 'San', 'San An', 'San Anto', 'San Be', 'San Ca', 'San Car', 'San Este', 'San Feli', 'San Joa', 'Santa', 'Santa Cla', 'Santa Ele', 'Santa Fami', 'Santa Ro', 'Santa Te', 'Santa Tere', 'Sara', 'Sarte', 'Se', 'Sei', 'Sele', 'Tri', 'Trini', 'Xai', 'Ya', 'Yal', 'Ye', 'Yeme'];
@@ -43,3 +43,4 @@ export default function centralAmericanTowns() {
     return names;
   }
 }
+module.exports = centralAmericanTowns

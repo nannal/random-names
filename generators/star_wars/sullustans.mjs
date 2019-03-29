@@ -1,4 +1,4 @@
-export default function sullustans() {
+function sullustans() {
   let namelast;
   let names;
   let rnd;
@@ -84,3 +84,4 @@ export default function sullustans() {
     return names;
   }
 }
+module.exports = sullustans

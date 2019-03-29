@@ -1,4 +1,4 @@
-export default function rifles() {
+function rifles() {
   const nm1 = ['a classic', 'a beauty', 'excellent', 'fear inducing', 'intimidating', 'near perfect', 'amazing', 'terrifying', 'a new release', 'a prototype', 'an odd one', 'a new model', 'a one of a kind', 'a new design', 'different from most', 'unique'];
   const nm1b = ', but ';
   const nm2 = ['admired by many', 'commissioned for many around the world', 'desired across the globe', 'famous around the world', 'in high demand', 'infamous around the world', 'made a name for itself', 'noted by many across the world', 'praised by many', 'prominent across the globe', 'purchased and sold by many', 'sold to people across the globe', 'well-known across the world', 'world renowned'];
@@ -127,3 +127,4 @@ export default function rifles() {
   result += name10;
   return result;
 }
+module.exports = rifles

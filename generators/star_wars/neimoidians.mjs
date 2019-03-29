@@ -1,4 +1,4 @@
-export default function neimoidians() {
+function neimoidians() {
   let namelast;
   let names;
   let rnd;
@@ -74,3 +74,4 @@ export default function neimoidians() {
     return names;
   }
 }
+module.exports = neimoidians

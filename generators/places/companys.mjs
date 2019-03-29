@@ -1,4 +1,4 @@
-export default function companys() {
+function companys() {
   let names;
   let rnd0;
   let rnd1;
@@ -24,3 +24,4 @@ export default function companys() {
     return names;
   }
 }
+module.exports = companys

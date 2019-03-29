@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function fantasyClass() {
+function fantasyClass() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Adept', 'Agent', 'Alchemist', 'Arachnomancer', 'Arcanist', 'Archer', 'Archmage', 'Barbarian', 'Bard', 'Battlemage', 'Battlemind', 'Beastmaster', 'Berserker', 'Binder', 'Bishop', 'Blade Dancer', 'Bladesinger', 'Bounty Hunter', 'Brawler', 'Butcher', 'Cavalier', 'Chameleon', 'Champion', 'Cleric', 'Conjurer', 'Corsair', 'Crusader', 'Cyborg', 'Dancer', 'Dark Knight', 'Death Knight', 'Demon Hunter', 'Demonbinder', 'Demonologist', 'Diabolist', 'Disciple', 'Doomcaster', 'Doomlord', 'Dragon Knight', 'Dragon Rider', 'Dragonfire Adept', 'Druid', 'Elementalist', 'Emissary', 'Enchanter', 'Engineer', 'Geomancer', 'Ghostwalker', 'Gladiator', 'Guardian', 'Gunslinger', 'Harbinger', 'Healer', 'Hellreaver', 'Hexblade', 'Highwayman', 'Hunter', 'Illusionist', 'Incarnate', 'Infiltrator', 'Inquisitor', 'Jester', 'Knight', 'Legionnaire', 'Lord', 'Loremaster', 'Mage', 'Magehunter', 'Maiden', 'Marauder', 'Marine', 'Marshal', 'Master', 'Mauler', 'Medic', 'Mercenary', 'Monk', 'Moonlord', 'Moonmaster', 'Mystic', 'Mystic Knight', 'Navigator', 'Necromancer', 'Ninja', 'Oracle', 'Outrider', 'Paladin', 'Paragon', 'Pirate', 'Priest', 'Prophet', 'Puppet Master', 'Ranger', 'Ravager', 'Rogue', 'Runecaster', 'Sage', 'Samurai', 'Scavenger', 'Scout', 'Seer', 'Sentinel', 'Shadowblade', 'Shadowdancer', 'Shadowsmith', 'Shadowstalker', 'Shaman', 'Siren', 'Skyguard', 'Skymage', 'Slayer', 'Sniper', 'Sorcerer', 'Soulcaster', 'Soulguard', 'Soulknife', 'Spellcaster', 'Spelldancer', 'Spellsinger', 'Spellsword', 'Spellthief', 'Spiritwalker', 'Spy', 'Spymaster', 'Stalker', 'Stormcaster', 'Stormlord', 'Stormsinger', 'Summoner', 'Sunlord', 'Sunmaster', 'Swashbuckler', 'Tactician', 'Tempest', 'Templar', 'Thief', 'Totemist', 'Transmuter', 'Trapsmith', 'Trickster', 'Valkyrie', 'Vampire', 'Viking', 'Warden', 'Warlock', 'Warlord', 'Warmage', 'Warmaster', 'Warpriest', 'Warrior', 'Weapon Master', 'Weaver', 'Windwalker', 'Witch', 'Witch Doctor'];
@@ -14,3 +14,4 @@ export default function fantasyClass() {
     return names;
   }
 }
+module.exports = class

@@ -1,4 +1,4 @@
-export default function unsullieds() {
+function unsullieds() {
   let names;
   let rnd;
   let rnd2;
@@ -11,3 +11,4 @@ export default function unsullieds() {
     return names;
   }
 }
+module.exports = unsullieds

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function chests() {
+function chests() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ancient', 'Binding', 'Blessed', 'Blind', 'Broken', 'Burning', 'Condemned', 'Conquered', 'Cursed', 'Damned', 'Dark', 'Demonic', 'Distant', 'Divine', 'Doomed', 'Ending', 'Endless', 'Eternal', 'Faded', 'Fallen', 'Fleeting', 'Frozen', 'Hallowed', 'Haunted', 'Hellish', 'Holy', 'Imminent', 'Immortal', 'Infernal', 'Infinite', 'Lost', 'Ominous', 'Relentless', 'Sacred', 'Shattered', 'Silent', 'Smoldering', 'Timeless', 'Twisted', 'Unholy'];
@@ -35,3 +35,4 @@ export default function chests() {
     return names;
   }
 }
+module.exports = chests

@@ -1,4 +1,4 @@
-export default function wildens() {
+function wildens() {
   let names;
   let rnd;
   let rnd2;
@@ -27,3 +27,4 @@ export default function wildens() {
     return names;
   }
 }
+module.exports = wildens

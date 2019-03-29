@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function giants() {
+function giants() {
   let names;
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'w', 'x', 'z', 'a', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'w', 'x', 'z', 'ar', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'sr', 'tr', 'vr', 'wr', 'al', 'bl', 'cl', 'dl', 'fl', 'gl', 'kl', 'sl', 'vl', 'zl', '', '', '', '', ''];
   const nm2 = ['e', 'i', 'u', 'o', 'a'];
@@ -11,3 +11,4 @@ export default function giants() {
     return names;
   }
 }
+module.exports = giants

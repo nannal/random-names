@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function mirialans() {
+function mirialans() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['i', 'a', 'o', 'e', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -22,3 +22,4 @@ export default function mirialans() {
     return names;
   }
 }
+module.exports = mirialans

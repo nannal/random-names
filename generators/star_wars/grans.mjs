@@ -1,4 +1,4 @@
-export default function grans() {
+function grans() {
   let namelast;
   let names;
   let rnd;
@@ -51,3 +51,4 @@ export default function grans() {
     return names;
   }
 }
+module.exports = grans

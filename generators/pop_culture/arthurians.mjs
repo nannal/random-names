@@ -1,4 +1,4 @@
-export default function arthurians() {
+function arthurians() {
   let names;
   let rnd;
   let rnd2;
@@ -26,3 +26,4 @@ export default function arthurians() {
     return names;
   }
 }
+module.exports = arthurians

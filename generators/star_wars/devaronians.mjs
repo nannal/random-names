@@ -1,4 +1,4 @@
-export default function devaronians() {
+function devaronians() {
   let namelast;
   let names;
   let rnd3b;
@@ -77,3 +77,4 @@ export default function devaronians() {
     return names;
   }
 }
+module.exports = devaronians

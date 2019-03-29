@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function gods() {
+function gods() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -18,3 +18,4 @@ export default function gods() {
     return names;
   }
 }
+module.exports = gods

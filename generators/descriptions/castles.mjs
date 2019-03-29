@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function castles() {
+function castles() {
   const nm1 = ['Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen'];
   const nm2 = ['broad', 'lean', 'massive', 'narrow', 'skinny', 'slim', 'solid', 'strong', 'thick', 'thin'];
   const nm3 = ['round', 'square'];
@@ -36,3 +36,4 @@ export default function castles() {
   result += name4;
   return result;
 }
+module.exports = castles

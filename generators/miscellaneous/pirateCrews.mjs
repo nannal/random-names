@@ -1,4 +1,4 @@
-export default function pirateCrews() {
+function pirateCrews() {
   let names;
   let rnd;
   let rnd2;
@@ -23,3 +23,4 @@ export default function pirateCrews() {
     return names;
   }
 }
+module.exports = pirateCrews

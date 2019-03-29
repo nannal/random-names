@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function aztecs() {
+function aztecs() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Acalan', 'Acamapichtli', 'Achcauhtli', 'Acolmixtli', 'Ahuiliztli', 'Ahuitzotl', 'Amoxtli', 'Atl', 'Axayacatl', 'Camaxtli', 'Chicahua', 'Chimalli', 'Chimalpopoca', 'Chipahua', 'Cipac', 'Cipactli', 'Citlali', 'Citlalli', 'Coatl', 'Coyotl', 'Cozahtli', 'Cualli', 'Cuauhtemoc', 'Cuauhtl', 'Cuetlachtli', 'Cuetzpalli', 'Cuixtli', 'Ehecatl', 'Eleuia', 'Eloxochitl', 'Etalpalli', 'Eztli', 'Huemac', 'Huitzilihuitl', 'Huitzilin', 'Huitzilli', 'Huitzitl', 'Huitztecol', 'Iccauhtli', 'Ichtaca', 'Icnoyotl', 'Ihuicatl', 'Ilhicamina', 'Ilhuitl', 'Itotia', 'Itzcali', 'Itzcoatl', 'Itzcuintli', 'Itzli', 'Itztli', 'Iuitl', 'Ixtli', 'Ixtlilxochitl', 'Izel', 'Mahuizoh', 'Manauia', 'Matlal', 'Matlalihuitl', 'Maxtla', 'Mazatl', 'Mecatl', 'Meztli', 'Mictlantecuhtli', 'Milintica', 'Miztli', 'Momoztli', 'Montezuma', 'Moquihuix', 'Moyolehuani', 'Nahuatl', 'Namacuix', 'Natlalihuitl', 'Necahual', 'Necalli', 'Necuametl', 'Nelli', 'Nezahualcoyotl', 'Nezahualpilli', 'Nochehuatl', 'Nochtli', 'Nopaltzin', 'Ocelotl', 'Ocuil', 'Ohtli', 'Olli', 'Ollin', 'Ozomatli', 'Patli', 'Quauhtli', 'Quetzalcoatl', 'Tapayaxi', 'Tecolotl', 'Tenoch', 'Teoxihuitl', 'Tepiltzin', 'Tepin', 'Tezcacoatl', 'Tezozomoc', 'Tizoc', 'Tlacaelel', 'Tlacelel', 'Tlachinolli', 'Tlalli', 'Tlaloc', 'Tlanextic', 'Tlanextli', 'Tlazohtlaloni', 'Tlazopilli', 'Tlexictli', 'Tlilpotonqui', 'Tochtli', 'Toltecatl', 'Tonauac', 'Topiltzin', 'Tototl', 'Tupac', 'Ueman', 'Uetzcayotl', 'Xicohtencatl', 'Xihuitl', 'Xipil', 'Xipilli', 'Xiuhcoatl', 'Xiuhpilli', 'Xochipepe', 'Xochipilli', 'Xochitl', 'Yaotl', 'Yayauhqui', 'Yolotli', 'Yolyamanitzin', 'Zipactonal', 'Zolin', 'Zuma'];
@@ -25,3 +25,4 @@ export default function aztecs() {
     return names;
   }
 }
+module.exports = aztecs

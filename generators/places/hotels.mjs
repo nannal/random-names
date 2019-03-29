@@ -1,4 +1,4 @@
-export default function hotels() {
+function hotels() {
   let names;
   let rnd;
   let rnd2;
@@ -22,3 +22,4 @@ export default function hotels() {
     return names;
   }
 }
+module.exports = hotels

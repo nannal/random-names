@@ -1,4 +1,4 @@
-export default function eastAsianTowns() {
+function eastAsianTowns() {
   let names;
   let rnd0;
   let rnd1;
@@ -32,3 +32,4 @@ export default function eastAsianTowns() {
     return names;
   }
 }
+module.exports = eastAsianTowns

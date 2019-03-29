@@ -1,4 +1,4 @@
-export default function gands() {
+function gands() {
   let namelast;
   let names;
   let rnd;
@@ -40,3 +40,4 @@ export default function gands() {
     return names;
   }
 }
+module.exports = gands

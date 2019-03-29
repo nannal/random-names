@@ -1,4 +1,4 @@
-export default function wookiees() {
+function wookiees() {
   let names;
   let rnd;
   let rnd2;
@@ -74,3 +74,4 @@ export default function wookiees() {
     return names;
   }
 }
+module.exports = wookiees

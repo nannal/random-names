@@ -1,4 +1,4 @@
-export default function shistavanens() {
+function shistavanens() {
   let namelast;
   let names;
   let rnd;
@@ -61,3 +61,4 @@ export default function shistavanens() {
     return names;
   }
 }
+module.exports = shistavanens

@@ -1,4 +1,4 @@
-export default function nausicaans() {
+function nausicaans() {
   let names;
   let rnd;
   let rnd2;
@@ -33,3 +33,4 @@ export default function nausicaans() {
     return names;
   }
 }
+module.exports = nausicaans

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function kazakhs() {
+function kazakhs() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abai', 'Ablai', 'Abzal', 'Achmedjan', 'Adil', 'Aidos', 'Aidyn', 'Akhmet', 'Akmetzhan', 'Alen', 'Alibek', 'Alibi', 'Almas', 'Amanet', 'Amir', 'Aniyar', 'Ardager', 'Arman', 'Askar', 'Assyl', 'Assylhan', 'Ayan', 'Ayat', 'Azamat', 'Bakhytzhan', 'Baltabek', 'Batyrkhan', 'Baurzhan', 'Beibitzhan', 'Bekbolat', 'Bekzhan', 'Bolat', 'Camran', 'Daniar', 'Daniyar', 'Daniyarbek', 'Dastan', 'Daulet', 'Dauren', 'Dias', 'Eric', 'Erkin', 'Ershat', 'Erzhan', 'Fauske', 'Fomenko', 'Garri', 'Hojanias', 'Iliyas', 'Iskander', 'Jean', 'Kairat', 'Kapan', 'Kemhebek', 'Kenes', 'Khazretgali', 'Kholmatzhon', 'Kuanysh', 'Kuanyshbek', 'Madi', 'Madiyar', 'Magjan', 'Marat', 'Marlen', 'Maulen', 'Medet', 'Mukhametkali', 'Murat', 'Nariman', 'Nazer', 'Nurbek', 'Nurbolat', 'Nurjigit', 'Nurlan', 'Nursultan', 'Nurzhan', 'Olzhas', 'Oraz', 'Rasul', 'Ravil', 'Ruslan', 'Rustam', 'Rustem', 'Saken', 'Samat', 'Serik', 'Serikbek', 'Sultan', 'Tahir', 'Tair', 'Talgat', 'Taras', 'Temirzhan', 'Timour', 'Turlan', 'Yedil', 'Yeldos', 'Yerbol', 'Yerbolat', 'Yerik', 'Yermek', 'Yerzhan', 'Zhanbolat', 'Zhandos'];
@@ -15,3 +15,4 @@ export default function kazakhs() {
     return names;
   }
 }
+module.exports = kazakhs

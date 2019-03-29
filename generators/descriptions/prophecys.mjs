@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function prophecys() {
+function prophecys() {
   let names;
   let names2;
   let i;
@@ -30,3 +30,4 @@ export default function prophecys() {
   }
   return result;
 }
+module.exports = prophecys

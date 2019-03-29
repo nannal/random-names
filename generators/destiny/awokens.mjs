@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function awokens() {
+function awokens() {
   let names;
   let nmLast;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -35,3 +35,4 @@ export default function awokens() {
     return names;
   }
 }
+module.exports = awokens

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function zabraks() {
+function zabraks() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'O', 'E', 'U', 'B', 'Br', 'Bl', 'D', 'Dr', 'G', 'Gr', 'H', 'K', 'Kr', 'Kl', 'M', 'N', 'P', 'Q', 'R', 'S', 'St', 'T', 'V', 'Vr', 'X'];
@@ -20,3 +20,4 @@ export default function zabraks() {
     return names;
   }
 }
+module.exports = zabraks

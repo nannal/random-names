@@ -1,4 +1,4 @@
-export default function friezaClans() {
+function friezaClans() {
   let names;
   let rnd;
   const names1 = ['Arcti', 'Arctic', 'Arctico', 'Chill', 'Chilla', 'Chilley', 'Chills', 'Colde', 'Coled', 'Coola', 'Coolio', 'Forost', 'Freez', 'Freeze', 'Fridge', 'Fridged', 'Frigi', 'Frigid', 'Frosbyte', 'Fross', 'Frost', 'Frostbite', 'Froza', 'Froze', 'Frozen', 'Hail', 'Hale', 'Ice', 'Icecube', 'Icequ', 'Iceqube', 'Icey', 'Icicle', 'Kold', 'Kool', 'Nippy', 'Pola', 'Polara', 'Polaro', 'Qube', 'Rime', 'Ryme', 'Sano', 'Sanow', 'Shiver', 'Shivera', 'Shivero', 'Snow', 'Wintera', 'Wintrey', 'Yce', 'Ycicle'];
@@ -15,3 +15,4 @@ export default function friezaClans() {
     return names;
   }
 }
+module.exports = friezaClans

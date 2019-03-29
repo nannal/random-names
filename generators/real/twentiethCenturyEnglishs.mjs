@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function twentiethCenturyEnglishs() {
+function twentiethCenturyEnglishs() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   /* 1900-1920 */
@@ -47,3 +47,4 @@ export default function twentiethCenturyEnglishs() {
     return names;
   }
 }
+module.exports = twentiethCenturyEnglishs

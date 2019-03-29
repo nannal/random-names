@@ -1,4 +1,4 @@
-export default function spells() {
+function spells() {
   let names;
   let rnd;
   let rnd1;
@@ -50,3 +50,4 @@ export default function spells() {
     return names;
   }
 }
+module.exports = spells

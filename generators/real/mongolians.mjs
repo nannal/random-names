@@ -1,4 +1,4 @@
-export default function mongolians() {
+function mongolians() {
   let names;
   let rnd;
   const type = Math.random() < 0.5 ? 0 : 1;
@@ -11,3 +11,4 @@ export default function mongolians() {
     return names;
   }
 }
+module.exports = mongolians

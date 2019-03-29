@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function drells() {
+function drells() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   let nm1 = [''];
@@ -20,3 +20,4 @@ export default function drells() {
     return names;
   }
 }
+module.exports = drells

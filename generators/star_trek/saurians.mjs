@@ -1,4 +1,4 @@
-export default function saurians() {
+function saurians() {
   let names;
   let rnd;
   let rnd2;
@@ -71,3 +71,4 @@ export default function saurians() {
     return names;
   }
 }
+module.exports = saurians

@@ -1,4 +1,4 @@
-export default function wrestlers() {
+function wrestlers() {
   let names;
   let rnd;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -15,3 +15,4 @@ export default function wrestlers() {
     return names;
   }
 }
+module.exports = wrestlers

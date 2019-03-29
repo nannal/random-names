@@ -1,4 +1,4 @@
-export default function starcrafts() {
+function starcrafts() {
   let names;
   let rnd;
   let rnd2;
@@ -90,3 +90,4 @@ export default function starcrafts() {
     return names;
   }
 }
+module.exports = starcrafts

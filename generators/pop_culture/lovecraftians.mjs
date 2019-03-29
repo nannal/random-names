@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function lovecraftians() {
+function lovecraftians() {
   let names;
   const nm1 = ['a', 'e', 'i', 'u', 'o', 'a', 'ai', 'aiu', 'aiue', 'e', 'i', 'ia', 'iau', 'iu', 'o', 'u', 'y', 'ya', 'yi', 'yo'];
   const nm2 = ['bh', 'br', 'c\'th', 'cn', 'ct', 'cth', 'cx', 'd', 'd\'', 'g', 'gh', 'ghr', 'gr', 'h', 'k', 'kh', 'kth', 'mh', 'mh\'', 'ml', 'n', 'ng', 'sh', 't', 'th', 'tr', 'v', 'v\'', 'vh', 'vh\'', 'vr', 'x', 'z', 'z\'', 'zh'];
@@ -19,3 +19,4 @@ export default function lovecraftians() {
     return names;
   }
 }
+module.exports = lovecraftians

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function hausas() {
+function hausas() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abashe', 'Abdul', 'Adamu', 'Ahmedu', 'Ali', 'Alkali', 'Aminu', 'Amir', 'Audu', 'Babangida', 'Bakano', 'Balarabe', 'Barmani', 'Bashir', 'Bature', 'Bello', 'Bilal', 'Bulu', 'Danasabe', 'Danjuma', 'Danladi', 'Danlami', 'Daren', 'Fa\'izu', 'Faisal', 'Faizu', 'Faruq', 'Finn', 'Fu\'ad', 'Fuad', 'Gambo', 'Genet', 'Guban', 'Gure', 'Haben', 'Habib', 'Hadi', 'Hafiz', 'Hajari', 'Hamzah', 'Hassan', 'Hirsi', 'Huso', 'Hussain', 'Hussein', 'Ibeamaka', 'Ibrahim', 'Idris', 'Ife', 'Imam', 'Isa', 'Ismaila', 'Ja', 'Jabilo', 'Jabulani', 'Jafaru', 'Jalil', 'Jamal', 'Jibril', 'Junaidu', 'Kamil', 'Kareem', 'Katungi', 'Khairi', 'Khalifah', 'Kiho', 'Kijana', 'Kimoni', 'Kinfe', 'Kione', 'Kirabo', 'Kiros', 'Kitoko', 'Koda', 'Kojo', 'Kupakwashe', 'Kuron', 'Kwame', 'Madaki', 'Mahdi', 'Mahmud', 'Malomo', 'Mansa', 'Mansur', 'Mariatu', 'Mashaka', 'Messina', 'Mhina', 'Mikaili', 'Milandu', 'Morathi', 'Muhktar', 'Muhsin', 'Mukasa', 'Musa', 'Musawenkosi', 'Musoke', 'Mustafa', 'Nabil', 'Nabulung', 'Naiser', 'Nakima', 'Nalo', 'Nasir', 'Natine', 'Nikeese', 'Nyack', 'Nyako', 'Nyoka', 'Oafe', 'Oba', 'Obiajulu', 'Ochen', 'Odion', 'Okal', 'Okapi', 'Okoth', 'Ola', 'Omayma', 'Oni', 'Onika', 'Oringo', 'Otieno', 'Oto', 'Paki', 'Panyin', 'Paulo', 'Pemba', 'Phomello', 'Polo', 'Rabia', 'Rach', 'Rafiki', 'Rahid', 'Raimi', 'Ramses', 'Ranyshia', 'Rasheed', 'Rashidi', 'Razi', 'Reth', 'Roho', 'Runako', 'Russom', 'Ruzna', 'Sabola', 'Sadiki', 'Safina', 'Sahansan', 'Saidi', 'Salim', 'Sarda', 'Sarki', 'Seghen', 'Sekai', 'Selas', 'Shagari', 'Shehu', 'Tahir', 'Umar', 'Umaru', 'Usman', 'Yakubu', 'Yohance', 'Yohanna', 'Yusuf'];
@@ -14,3 +14,4 @@ export default function hausas() {
     return names;
   }
 }
+module.exports = hausas

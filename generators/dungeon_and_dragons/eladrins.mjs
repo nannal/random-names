@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function eladrins() {
+function eladrins() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ara', 'Aran', 'Ber', 'Bran', 'Cor', 'Cru', 'Da', 'Daye', 'Elro', 'Ere', 'Far', 'Fyla', 'Gal', 'Galin', 'Ha', 'Hor', 'Im', 'Ira', 'Ja', 'Jor', 'Kru', 'Kuo', 'Lan', 'Lic', 'Mar', 'Min', 'Nal', 'Nark', 'Ola', 'Otir', 'Pae', 'Pan', 'Qua', 'Quo', 'Rel', 'Riar', 'Sarn', 'Sove', 'Tav', 'Trin', 'Uri', 'Veth', 'Vic', 'Wal', 'Wrug', 'Xan', 'Yan', 'Yor', 'Zen', 'Zor'];
@@ -16,3 +16,4 @@ export default function eladrins() {
     return names;
   }
 }
+module.exports = eladrins

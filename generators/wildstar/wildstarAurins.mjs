@@ -1,4 +1,4 @@
-export default function wildstarAurins() {
+function wildstarAurins() {
   let names;
   let lname;
   let rnd;
@@ -42,3 +42,4 @@ export default function wildstarAurins() {
     return names;
   }
 }
+module.exports = wildstarAurins

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function humans() {
+function humans() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'i', 'a', 'e'];
@@ -29,3 +29,4 @@ export default function humans() {
     return names;
   }
 }
+module.exports = humans

@@ -1,4 +1,4 @@
-export default function enchantments() {
+function enchantments() {
   let names;
   let rnd;
   let rnd2;
@@ -28,3 +28,4 @@ export default function enchantments() {
     return names;
   }
 }
+module.exports = enchantments

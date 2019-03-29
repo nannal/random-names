@@ -1,4 +1,4 @@
-export default function catPeopleNekojins() {
+function catPeopleNekojins() {
   let names;
   let rnd;
   let rnd4;
@@ -61,3 +61,4 @@ export default function catPeopleNekojins() {
     return names;
   }
 }
+module.exports = catPeopleNekojins

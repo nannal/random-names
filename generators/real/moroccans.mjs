@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function moroccans() {
+function moroccans() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abdelaziz', 'Abdelhak', 'Abdelhamid', 'Abdelilah', 'Abdelkader', 'Abdelkarim', 'Abdellah', 'Abdellatif', 'Abdelmajid', 'Abderrahim', 'Abderrahman', 'Abdeslam', 'Abdullah', 'Adil', 'Ahmed', 'Ali', 'Amaniyy', 'Amine', 'Amrane', 'Aqil', 'Arib', 'Arwarh', 'Asil', 'Askari', 'Attiq', 'Awadah', 'Ayham', 'Ayoub', 'Ayser', 'Aziz', 'Baariq', 'Barkad', 'Baz', 'Bilal', 'Boutaje', 'Brahim', 'Bushr', 'Dirar', 'Diwan', 'Driss', 'Dulamah', 'El Bachir', 'El Hassan', 'El Houari', 'El Madani', 'El Mahi', 'Elias', 'Faqih', 'Farid', 'Fayaaz', 'Fayyad', 'Fouad', 'Ghali', 'Girgis', 'Habbab', 'Hadir', 'Hakem', 'Hamas', 'Hamdan', 'Hamid', 'Hamza', 'Hassan', 'Hayyan', 'Hicham', 'Ibrahim', 'Ikrimah', 'Isma\'il', 'Ismail', 'Iyas', 'Jabalah', 'Jalal', 'Jamal', 'Jamaldine', 'Jaul', 'Jawdah', 'Jibran', 'Jubair', 'Kadeen', 'Karim', 'Khalid', 'Lahcen', 'Lubaid', 'Marzuq', 'Mhamed', 'Mimoun', 'Mohamed', 'Mohammed', 'Mojiz', 'Moosa', 'Mostafa', 'Moulham', 'Mourad', 'Muaz', 'Mujahid', 'Muslih', 'Mustapha', 'Muwaffaq', 'Noureddine', 'Omar', 'Ouahid', 'Quds', 'Quraishi', 'Rachid', 'Rasil', 'Ridouane', 'Rifky', 'Ruhul', 'Sadid', 'Safwah', 'Said', 'Salamah', 'Samir', 'Shihab', 'Simohamed', 'Sofian', 'Sufyan', 'Suhaim', 'Tanan', 'Tarik', 'Tazim', 'Thamir', 'Thawab', 'Waliedine', 'Waqqas', 'Wasif', 'Wasim', 'Yassine', 'Younes', 'Youssef', 'Youssouf', 'Zakwan', 'Zaky', 'Zamen', 'Zarif', 'Zeyn', 'Ziaul-Haq', 'Zitane', 'Zubayr'];
@@ -15,3 +15,4 @@ export default function moroccans() {
     return names;
   }
 }
+module.exports = moroccans

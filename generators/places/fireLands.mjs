@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function fireLands() {
+function fireLands() {
   let names;
   const nm1 = ['Agni', 'Ash', 'Ashen', 'Barrage', 'Berserk', 'Blazing', 'Blister', 'Blistering', 'Blustering', 'Boiling', 'Branded', 'Brimstone', 'Broiling', 'Burning', 'Caustic', 'Charcoal', 'Charred', 'Charring', 'Cherufe', 'Combustion', 'Conflagration', 'Crimson', 'Dragon', 'Dragonfire', 'Ebon', 'Efreet', 'Ember', 'Fiery', 'Firewhirl', 'Flaming', 'Flaring', 'Frenzied', 'Frenzy', 'Fume', 'Fuming', 'Furious', 'Furnace', 'Glowing', 'Grime', 'Hell', 'Inferno', 'Kindle', 'Lampad', 'Lava', 'Mad', 'Magma', 'Nether', 'Nightmare', 'Obsidian', 'Onyx', 'Parching', 'Phoenix', 'Pitch', 'Pyre', 'Pyro', 'Rabid', 'Raging', 'Raving', 'Roasting', 'Ruined', 'Sanguine', 'Scalding', 'Scaled', 'Scarlet', 'Scorching', 'Searing', 'Singed', 'Sizzling', 'Smoking', 'Smouldering', 'Smudge', 'Solar', 'Soot', 'Spark', 'Steaming', 'Sultry', 'Tempest', 'Thermo', 'Torch', 'Torment', 'Torrid', 'Turbulent', 'Violent', 'Volcanic', 'Volcano', 'Wicked', 'Wild'];
   const nm2 = ['Badlands', 'Barrens', 'Desert', 'Domain', 'Dominion', 'Expanse', 'Field', 'Fields', 'Land', 'Lands', 'Plains', 'Range', 'Terrain', 'Territory', 'Wastes', 'Wilderness', 'Wilds'];
@@ -20,3 +20,4 @@ export default function fireLands() {
     return names;
   }
 }
+module.exports = fireLands

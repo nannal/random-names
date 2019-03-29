@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function currencys() {
+function currencys() {
   let names;
   const nm1 = ['b', 'br', 'bl', 'c', 'cl', 'cr', 'd', 'dr', 'f', 'fr', 'fl', 'g', 'gr', 'gl', 'gn', 'h', 'j', 'k', 'kr', 'kl', 'kn', 'm', 'n', 'p', 'pr', 'pl', 'q', 'qr', 'ql', 'r', 's', 'st', 'sr', 'str', 'sl', 't', 'tr', 'tl', 'v', 'vl', 'vr', 'w', 'wr', 'x', 'z', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y'];
@@ -30,3 +30,4 @@ export default function currencys() {
     return names;
   }
 }
+module.exports = currencys

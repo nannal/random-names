@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function skyIslands() {
+function skyIslands() {
   let names;
   const nm1 = ['', '', '', '', '', 'b', 'c', 'd', 'dh', 'f', 'g', 'h', 'l', 'm', 'n', 'ph', 's', 'sh', 'th', 'v', 'w'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'ea', 'ae', 'ia', 'ai', 'eo'];
@@ -22,3 +22,4 @@ export default function skyIslands() {
     return names;
   }
 }
+module.exports = skyIslands

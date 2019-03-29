@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function centralEastAfricanTowns() {
+function centralEastAfricanTowns() {
   let names;
   /* Burundi */
   const nm1 = ['Ban', 'Batu', 'Bi', 'Bite', 'Bo', 'Bu', 'Buba', 'Buju', 'Buki', 'Buri', 'Buru', 'Buye', 'Buyo', 'Bwa', 'Bwam', 'Bwamba', 'Bwanyo', 'Bwaru', 'Bwaya', 'Bwo', 'Bwom', 'Bwu', 'Ca', 'Can', 'Ci', 'Cibi', 'Ga', 'Garu', 'Gatu', 'Gaya', 'Gaye', 'Gi', 'Gibo', 'Gibon', 'Giru', 'Gite', 'Guju', 'Isa', 'Ka', 'Kabe', 'Kan', 'Kanyo', 'Karu', 'Kaya', 'Kaye', 'Kayi', 'Kayo', 'Ki', 'Kibo', 'Kibon', 'Kiru', 'Kirun', 'Kiso', 'Ma', 'Maba', 'Maban', 'Maga', 'Maka', 'Maru', 'Mata', 'Maya', 'Mibo', 'Mibon', 'Miru', 'Mirun', 'Mu', 'Mugo', 'Mugon', 'Muke', 'Mura', 'Muro', 'Muse', 'Musen', 'Muya', 'Muyi', 'Muyin', 'Mwa', 'Ngo', 'Nya', 'Nyan', 'Raga', 'Raka', 'Raya', 'Ru', 'Ruga', 'Rumo', 'Rura', 'Ruse', 'Ruta', 'Ruyi'];
@@ -43,3 +43,4 @@ export default function centralEastAfricanTowns() {
     return names;
   }
 }
+module.exports = centralEastAfricanTowns

@@ -1,4 +1,4 @@
-export default function trandoshans() {
+function trandoshans() {
   let namelast;
   let names;
   let rnd;
@@ -71,3 +71,4 @@ export default function trandoshans() {
     return names;
   }
 }
+module.exports = trandoshans

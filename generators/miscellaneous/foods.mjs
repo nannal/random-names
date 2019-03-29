@@ -1,4 +1,4 @@
-export default function foods() {
+function foods() {
   let names;
   let rnd;
   let rnd2;
@@ -41,3 +41,4 @@ export default function foods() {
     return names;
   }
 }
+module.exports = foods

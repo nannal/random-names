@@ -1,4 +1,4 @@
-export default function bands() {
+function bands() {
   let names;
   let rnd;
   let rnd2;
@@ -24,3 +24,4 @@ export default function bands() {
     return names;
   }
 }
+module.exports = bands

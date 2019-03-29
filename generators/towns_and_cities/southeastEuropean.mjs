@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function southeastEuropean() {
+function southeastEuropean() {
   let names;
   /* Belarus */
   const nm1 = ['Ash', 'Asi', 'Ba', 'Bara', 'Bary', 'Bra', 'By', 'Bya', 'Byaro', 'Bye', 'Byelaa', 'Byera', 'Cha', 'Che', 'Chery', 'Da', 'Daro', 'Do', 'Dokshy', 'Dra', 'Drahi', 'Du', 'Dubro', 'Dzi', 'Dzuat', 'Dzyar', 'Fani', 'Ha', 'Hantsa', 'Hara', 'Hly', 'Hlybo', 'Ho', 'Hro', 'Iva', 'Ivatse', 'Ka', 'Kalin', 'Kamya', 'Kas', 'Kashal', 'Kastsyu', 'Kho', 'Khoy', 'Ki', 'Kira', 'Kli', 'Klima', 'Klye', 'Ko', 'Kosa', 'Kru', 'Kry', 'Laho', 'Li', 'Lue', 'Lunin', 'Lyak', 'Lyakha', 'Lyu', 'Ma', 'Mahi', 'Mala', 'Mi', 'Mika', 'Miyo', 'Mstsi', 'Mya', 'Naro', 'Nava', 'Navapo', 'Nova', 'Novalu', 'Nya', 'Or', 'Pasta', 'Pi', 'Pila', 'Pru', 'Pye', 'Pyetry', 'Raha', 'Re', 'Rechy', 'Sali', 'Shchu', 'Shklo', 'Ski', 'Slaw', 'Slo', 'Slu', 'Sma', 'Smalya', 'Sta', 'Sto', 'Svis', 'Svyet', 'Svyetla', 'Sya', 'Tala', 'Tu', 'Tura', 'Uz', 'Va', 'Valo', 'Vasi', 'Vasilye', 'Vawka', 'Vi', 'Vile', 'Vitsye', 'Vye', 'Vyer', 'Vyerhnya', 'Vyso', 'Ye', 'Za', 'Zaska', 'Zha', 'Zhabi', 'Zhlo', 'Zho', 'Zhod', 'Zhy', 'Zhyt', 'Zhytka'];
@@ -48,3 +48,4 @@ export default function southeastEuropean() {
     return names;
   }
 }
+module.exports = southeastEuropean

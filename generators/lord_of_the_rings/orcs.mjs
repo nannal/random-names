@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function orcs() {
+function orcs() {
   let names;
   const nm1 = ['b', 'br', 'c', 'cr', 'd', 'dr', 'g', 'gh', 'gr', 'k', 'kr', 'l', 'm', 'r', 's', 'sh', 'sr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au'];
@@ -17,3 +17,4 @@ export default function orcs() {
     return names;
   }
 }
+module.exports = orcs

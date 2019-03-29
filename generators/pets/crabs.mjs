@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function crabs() {
+function crabs() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['AlPinchino', 'Alpha', 'Apollo', 'Aqua', 'Atoll', 'Aura', 'Azure', 'BamBam', 'Barnacle', 'Biscuit', 'Blazer', 'Blister', 'Boulder', 'Bounce', 'Butters', 'Buttons', 'Carapace', 'Checkers', 'Chester', 'Chowder', 'Chuck', 'Clacker', 'Clawford', 'Claws', 'Clawz', 'Clicker', 'Clipper', 'Clyde', 'Cobbler', 'CrabCake', 'Crabanasty', 'Crabapple', 'Crabbitz', 'Crabohydrate', 'Crack', 'Crane', 'Crash', 'Cruncher', 'Crunchy', 'Crust', 'Crusty', 'DrZoidberg', 'Dude', 'Escape', 'Fang', 'Fangs', 'Fuzzball', 'Fuzzy', 'Gil', 'Gillian', 'Grabandhold', 'Grabby', 'Grabs', 'Griper', 'Grouch', 'Grouchy', 'Grump', 'Hardhead', 'Hardy', 'Herman', 'Hermi', 'Hermie', 'Hermit', 'Hermy', 'Hifive', 'Hyde', 'Kingler', 'Krabby', 'Krabs', 'Kraken', 'Kuka', 'MaxPayne', 'Muffin', 'Nemo', 'Neptune', 'Nero', 'Norbert', 'Omega', 'Onyx', 'Orea', 'Pace', 'Patty', 'Payne', 'Piccolo', 'Pinch', 'Pincher', 'Pinchino', 'Pinchy', 'Pinstripe', 'Pointy', 'Popeye', 'Poseidon', 'Prawn', 'Ranger', 'Reef', 'Ripple', 'Riptide', 'Rock', 'Rocklobster', 'Rocky', 'Rogue', 'Salt', 'Salty', 'Saul', 'Scratch', 'Scratchy', 'Sebastion', 'Sellfish', 'Shabby', 'Shade', 'Shadow', 'Shamrock', 'Sheldon', 'Shell', 'Shelly', 'Sideways', 'Skipper', 'SmallFry', 'Snap', 'Snapp', 'Snappah', 'Snapper', 'Snappy', 'Snaps', 'Snipper', 'Snippy', 'Snips', 'Snookums', 'Softshell', 'Softy', 'Sparkle', 'Spike', 'Spikes', 'Spot', 'Surf', 'Surimi', 'Twitch', 'Waddle', 'Waddles', 'Wave', 'Waves', 'Whopper', 'Wobble', 'Wobbles', 'Zippy', 'Zoidberg', 'iClaw', 'iPinch', 'iSnap'];
@@ -14,3 +14,4 @@ export default function crabs() {
     return names;
   }
 }
+module.exports = crabs

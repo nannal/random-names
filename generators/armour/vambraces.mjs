@@ -1,4 +1,4 @@
-export default function vambraces() {
+function vambraces() {
   let names;
   let rnd;
   let rnd1;
@@ -45,3 +45,4 @@ export default function vambraces() {
     return names;
   }
 }
+module.exports = vambraces

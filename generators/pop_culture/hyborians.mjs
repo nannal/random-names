@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function hyborians() {
+function hyborians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abant', 'Acast', 'Ach', 'Acris', 'Acrision', 'Act', 'Aeg', 'Al', 'Alc', 'Am', 'Amul', 'Andr', 'Andron', 'Ang', 'Ar', 'Arct', 'Arp', 'Ascl', 'Atab', 'Att', 'Auf', 'Aur', 'Bal', 'Ball', 'Bar', 'Barr', 'Bel', 'Bor', 'Cadm', 'Call', 'Carn', 'Cenw', 'Ceph', 'Clad', 'Codr', 'Dam', 'Dard', 'Dec', 'Decual', 'Dex', 'Dexith', 'Dr', 'Edr', 'Elig', 'Emil', 'Ep', 'Er', 'Fabr', 'Favon', 'Flav', 'Gl', 'Glac', 'Gonz', 'Grat', 'Grom', 'Guil', 'Hil', 'Hor', 'Il', 'In', 'Iph', 'Kest', 'Klaud', 'Kost', 'Krel', 'Lar', 'Laud', 'Leon', 'Lib', 'Lor', 'Luc', 'Mar', 'Merc', 'Met', 'Mez', 'Mod', 'Ner', 'Nol', 'Numed', 'Oct', 'Octav', 'Or', 'Pallant', 'Parn', 'Periph', 'Prosp', 'Publ', 'Rig', 'Rin', 'Ruf', 'Sept', 'Serv', 'Sor', 'Sur', 'Th', 'Thesp', 'Tib', 'Troc', 'Tul', 'Val', 'Vict', 'Vil', 'Volm', 'Zet', 'Zor'];
@@ -51,3 +51,4 @@ export default function hyborians() {
     return names;
   }
 }
+module.exports = hyborians

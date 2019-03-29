@@ -1,4 +1,4 @@
-export default function cavemens() {
+function cavemens() {
   let names;
   let rnd;
   let rnd2;
@@ -54,3 +54,4 @@ export default function cavemens() {
   }
   return names;
 }
+module.exports = cavemens

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function romanians() {
+function romanians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abel', 'Adam', 'Adi', 'Adrian', 'Alex', 'Alexandru', 'Alin', 'Anatolie', 'Andrei', 'Anghel', 'Anton', 'Antonio', 'Apostol', 'Arsenie', 'Artur', 'Augustin', 'Aurel', 'Beniamin', 'Beryx', 'Bodgan', 'Bogdan', 'Boian', 'Calin', 'Carol', 'Catalin', 'Catarino', 'Cezar', 'Ciodaru', 'Ciprian', 'Claudiu', 'Codrin', 'Constantin', 'Cornel', 'Corneliu', 'Cosmin', 'Costache', 'Costea', 'Costel', 'Costi', 'Costica', 'Costin', 'Cristian', 'Cristinel', 'Cristofor', 'Dan', 'Daniel', 'Danus', 'Danut', 'Darius', 'David', 'Denis', 'Dimitrie', 'Dimitry', 'Dinu', 'Dionisie', 'Dominik', 'Dorin', 'Doru', 'Dracul', 'Dragomir', 'Dragos', 'Dragoslav', 'Drahoslav', 'Dumitru', 'Eduard', 'Eftemie', 'Emanuel', 'Emil', 'Emilian', 'Eugen', 'Felix', 'Ferka', 'Filip', 'Flaviu', 'Flavius', 'Florentin', 'Florin', 'Gabi', 'Gabriel', 'Gavril', 'George', 'Geza', 'Gheorghe', 'Glad', 'Gogu', 'Grigore', 'Haralamb', 'Horasiu', 'Horatiu', 'Horea', 'Horia', 'Iancu', 'Ilie', 'Ioan', 'Ion', 'Ionache', 'Ionatan', 'Ionel', 'Ionus', 'Ionut', 'Iorghu', 'Iosif', 'Iulian', 'Iulien', 'Iulio', 'Iuliu', 'Ivan', 'Ivantie', 'Jan', 'Jean', 'Laurensiu', 'Laurentiu', 'Liviu', 'Luca', 'Lucian', 'Manuel', 'Marcel', 'Marin', 'Mario', 'Marius', 'Marku', 'Martin', 'Matei', 'Mazonn', 'Mihai', 'Mihail', 'Mihaita', 'Miron', 'Nandru', 'Neculai', 'Nelu', 'Nic', 'Nicolae', 'Nicolas', 'Nicu', 'Niculaie', 'Nicusor', 'Octavian', 'Ovidiu', 'Paul', 'Pereteanu', 'Petar', 'Petre', 'Petru', 'Radu', 'Rares', 'Rasvan', 'Raul', 'Razvan', 'Remus', 'Rica', 'Robert', 'Sanda', 'Sandu', 'Sebastian', 'Serafim', 'Serban', 'Serghei', 'Sergiu', 'Shaithis', 'Silviu', 'Simion', 'Simon', 'Simu', 'Skender', 'Soare', 'Sorin', 'Stan', 'Stefan', 'Stelian', 'Tavian', 'Teo', 'Teodor', 'Teodosie', 'Theodor', 'Tiberiu', 'Timotei', 'Toma', 'Traian', 'Tudor', 'Valentin', 'Valerian', 'Valeriu', 'Vali', 'Varujan', 'Vasile', 'Vasilescu', 'Veaceslav', 'Velkan', 'Victor', 'Viorel', 'Virgil', 'Virgiliu', 'Vlad', 'Vladimir', 'Wadim'];
@@ -15,3 +15,4 @@ export default function romanians() {
     return names;
   }
 }
+module.exports = romanians

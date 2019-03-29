@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function hillbillys() {
+function hillbillys() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abel', 'Abner', 'Ace', 'Amos', 'Arlo', 'Austin', 'Barney', 'Bart', 'Beau', 'Billy', 'Billy Bob', 'Billy Ray', 'Blue', 'Bo', 'Bob', 'Bobby Joe', 'Bodean', 'Bryar', 'Bubba', 'Bubba Blue', 'Buck', 'Buckley', 'Bud', 'Buddy', 'Burl', 'Cal', 'Carson', 'Casey', 'Charles Ray', 'Charlton', 'Chester', 'Cleavon', 'Cleetus', 'Clem', 'Cleon', 'Cletus', 'Clifton', 'Clint', 'Clyde', 'Cody', 'Cooper', 'Cooter', 'Coy', 'Cy', 'Cyrus', 'Dale', 'Darrel', 'Darryl', 'Delmont', 'Doc', 'Don', 'Donny', 'Duane', 'Duke', 'Dwayne', 'Earl', 'Eli', 'Elmer', 'Elrod', 'Enos', 'Eustice', 'Floyd', 'Floyd William', 'Ford', 'Forrest', 'Garth', 'George', 'Gomer', 'Gus', 'Harlan', 'Harley', 'Homer', 'Horace', 'Houston', 'Hoyt', 'Huckleberry', 'Ike', 'Jackson', 'Jasper', 'Jeb', 'Jed', 'Jefferson', 'Jerry Lee', 'Jessie', 'Jethro', 'Jim Bob', 'Jimmy Don', 'Jimmy James', 'Joe Bob', 'John Boy', 'Junior', 'Lee', 'Leewon', 'Lem', 'Lenny', 'Lester', 'Lloyd', 'Lonnie', 'Luke', 'Lum', 'Luther', 'Lynn', 'Merle', 'Mose', 'Orville', 'Otis', 'Ottis', 'Pervis', 'Quentin', 'Randy', 'Ray', 'Ray Nathan', 'Ray-Nathan', 'Rebel', 'Reuben', 'Ricky', 'Robbie', 'Rocky', 'Roscoe', 'Rowan', 'Roy', 'Rufus', 'Rusty', 'Scooter', 'Sherman', 'Silas', 'Skeeter', 'Spencer', 'Tommy', 'Tommy Lee', 'Trigger', 'Tyler', 'Verne', 'Vinton', 'Virgil', 'Wade', 'Wayne', 'Wilbur', 'Wilfred', 'Willie', 'Winchester', 'Winslow', 'Woody', 'Wyatt', 'Zeb', 'Zed', 'Zeke'];
@@ -14,3 +14,4 @@ export default function hillbillys() {
     return names;
   }
 }
+module.exports = hillbillys

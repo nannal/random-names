@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function fairys() {
+function fairys() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'C', 'D', 'F', 'G', 'H', 'K', 'L', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Z'];
@@ -19,3 +19,4 @@ export default function fairys() {
     return names;
   }
 }
+module.exports = fairys

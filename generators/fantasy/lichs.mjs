@@ -1,4 +1,4 @@
-export default function lichs() {
+function lichs() {
   let names;
   let rnd;
   let rnd2;
@@ -34,3 +34,4 @@ export default function lichs() {
     return names;
   }
 }
+module.exports = lichs

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function bosmers() {
+function bosmers() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aen', 'Aeng', 'Aga', 'Agar', 'Ale', 'Alen', 'All', 'Alli', 'Alv', 'Alve', 'Amr', 'Amra', 'Amri', 'An', 'Ang', 'Angl', 'Angu', 'Ano', 'Anor', 'Anr', 'Anru', 'Ar', 'Ara', 'Aran', 'Arat', 'Ath', 'Athr', 'Bae', 'Baen', 'Baer', 'Bar', 'Bara', 'Bas', 'Bast', 'Ber', 'Bere', 'Bol', 'Bolr', 'Bolw', 'Bra', 'Brag', 'Bral', 'Bre', 'Brel', 'Bri', 'Brit', 'Bro', 'Brod', 'Brol', 'Cae', 'Caen', 'Cel', 'Cele', 'Cin', 'Cing', 'Cle', 'Clen', 'Co', 'Cun', 'Dae', 'Daen', 'Dan', 'Dang', 'Den', 'Dene', 'Der', 'Derv', 'Dir', 'Dird', 'Don', 'Dond', 'Edo', 'Edor', 'Elb', 'Elbe', 'Ele', 'Eleg', 'Elis', 'Elo', 'Elor', 'Elr', 'Elri', 'End', 'Endr', 'Eng', 'Enga', 'Engo', 'Eni', 'Enil', 'Ent', 'Enth', 'Era', 'Erad', 'Eras', 'Eri', 'Erid', 'Err', 'Erra', 'Ert', 'Erth', 'Erv', 'Erva', 'Fae', 'Faen', 'Fal', 'Fald', 'Far', 'Farg', 'Fau', 'Faul', 'Fil', 'Fill', 'Fim', 'Fimm', 'Fin', 'Find', 'Fit', 'Fith', 'For', 'Foro', 'Gad', 'Gadn', 'Gae', 'Gael', 'Gaen', 'Gal', 'Galm', 'Galt', 'Gaz', 'Gaza', 'Gel', 'Gele', 'Ger', 'Gerr', 'Gir', 'Gird', 'Gla', 'Glar', 'Glau', 'Glo', 'Glon', 'Gloo', 'God', 'Godr', 'Gor', 'Gorc', 'Gun', 'Gund', 'Gwi', 'Gwil', 'Gwin', 'Hag', 'Haga', 'Hay', 'Haym', 'Hin', 'Hing', 'Hun', 'Hund', 'Karo', 'Lego', 'Li', 'Mae', 'Maen', 'Mag', 'Magl', 'Mal', 'Malb', 'Man', 'Mank', 'Mel', 'Meld', 'Men', 'Mene', 'Min', 'Mine', 'Ming', 'Mon', 'Mont', 'Mor', 'Mort', 'Nal', 'Nali', 'Ned', 'Nedh', 'Nir', 'Nira', 'Niru', 'Nor', 'Nord', 'Orb', 'Orbe', 'Orc', 'Orch', 'Pali', 'Peg', 'Pega', 'Per', 'Pera', 'Ria', 'Rin', 'Rind', 'Rit', 'Rith', 'Ron', 'Ront', 'Sil', 'Syl', 'Sylc', 'Syn', 'Synd', 'Ta', 'Tar', 'Tarh', 'Tha', 'Thad', 'Thae', 'Thau', 'Tho', 'Thor', 'Thr', 'Thra', 'Thu', 'Thur', 'Tuu', 'Tuun', 'Ulw', 'Ulwa', 'Ung', 'Unge', 'Ungo', 'Ungr', 'Uru', 'Urun', 'Uun', 'Uung', 'Uur', 'Uura', 'Val', 'Vali'];
@@ -18,3 +18,4 @@ export default function bosmers() {
     return names;
   }
 }
+module.exports = bosmers

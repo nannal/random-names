@@ -1,4 +1,4 @@
-export default function necromancers() {
+function necromancers() {
   let names;
   let rnd;
   let rnd2;
@@ -23,3 +23,4 @@ export default function necromancers() {
     return names;
   }
 }
+module.exports = necromancers

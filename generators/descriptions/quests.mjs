@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function quests() {
+function quests() {
   const type = Math.random() < 0.5 ? 0 : 1;
   const nm1 = ['You there', 'Excuse me', 'Forgive me', 'Pardon me', 'Please', 'Please excuse me', '\'Scuse me'];
   const nm2 = ['adventurer', 'hero', 'traveler', 'champion'];
@@ -47,3 +47,4 @@ export default function quests() {
   result += name4;
   return result;
 }
+module.exports = quests

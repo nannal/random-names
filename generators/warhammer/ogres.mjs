@@ -1,4 +1,4 @@
-export default function ogres() {
+function ogres() {
   let names;
   let lName;
   let rnd;
@@ -33,3 +33,4 @@ export default function ogres() {
     return names;
   }
 }
+module.exports = ogres

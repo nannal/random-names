@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function business() {
+function business() {
   let names;
   const nm2 = ['Animal Care Center', 'Animal Haven', 'Animal Sanctuary', 'Animal Shelter', 'Exotic Pets', 'Pet Care Center', 'Pet Haven', 'Pet House', 'Pet Land', 'Pet Market', 'Pet Shop', 'Pet Store', 'Pets'];
   const nm4 = ['Animal Grooming', 'Pet Grooming', 'Grooming', 'Pet Parlor', 'Animal Parlor', 'Pet Salon', 'Animal Salon', 'Grooming Spa', 'Animal Health', 'Animal Care', 'Pet Health', 'Pet Care', 'Boutique', 'Animal Boutique', 'Pet Boutique'];
@@ -16,3 +16,4 @@ export default function business() {
     return names;
   }
 }
+module.exports = business

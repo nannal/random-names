@@ -1,4 +1,4 @@
-export default function civilizations() {
+function civilizations() {
   let names;
   let rnd;
   let rnd2;
@@ -50,3 +50,4 @@ export default function civilizations() {
     return names;
   }
 }
+module.exports = civilizations

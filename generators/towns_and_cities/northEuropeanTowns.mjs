@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function northEuropeanTowns() {
+function northEuropeanTowns() {
   let names;
   const nm1 = ['Aal', 'Aar', 'Alberts', 'Balle', 'Birke', 'Brønd', 'Copen', 'Es', 'Glad', 'Glo', 'Hørs', 'Hader', 'Hel', 'Her', 'Hille', 'Hjør', 'Hol', 'Holste', 'Hor', 'Hvido', 'Kol', 'Lyng', 'Næst', 'Nørre', 'Rødo', 'Ring', 'Ros', 'Sønder', 'Silke', 'Sla', 'Svend', 'Tårn', 'Taa', 'Vi'];
   const nm2 = ['bæk', 'bæka', 'berga', 'bjerg', 'borg', 'bya', 'gelse', 'hagen', 'havn', 'holm', 'hus', 'kilde', 'leva', 'lunda', 'nse', 'rød', 'ring', 'rupa', 'saxea', 'sens', 'singør', 'slev', 'sted', 'strup', 'strupa', 'sundby', 've', 'ved', 'vrea'];
@@ -47,3 +47,4 @@ export default function northEuropeanTowns() {
     return names;
   }
 }
+module.exports = northEuropeanTowns

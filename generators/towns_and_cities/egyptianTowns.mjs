@@ -1,4 +1,4 @@
-export default function egyptianTowns() {
+function egyptianTowns() {
   let names;
   let rnd;
   let rnd2;
@@ -14,3 +14,4 @@ export default function egyptianTowns() {
     return names;
   }
 }
+module.exports = egyptianTowns

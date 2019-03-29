@@ -1,4 +1,4 @@
-export default function letheans() {
+function letheans() {
   let names;
   let rnd;
   let rnd2;
@@ -51,3 +51,4 @@ export default function letheans() {
     return names;
   }
 }
+module.exports = letheans

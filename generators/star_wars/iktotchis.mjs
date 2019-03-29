@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function iktotchis() {
+function iktotchis() {
   let namelast;
   let names;
   const nm1 = ['', '', '', 'c', 'd', 'f', 'h', 'k', 'm', 'n', 'r', 's', 't', 'v', 'w', 'z'];
@@ -22,3 +22,4 @@ export default function iktotchis() {
     return names;
   }
 }
+module.exports = iktotchis

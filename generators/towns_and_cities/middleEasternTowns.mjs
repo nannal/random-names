@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function middleEasternTowns() {
+function middleEasternTowns() {
   let names;
   // Turkey
   const nm1 = ['Çaki', 'Çana', 'Çari', 'Çayi', 'Çeri', 'Çuku', 'Abdi', 'Abi', 'Aca', 'Ada', 'Aga', 'Agi', 'Agla', 'Ahi', 'Akça', 'Akda', 'Akpa', 'Akte', 'Alpa', 'Alti', 'Ata', 'Ava', 'Bade', 'Baga', 'Bahçe', 'Baka', 'Bayi', 'Bege', 'Boga', 'Boya', 'Bula', 'Dala', 'Dede', 'Deni', 'Didi', 'Diki', 'Doga', 'Duro', 'Elma', 'Espi', 'Fela', 'Findi', 'Göko', 'Göne', 'Göre', 'Gümü', 'Güze', 'Gele', 'Gere', 'Geyi', 'Haci', 'Hasa', 'Here', 'Huzu', 'Ili', 'Ine', 'Inhi', 'Kagi', 'Kala', 'Kama', 'Kara', 'Kaya', 'Kema', 'Keme', 'Kiri', 'Kizi', 'Koca', 'Konu', 'Kuma', 'Kusa', 'Lima', 'Mahmu', 'Malka', 'Marma', 'Meci', 'Mehme', 'Mursa', 'Nebio', 'Nurha', 'Nusa', 'Olu', 'Omu', 'Orha', 'Osma', 'Ova', 'Pasi', 'Paya', 'Paza', 'Peli', 'Pina', 'Pira', 'Sala', 'Samsa', 'Sari', 'Sebi', 'Seli', 'Seri', 'Siri', 'Sivri', 'Sogu'];
@@ -43,3 +43,4 @@ export default function middleEasternTowns() {
     return names;
   }
 }
+module.exports = middleEasternTowns

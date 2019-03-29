@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function cyborgs() {
+function cyborgs() {
   let name;
   let name2;
   let name3;
@@ -42,3 +42,4 @@ export default function cyborgs() {
     return names;
   }
 }
+module.exports = cyborgs

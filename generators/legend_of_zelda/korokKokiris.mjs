@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function korokKokiris() {
+function korokKokiris() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'd', 'br', 'dr', 'gr', 'g', 'h', 'k', 'l', 'm', 'r', 'tr', 't'];
@@ -23,3 +23,4 @@ export default function korokKokiris() {
     return names;
   }
 }
+module.exports = korokKokiris

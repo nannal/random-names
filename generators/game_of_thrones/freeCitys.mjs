@@ -1,4 +1,4 @@
-export default function freeCitys() {
+function freeCitys() {
   let names;
   let rnd;
   let rnd2;
@@ -28,3 +28,4 @@ export default function freeCitys() {
     return names;
   }
 }
+module.exports = freeCitys

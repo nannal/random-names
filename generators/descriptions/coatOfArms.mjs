@@ -1,4 +1,4 @@
-export default function coatOfArms() {
+function coatOfArms() {
   let rnd5b;
   const nm1 = ['large', 'fairly large', 'great', 'grand', 'broad', 'fairly small', 'not too large', 'standard sized', 'modest', 'regular sized'];
   const nm2 = ['a symmetrical', 'a symmetrical', 'an asymmetrical'];
@@ -106,3 +106,4 @@ export default function coatOfArms() {
   result += name5;
   return result;
 }
+module.exports = coatOfArms

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function boots() {
+function boots() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['Ancient', 'Binding', 'Blessed', 'Blind', 'Broken', 'Burning', 'Condemned', 'Conquered', 'Cursed', 'Damned', 'Dark', 'Demonic', 'Distant', 'Divine', 'Doomed', 'Ending', 'Endless', 'Eternal', 'Faded', 'Fallen', 'Fleeting', 'Frozen', 'Hallowed', 'Haunted', 'Hellish', 'Holy', 'Imminent', 'Immortal', 'Infernal', 'Infinite', 'Lost', 'Ominous', 'Relentless', 'Sacred', 'Shattered', 'Silent', 'Smoldering', 'Timeless', 'Twisted', 'Unholy'];
@@ -25,3 +25,4 @@ export default function boots() {
   }
   return names;
 }
+module.exports = boots

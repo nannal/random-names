@@ -1,4 +1,4 @@
-export default function farms() {
+function farms() {
   let names;
   let rnd0;
   let rnd1;
@@ -11,3 +11,4 @@ export default function farms() {
     return names;
   }
 }
+module.exports = farms

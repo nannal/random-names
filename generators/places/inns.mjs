@@ -1,4 +1,4 @@
-export default function inns() {
+function inns() {
   let names;
   let rnd;
   let rnd2;
@@ -19,3 +19,4 @@ export default function inns() {
     return names;
   }
 }
+module.exports = inns

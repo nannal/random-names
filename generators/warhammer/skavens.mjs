@@ -1,4 +1,4 @@
-export default function skavens() {
+function skavens() {
   let names;
   let lName;
   let rnd;
@@ -36,3 +36,4 @@ export default function skavens() {
     return names;
   }
 }
+module.exports = skavens

@@ -1,4 +1,4 @@
-export default function houseElfs() {
+function houseElfs() {
   let names;
   let rnd;
   let rnd2;
@@ -47,3 +47,4 @@ export default function houseElfs() {
     return names;
   }
 }
+module.exports = houseElfs

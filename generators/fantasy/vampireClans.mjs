@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function vampireClans() {
+function vampireClans() {
   let names;
   const nm1 = ['Abyss', 'Annihilation', 'Banished', 'Bite', 'Black', 'Blood', 'Blood\'s', 'Crypt\'s', 'Dark', 'Death', 'Death\'s', 'Demise\'s', 'Demon', 'Demonic', 'Devil', 'Devil\'s', 'Dishonored', 'Downfall', 'Dusk\'s', 'End\'s', 'Enigma', 'Eternal', 'Fanged', 'Ghoul', 'Grave', 'Heaven\'s', 'Hell\'s', 'Immortal', 'Limbo\'s', 'Lucifer\'s', 'Midnight', 'Misery\'s', 'Moonlight', 'Necrosis', 'Nether', 'Night', 'Night\'s', 'Nightmare', 'Nightshade', 'Onyx', 'Perpetual', 'Phantom', 'Purgatory\'s', 'Sanguine', 'Shadow', 'Shadow\'s', 'Tempest', 'Tomb', 'Tormented', 'Undying', 'Unending', 'Wicked'];
   const nm2 = ['Ancestors', 'Ancestry', 'Army', 'Birth', 'Brigade', 'Castaways', 'Company', 'Coven', 'Covet', 'Craving', 'Crawlers', 'Defilers', 'Descendants', 'Descent', 'Desire', 'Division', 'Dragons', 'Eclipe', 'Exiles', 'Fiends', 'Flight', 'Flyers', 'Gaze', 'Gift', 'Hearts', 'Horde', 'Hunger', 'Insomniacs', 'Leeches', 'Legion', 'Longing', 'Lurkers', 'Lust', 'Marauders', 'Mark', 'Marks', 'Myriad', 'Nomads', 'Oblivion', 'Origin', 'Outcasts', 'Outlaws', 'Phalanx', 'Posse', 'Quenchers', 'Raiders', 'Refugees', 'Rejects', 'Restless', 'Rogues', 'Runners', 'Seekers', 'Shadow', 'Shadows', 'Shroud', 'Sundry', 'Swarm', 'Teeth', 'Thirst', 'Torment', 'Void', 'Wanderers', 'Watch', 'Wings'];
@@ -15,3 +15,4 @@ export default function vampireClans() {
     return names;
   }
 }
+module.exports = vampireClans

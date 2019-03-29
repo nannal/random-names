@@ -1,4 +1,4 @@
-export default function continents() {
+function continents() {
   let names;
   let rnd;
   let rnd2;
@@ -58,3 +58,4 @@ export default function continents() {
     return names;
   }
 }
+module.exports = continents

@@ -1,4 +1,4 @@
-export default function salarians() {
+function salarians() {
   let names;
   let rnd0;
   let rnd1;
@@ -39,3 +39,4 @@ export default function salarians() {
     return names;
   }
 }
+module.exports = salarians

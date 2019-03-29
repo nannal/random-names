@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function halflings() {
+function halflings() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abbo', 'Aega', 'Ageric', 'Aigulf', 'Amand', 'Andwise', 'Anno', 'Arnold', 'Arnor', 'Arnoul', 'Arnulf', 'Basso', 'Baudry', 'Bauto', 'Bavo', 'Benild', 'Berchar', 'Bernard', 'Berno', 'Bero', 'Bertin', 'Bertram', 'Besso', 'Bildad', 'Blanco', 'Bodo', 'Bosco', 'Boso', 'Bovo', 'Brice', 'Briffo', 'Brocard', 'Bruno', 'Bucca', 'Bungo', 'Cerdic', 'Cheldric', 'Chlodwig', 'Chlotar', 'Clodio', 'Clovis', 'Conrad', 'Corbus', 'Cotman', 'Cottar', 'Crassus', 'Crispus', 'Dado', 'Dalfin', 'Deagol', 'Dodo', 'Drogo', 'Drogon', 'Dudo', 'Dudon', 'Durand', 'Ebbo', 'Einhard', 'Elfstan', 'Emmon', 'Erard', 'Erling', 'Euric', 'Evrard', 'Falco', 'Faro', 'Flambard', 'Flavus', 'Folco', 'Folmar', 'Fosco', 'Fulbert', 'Fulrad', 'Gerbert', 'Gereon', 'Gerold', 'Gilbert', 'Giso', 'Godun', 'Griffo', 'Grimald', 'Grimbald', 'Gruffo', 'Gunthar', 'Guntram', 'Hagen', 'Halfred', 'Hamfast', 'Harding', 'Hartmut', 'Hartnid', 'Hending', 'Hobson', 'Holfast', 'Holman', 'Hubert', 'Huebald', 'Hugo', 'Humbert', 'Hunald', 'Jago', 'Lambert', 'Largo', 'Laudus', 'Ledger', 'Leger', 'Leufred', 'Longo', 'Lothar', 'Madoc', 'Magnus', 'Marco', 'Marcoul', 'Marcus', 'Marroc', 'Medard', 'Merry', 'Milo', 'Minto', 'Moro', 'Mosco', 'Nithard', 'Norbert', 'Notger', 'Odger', 'Olo', 'Otker', 'Otto', 'Otton', 'Pepin', 'Pippin', 'Polo', 'Porro', 'Posco', 'Rathar', 'Rathier', 'Razo', 'Remi', 'Richer', 'Robin', 'Robur', 'Rollo', 'Rufus', 'Sadoc', 'Sago', 'Samson', 'Sichar', 'Sunno', 'Taurin', 'Thierry', 'Timba', 'Tobas', 'Tobold', 'Togo', 'Tolman', 'Turpin', 'Vigo', 'Vigor', 'Wazo', 'Wibert'];
@@ -16,3 +16,4 @@ export default function halflings() {
     return names;
   }
 }
+module.exports = halflings

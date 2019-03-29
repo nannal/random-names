@@ -1,4 +1,4 @@
-export default function qunaris() {
+function qunaris() {
   let names;
   let rnd0;
   let rnd1;
@@ -20,3 +20,4 @@ export default function qunaris() {
     return names;
   }
 }
+module.exports = qunaris

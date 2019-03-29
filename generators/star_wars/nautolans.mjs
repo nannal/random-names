@@ -1,4 +1,4 @@
-export default function nautolans() {
+function nautolans() {
   let namelast;
   let names;
   let rnd5b;
@@ -96,3 +96,4 @@ export default function nautolans() {
     return names;
   }
 }
+module.exports = nautolans

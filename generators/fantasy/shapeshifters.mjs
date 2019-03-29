@@ -1,4 +1,4 @@
-export default function shapeshifters() {
+function shapeshifters() {
   let names1;
   const type = Math.floor(Math.random() * 3.0);
   if (type === 1) {
@@ -11,3 +11,4 @@ export default function shapeshifters() {
   const rnd = Math.floor(Math.random() * names1.length);
   return names1[rnd];
 }
+module.exports = shapeshifters

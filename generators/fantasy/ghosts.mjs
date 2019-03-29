@@ -1,4 +1,4 @@
-export default function ghosts() {
+function ghosts() {
   let names;
   let rnd;
   let rnd2;
@@ -39,3 +39,4 @@ export default function ghosts() {
     return names;
   }
 }
+module.exports = ghosts

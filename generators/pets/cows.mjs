@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function cows() {
+function cows() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Apple', 'Athene', 'Bambam', 'Barrage', 'Barry', 'Beefcake', 'Berry', 'Big B', 'Bigfoot', 'Biggy', 'Biscuit', 'Blitz', 'Bluster', 'Bolt', 'Bones', 'Boomboom', 'Boomer', 'Boot', 'Booth', 'Bosco', 'Boulder', 'Brownie', 'Brucie', 'Bud', 'Bubba', 'Buddy', 'Buffo', 'Bullet', 'Bullseye', 'Bullwinkle', 'Bumble', 'Buster', 'Butters', 'Button', 'Calvin', 'Chip', 'Chuck', 'Coal', 'Coloss', 'Comet', 'Conan', 'Cookie', 'Crazy', 'Cream', 'Dozer', 'Duke', 'Echo', 'Elmo', 'Ernie', 'Froghurt', 'Fury', 'Gale', 'George', 'Grand', 'Gus', 'Hank', 'Harry', 'Jackson', 'Jet', 'Kargo', 'Maddock', 'Madeye', 'Mambo', 'Mammoth', 'Maverick', 'Max', 'Midnight', 'Moe', 'Momoo', 'Moofasa', 'Mooffin', 'Moomoo', 'Moostache', 'Mustache', 'Nemoo', 'Onyx', 'Oreo', 'Otis', 'Paladin', 'Patch', 'Pepper', 'Pierce', 'Pounder', 'Rage', 'Rambo', 'Rant', 'Rock', 'Rocky', 'Rufus', 'Rumble', 'Sable', 'Shadow', 'Sir Loin', 'Slate', 'Smash', 'Sparky', 'Spartacus', 'Spice', 'Spot', 'Stomper', 'Storm', 'Sunny', 'Tank', 'Taurus', 'Thor', 'Thunder', 'Tiny', 'Toro', 'Ug', 'Vegas', 'Warpath', 'Wasabi', 'Wonder', 'Yoghi', 'Yoghurt', 'Zipper', 'Zug'];
@@ -14,3 +14,4 @@ export default function cows() {
     return names;
   }
 }
+module.exports = cows

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function khazras() {
+function khazras() {
   let names;
   const nm1 = ['', '', '', '', 'b', 'bl', 'br', 'ch', 'cr', 'd', 'dr', 'gh', 'gr', 'h', 'hr', 'k', 'kr', 'l', 'm', 'mw', 'n', 'r', 'sh', 'sk', 'sn', 't', 'th', 'tr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oa', 'ao', 'au'];
@@ -16,3 +16,4 @@ export default function khazras() {
     return names;
   }
 }
+module.exports = khazras

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function hives() {
+function hives() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'cr', 'd', 'g', 'gr', 'k', 'kr', 'm', 'n', 'r', 's', 'tr', 'z'];
@@ -20,3 +20,4 @@ export default function hives() {
     return names;
   }
 }
+module.exports = hives

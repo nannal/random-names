@@ -1,4 +1,4 @@
-export default function deaths() {
+function deaths() {
   let names;
   let rnd;
   let rnd2;
@@ -44,3 +44,4 @@ export default function deaths() {
     return names;
   }
 }
+module.exports = deaths

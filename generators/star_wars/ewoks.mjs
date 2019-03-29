@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function ewoks() {
+function ewoks() {
   let namelast;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -32,3 +32,4 @@ export default function ewoks() {
     return names;
   }
 }
+module.exports = ewoks

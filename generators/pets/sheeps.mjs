@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function sheeps() {
+function sheeps() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ace', 'Babbit', 'Badger', 'Bambam', 'Basil', 'Biggs', 'Boomboom', 'Boomer', 'Bud', 'Buddy', 'Bullet', 'Buster', 'Butters', 'Capricorn', 'Chopper', 'Chops', 'Cloud', 'Coal', 'Cobalt', 'Coffee', 'Comet', 'Cosmo', 'Cotton', 'Cuddles', 'Dash', 'Dawson', 'Dillon', 'Dodge', 'Dodger', 'Duke', 'Fire', 'Fluff', 'Gunther', 'Hammer', 'Impact', 'Jax', 'Kramer', 'Lancelot', 'Lightning', 'Lucky', 'Maverick', 'McCloud', 'Mercury', 'Midnight', 'Monty', 'Mort', 'Murky', 'Mush', 'Nebula', 'Nibbler', 'Nibbles', 'Nibler', 'Ogre', 'Onyx', 'Orion', 'Owen', 'Patches', 'Patton', 'Phineas', 'Pillo', 'Pitch', 'Popcorn', 'Pound', 'Puff', 'Rack', 'Ragget', 'Rambo', 'Ramone', 'Ripple', 'Rock', 'Rowan', 'Rowdy', 'Ruff', 'Rufus', 'Saber', 'Salt', 'Satin', 'Sawyer', 'Scruffy', 'Scuddle', 'Sean', 'Shawn', 'Shelby', 'Silver', 'Skooter', 'Slam', 'Smokey', 'Smooch', 'Snow', 'Snowflake', 'Soots', 'Spark', 'Spartan', 'Spice', 'Sponge', 'Spot', 'Storm', 'Striker', 'Taz', 'Thunder', 'Tickles', 'Truffle', 'Tumnus', 'Tweedle', 'Twinkle', 'Vanilla', 'Walnut', 'Wellington', 'Woolsley'];
@@ -14,3 +14,4 @@ export default function sheeps() {
     return names;
   }
 }
+module.exports = sheeps

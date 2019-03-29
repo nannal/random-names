@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function roegadyns() {
+function roegadyns() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = [
@@ -312,3 +312,4 @@ export default function roegadyns() {
     return names;
   }
 }
+module.exports = roegadyns

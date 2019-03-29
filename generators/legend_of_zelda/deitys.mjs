@@ -1,4 +1,4 @@
-export default function deitys() {
+function deitys() {
   let names;
   let rnd;
   let rnd2;
@@ -59,3 +59,4 @@ export default function deitys() {
     return names;
   }
 }
+module.exports = deitys

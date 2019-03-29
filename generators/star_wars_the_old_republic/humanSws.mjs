@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function humanSws() {
+function humanSws() {
   let name;
   let name2;
   let name3;
@@ -42,3 +42,4 @@ export default function humanSws() {
     return names;
   }
 }
+module.exports = humanSws

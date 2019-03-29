@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function laotians() {
+function laotians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Akamu', 'Analu', 'Aulii', 'Bane', 'Bane ', 'Havika', 'Ikaika', 'Kahoku', 'Kai', 'Kaili', 'Kaipo', 'Kalani', 'Kale', 'Kale ', 'Kalei', 'Kanoa', 'Kapono', 'Kawaii', 'Keahi', 'Keanu', 'Kelii', 'Keoki', 'Keola', 'Keon', 'Keona', 'Keowynn', 'Kimo', 'Kimo ', 'Koa', 'Konala', 'Kye', 'Kye ', 'Lae', 'Lani', 'Leilani', 'Liko', 'Lilo', 'Loe', 'Maiele', 'Maik', 'Makaio', 'Makan', 'Makan ', 'Makani', 'Malo', 'Malo ', 'Mauli', 'Meka', 'Mele', 'Moana', 'Moke', 'Mya', 'Noi', 'Oke', 'Palani', 'Paxathipatai', 'Pekelo', 'Phetdum', 'Phonesavanh', 'Saravan', 'Sathanalat', 'Sengprachanh', 'Sommai', 'Somphone', 'Songkram', 'Sonxai', 'Teyvada', 'Ulani', 'Wongduan', 'Xaisomboun'];
@@ -15,3 +15,4 @@ export default function laotians() {
     return names;
   }
 }
+module.exports = laotians

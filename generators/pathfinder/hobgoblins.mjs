@@ -1,4 +1,4 @@
-export default function hobgoblins() {
+function hobgoblins() {
   let names;
   let rnd;
   let rnd2;
@@ -46,3 +46,4 @@ export default function hobgoblins() {
     return names;
   }
 }
+module.exports = hobgoblins

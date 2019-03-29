@@ -1,4 +1,4 @@
-export default function miqotes() {
+function miqotes() {
   let names;
   let rnd;
   let rnd2;
@@ -184,3 +184,4 @@ export default function miqotes() {
     return names;
   }
 }
+module.exports = miqotes

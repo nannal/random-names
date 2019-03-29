@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function romans() {
+function romans() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Appius', 'Aulus', 'Caelus', 'Decius', 'Decimus', 'Faustus', 'Flavius', 'Gaius', 'Caius', 'Cnaeus', 'Gnaeus', 'Kaeso', 'Caeso', 'Lucius', 'Mamercus', 'Maximus', 'Manius', 'Marcus', 'Mettius', 'Numerius', 'Octavianus', 'Publius', 'Quintus', 'Secundus', 'Septimus', 'Servius', 'Sextus', 'Spurius', 'Tertius', 'Tiberius', 'Titus', 'Agrippa', 'Amulius', 'Arruns', 'Camillus', 'Canus', 'Cossus', 'Drusus', 'Gallus', 'Herius', 'Hostus', 'Lar', 'Lars', 'Marcellus', 'Nonus', 'Opiter', 'Oppius', 'Paulus', 'Paullus', 'Postumius', 'Potitus', 'Primus', 'Proclus', 'Proculus', 'Sisenna', 'Tullus', 'Vel', 'Vibius', 'Vopiscus', 'Amulius', 'Appius', 'Augustus', 'Aulus', 'Caius', 'Cassius', 'Decius', 'Flavius', 'Galerius', 'Gallio', 'Julianus', 'Kaeso', 'Lucius', 'Manius', 'Marcus', 'Numerius', 'Oppius', 'Placus', 'Publius', 'Quintis', 'Quintus', 'Secundus', 'Servius', 'Sextus', 'Spurius', 'Tertius', 'Tiberius', 'Titus'];
@@ -17,3 +17,4 @@ export default function romans() {
     return names;
   }
 }
+module.exports = romans

@@ -1,4 +1,4 @@
-export default function dwemers() {
+function dwemers() {
   let names1;
   let names2;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -17,3 +17,4 @@ export default function dwemers() {
   const rnd3 = Math.floor(Math.random() * names4.length);
   return `${names1[rnd0] + names2[rnd1]} ${names3[rnd2]}${names4[rnd3]}`;
 }
+module.exports = dwemers

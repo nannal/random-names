@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function georgians() {
+function georgians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abel', 'Abraam', 'Abram', 'Adam', 'Akaki', 'Akim', 'Aleksandr', 'Aleksandre', 'Alexei', 'Ambrosi', 'Amiran', 'Andria', 'Andro', 'Anri', 'Anzor', 'Aram', 'Archil', 'Arkady', 'Artyom', 'Avet', 'Avi', 'Avskenti', 'Avtandil', 'Avto', 'Azat', 'Baadur', 'Babken', 'Badri', 'Bagrat', 'Bakur', 'Besarion', 'Beso', 'Bidzina', 'Boris', 'Daniel', 'Dato', 'Davit', 'Daviti', 'Dito', 'Dmitry', 'Eduard', 'Eldar', 'Elguja', 'Eli', 'Erekle', 'Gaioz', 'Genadi', 'Giga', 'Giorgi', 'Giuli', 'Givi', 'Gocha', 'Goga', 'Grigol', 'Gurgen', 'Husik', 'Iakob', 'Ilia', 'Imeda', 'Ioane', 'Iona', 'Ioseb', 'Irakli', 'Isidore', 'Iuri', 'Ivane', 'Koba', 'Kokhta', 'Konstantine', 'Korneli', 'Kote', 'Lado', 'Levan', 'Luka', 'Malkhazi', 'Mamuka', 'Mate', 'Meliton', 'Merab', 'Mikheil', 'Misho', 'Movsoum', 'Murtaz', 'Nika', 'Nikoloz', 'Nodar', 'Okropir', 'Otar', 'Pavle', 'Petre', 'Pridon', 'Pridoni', 'Ramaz', 'Ramazi', 'Revaz', 'Revazi', 'Reziko', 'Rostom', 'Rouben', 'Saba', 'Sandro', 'Sergei', 'Simon', 'Simoni', 'Soso', 'Spartak', 'Stepane', 'Tamaz', 'Tamazi', 'Tedore', 'Teimuraz', 'Teimurazi', 'Temo', 'Temur', 'Temuri', 'Tengiz', 'Terenti', 'Toma', 'Tornike', 'Vakhtang', 'Valeri', 'Valerian', 'Vano', 'Vasil', 'Vaso', 'Vazha', 'Vepkhia', 'Vladimer', 'Yuriy', 'Zaal', 'Zakaria', 'Zura', 'Zurab', 'Zviad', 'Zviadi'];
@@ -15,3 +15,4 @@ export default function georgians() {
     return names;
   }
 }
+module.exports = georgians

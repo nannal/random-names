@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function dwarfs() {
+function dwarfs() {
   let names;
   const nm1 = ['b', 'br', 'd', 'dr', 'dw', 'f', 'fl', 'fr', 'g', 'gl', 'gr', 'k', 'kh', 'kr', 'l', 'm', 'mh', 'n', 't', 'th', 'thr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
@@ -19,3 +19,4 @@ export default function dwarfs() {
     return names;
   }
 }
+module.exports = dwarfs

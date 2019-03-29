@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function trolls() {
+function trolls() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ditid', 'Quivilt', 'Mohanlal', 'Sollix', 'Equinus', 'Gamjee', 'Matuna', 'Kurzol', 'Erodjan', 'Alwan', 'Anje', 'Azibo', 'Ajin', 'Ekon', 'Erasto', 'Haijen', 'Hamedi', 'Hokima', 'Jaafan', 'Jabir', 'Jalai', 'Javyn', 'Jijel', 'Juma', 'Jumoke', 'Kaijin', 'Kazko', 'Maalik', 'Makas', 'Malak', 'Nyabingi', 'Rahjin', 'Rakash', 'Rashi', 'Razi', 'Reji', 'Rujabu', 'Rujin', 'Seji', 'Senwe', 'Seshi', 'Teshi', 'Tzane', 'Tzuljin', 'Voyambi', 'Vuzashi', 'Vuzembi', 'Yamike', 'Yavo', 'Yawan', 'Zaejin', 'Zallah', 'Zebajin', 'Zelaji', 'Zevrij', 'Zinjo', 'Zufem', 'Alzim', 'Ayagi', 'Ayargajin', 'Dorkuraz', 'Hakalai', 'Halasuwa', 'Hokajin', 'Hoodah', 'Hyptu', 'Jaryaya', 'Jayunya', 'Jinjin', 'Jojin', 'Kelraz', 'Kuroji', 'Lakjin', 'Laojin', 'Melkree', 'Mezilkree', 'Napokue', 'Nuenvan', 'Paikei', 'Rapshider', 'Rhazin', 'Shaktilar', 'Shengis', 'Sligo', 'Tanjin', 'Tazingo', 'Tedar', 'Trezzahn', 'Trolgar', 'Ttarmek', 'Ugoki', 'Vekuzz', 'Venjo', 'Vulzal', 'Wanjin', 'Wonjin', 'Xukundi', 'Yetu', 'Zengu', 'Zoljin', 'Zulabar', 'Zulbaljin', 'Zulgeteb', 'Zulkaz', 'Zulkis', 'Zulrajas', 'Zulyafi', 'Zunabar'];
@@ -14,3 +14,4 @@ export default function trolls() {
     return names;
   }
 }
+module.exports = trolls

@@ -1,4 +1,4 @@
-export default function nephilims() {
+function nephilims() {
   let names;
   let rnd;
   let rnd2;
@@ -36,3 +36,4 @@ export default function nephilims() {
     return names;
   }
 }
+module.exports = nephilims

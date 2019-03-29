@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function gangs() {
+function gangs() {
   let names;
   const nm1 = ['azure', 'black', 'blue', 'brass', 'bronze', 'brown', 'cardinal', 'cobalt', 'copper', 'crimson', 'crystal', 'demon', 'denim', 'diamond', 'ebony', 'electric', 'emerald', 'fire', 'flame', 'gold', 'green', 'grey', 'grizzly', 'ice', 'ivory', 'jade', 'onyx', 'orange', 'red', 'royal', 'ruby', 'sanguine', 'sapphire', 'scarlet', 'thunder', 'violet', 'white', 'yellow', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['alien', 'alligator', 'angel', 'badger', 'banner', 'bat', 'bear', 'blood', 'blooddrop', 'blossom', 'boar', 'bull', 'bulldog', 'butterfly', 'chainsaw', 'cobra', 'coyote', 'crocodile', 'cross', 'crow', 'death', 'demon', 'devil', 'dragon', 'dragonfly', 'dragontooth', 'dwarf', 'eagle', 'elephant', 'enigma', 'fang', 'forsaken', 'ghost', 'gorilla', 'hand', 'hog', 'honey badger', 'horn', 'jackal', 'knife', 'knuckle', 'leopard', 'lily', 'lion', 'liontooth', 'mamba', 'mammoth', 'monkey', 'moth', 'needle', 'owl', 'phantom', 'pygmy', 'pincer', 'pistol', 'rat', 'raven', 'ravenclaw', 'razor', 'reaper', 'rebel', 'rider', 'rose', 'saber', 'sabortooth', 'serpent', 'shark', 'sharkfin', 'sharktooth', 'skeleton', 'skull', 'snake', 'spider', 'sword', 'tear', 'thorn', 'tiger', 'toad', 'troll', 'undead', 'viper', 'vulture', 'warthog', 'water', 'wolf', 'wolverine'];
@@ -19,3 +19,4 @@ export default function gangs() {
     return names;
   }
 }
+module.exports = gangs

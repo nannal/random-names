@@ -1,4 +1,4 @@
-export default function others() {
+function others() {
   let names;
   let rnd;
   const names1 = ['Lala', 'Abra', 'Ala', 'Alaka', 'Bim', 'Braca', 'Bracada', 'Cada', 'Cadabra', 'Dabra', 'Eppe', 'Flam', 'Flim', 'Gobble', 'Gobbledee', 'Gook', 'Hello', 'Hillo', 'Hocu', 'Hocus', 'Hollo', 'Hum', 'Jumbo', 'Kakke', 'Kazam', 'Laka', 'Mani', 'Mumbo', 'Ocus', 'Om', 'Padme', 'Peppe', 'Pocu', 'Pocus', 'Pow', 'Presto', 'Sala', 'Same', 'Sesa', 'Sesame', 'Shazam', 'Sim', 'Wow', 'Zam', 'Zik', 'Zizzi', 'Zuzzy'];
@@ -15,3 +15,4 @@ export default function others() {
     return names;
   }
 }
+module.exports = others

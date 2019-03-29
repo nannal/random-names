@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function gotals() {
+function gotals() {
   let namelast;
   let names;
   const nm1 = ['f', 'gl', 'h', 'j', 'k', 'l', 'm', 'n', 's', 't', 'th', 'v', 'vl', 'z'];
@@ -26,3 +26,4 @@ export default function gotals() {
     return names;
   }
 }
+module.exports = gotals

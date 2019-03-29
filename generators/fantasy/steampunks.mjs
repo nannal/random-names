@@ -1,4 +1,4 @@
-export default function steampunks() {
+function steampunks() {
   let names;
   let rnd;
   let rnd2;
@@ -19,3 +19,4 @@ export default function steampunks() {
     return names;
   }
 }
+module.exports = steampunks

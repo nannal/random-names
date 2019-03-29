@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function titles() {
+function titles() {
   let names;
   const nm1 = ['Queen', 'Matriarch', 'Mother', 'Father', 'Admiral', 'Baron', 'Blessed', 'Caesar', 'Captain', 'Cardinal', 'Chairman', 'Chief', 'Chieftain', 'Commander', 'Corporal', 'Count', 'Defender', 'Divine', 'Dom', 'Duke', 'Earl', 'Elder', 'Eminence', 'Emperor', 'Exarch', 'General', 'Governor', 'Grand Master', 'Guardian', 'Headman', 'Herald', 'Imperator', 'King', 'Lord', 'Master', 'Palatine', 'Paragon', 'Patriarch', 'Pharaoh', 'President', 'Prime', 'Prince', 'Protector', 'Ruler', 'Shogun', 'Sultan'];
   const nm2 = ['Arrows', 'Ash', 'Blue', 'Bones', 'Conviction', 'Damned', 'Darkness', 'Dawn', 'Death', 'Demons', 'Dragons', 'Dreams', 'Dusk', 'Dwarves', 'Elves', 'Faith', 'Fear', 'Fire', 'Fools', 'Fortitude', 'Gold', 'Green', 'Heaven', 'Hell', 'Ice', 'Iron', 'Justice', 'Kingdoms', 'Life', 'Light', 'Men', 'Nations', 'Nature', 'New Kingdom', 'Night', 'Nightmares', 'the Old Kingdom', 'Orcs', 'Order', 'Peace', 'Purity', 'Realms', 'Red', 'Sand', 'Ships', 'Silver', 'Skulls', 'Snow', 'Steel', 'Swords', 'Thieves', 'Unity', 'Universe', 'Virtue', 'War', 'Watch', 'Water', 'the Dead', 'the Desert', 'the Dominion', 'the Earth', 'the East', 'the Fields', 'the Fleet', 'the Forests', 'the Future', 'the Gods', 'the Lakes', 'the Lands', 'the Living', 'the Marsh', 'the Millenium', 'the Moon', 'the Mountains', 'the New Age', 'the North', 'the Ocean', 'the People', 'the Plains', 'the Reach', 'the Realm', 'the Rivers', 'the Seas', 'the Skies', 'the Small', 'the South', 'the Stars', 'the Sun', 'the Titans', 'the Undead', 'the Vale', 'the Valleys', 'the West', 'the Wild', 'the Winds', 'the Wise', 'the World'];
@@ -20,3 +20,4 @@ export default function titles() {
     return names;
   }
 }
+module.exports = titles

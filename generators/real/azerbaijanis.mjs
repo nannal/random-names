@@ -1,4 +1,4 @@
-export default function azerbaijanis() {
+function azerbaijanis() {
   let j;
   let names;
   let rnd;
@@ -45,3 +45,4 @@ export default function azerbaijanis() {
     return names;
   }
 }
+module.exports = azerbaijanis

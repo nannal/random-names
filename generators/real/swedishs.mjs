@@ -1,4 +1,4 @@
-export default function swedishs() {
+function swedishs() {
   let names;
   let rnd;
   let rnd1;
@@ -14,3 +14,4 @@ export default function swedishs() {
     return names;
   }
 }
+module.exports = swedishs

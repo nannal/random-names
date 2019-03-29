@@ -1,4 +1,4 @@
-export default function ninjas() {
+function ninjas() {
   let names;
   let rnd;
   let rnd2;
@@ -20,3 +20,4 @@ export default function ninjas() {
     return names;
   }
 }
+module.exports = ninjas

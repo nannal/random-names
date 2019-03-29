@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function werewolfPacks() {
+function werewolfPacks() {
   let names;
   const nm1 = ['Ambersky', 'Arctic', 'Ash', 'Bane', 'Barbaric', 'Black', 'Bloodlust', 'Bloodrose', 'Bloodvenom', 'Blue', 'Broken', 'Brown', 'Brutal', 'Calm', 'Crescent', 'Crimson', 'Cruel', 'Dark', 'Dawn', 'Dawnfall', 'Dawnguard', 'Dessert', 'Dusk', 'Duskfall', 'Evening', 'Feral', 'Ferocious', 'Fierce', 'Golden', 'Grey', 'Hollow', 'Imperial', 'Kind', 'Lichen', 'Lightning', 'Lost', 'Lunar', 'Lupine', 'Lycan', 'Midnight', 'Morning', 'Mountain', 'Mystic', 'Native', 'Night', 'Nightfall', 'Nightshade', 'Nightstar', 'Primal', 'Prime', 'Raging', 'Red', 'Sanguis', 'Savage', 'Scarlet', 'Scarred', 'Sentinel', 'Shadowed', 'Silent', 'Silver', 'Silverback', 'Solar', 'Spirit', 'Starry', 'Sundown', 'Sunset', 'Thunder', 'Tranquil', 'Vanished', 'Vengeful', 'Vicious', 'Whisper', 'White', 'Wild', 'Moonlit', 'Darkmoon', 'Blue Moon', 'Moonstone', 'Bloodmoon', 'Crescent Moon', 'Moonvalley', 'Full Moon', 'Moon'];
   const nm2 = ['Ambersky', 'Arctic', 'Ash', 'Bane', 'Barbaric', 'Black', 'Bloodlust', 'Bloodrose', 'Bloodvenom', 'Blue', 'Broken', 'Brown', 'Brutal', 'Calm', 'Crescent', 'Crimson', 'Cruel', 'Dark', 'Dawn', 'Dawnfall', 'Dawnguard', 'Dessert', 'Dusk', 'Duskfall', 'Evening', 'Feral', 'Ferocious', 'Fierce', 'Golden', 'Grey', 'Hollow', 'Imperial', 'Kind', 'Lichen', 'Lightning', 'Lost', 'Lunar', 'Lupine', 'Lycan', 'Midnight', 'Morning', 'Mountain', 'Mystic', 'Native', 'Night', 'Nightfall', 'Nightshade', 'Nightstar', 'Primal', 'Prime', 'Raging', 'Red', 'Sanguis', 'Savage', 'Scarlet', 'Scarred', 'Sentinel', 'Shadowed', 'Silent', 'Silver', 'Silverback', 'Solar', 'Spirit', 'Starry', 'Sundown', 'Sunset', 'Thunder', 'Tranquil', 'Vanished', 'Vengeful', 'Vicious', 'Whisper', 'White', 'Wild'];
@@ -19,3 +19,4 @@ export default function werewolfPacks() {
     return names;
   }
 }
+module.exports = werewolfPacks

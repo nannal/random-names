@@ -1,4 +1,4 @@
-export default function trills() {
+function trills() {
   let names;
   let rnd;
   let rnd2;
@@ -81,3 +81,4 @@ export default function trills() {
     return names;
   }
 }
+module.exports = trills

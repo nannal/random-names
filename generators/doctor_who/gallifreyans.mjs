@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function gallifreyans() {
+function gallifreyans() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'c', 'ch', 'd', 'dr', 'f', 'g', 'gl', 'gr', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'pr', 'q', 'r', 's', 'st', 't', 'th', 'tr', 'v', 'z'];
@@ -36,3 +36,4 @@ export default function gallifreyans() {
     return names;
   }
 }
+module.exports = gallifreyans

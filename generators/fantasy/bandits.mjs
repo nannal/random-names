@@ -1,4 +1,4 @@
-export default function bandits() {
+function bandits() {
   let names;
   let rnd;
   let rnd2;
@@ -21,3 +21,4 @@ export default function bandits() {
     return names;
   }
 }
+module.exports = bandits

@@ -1,4 +1,4 @@
-export default function gungans() {
+function gungans() {
   let namelast;
   let names;
   let rnd;
@@ -83,3 +83,4 @@ export default function gungans() {
     return names;
   }
 }
+module.exports = gungans

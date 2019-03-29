@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function imperials() {
+function imperials() {
   let names;
   let lName;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -29,3 +29,4 @@ export default function imperials() {
   }
   return names;
 }
+module.exports = imperials

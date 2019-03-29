@@ -1,4 +1,4 @@
-export default function fantasySurnames() {
+function fantasySurnames() {
   let names;
   let rnd;
   let rnd2;
@@ -14,3 +14,4 @@ export default function fantasySurnames() {
     return names;
   }
 }
+module.exports = fantasySurnames

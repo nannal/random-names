@@ -1,4 +1,4 @@
-export default function shops() {
+function shops() {
   let names;
   let rnd;
   let rnd2;
@@ -25,3 +25,4 @@ export default function shops() {
     return names;
   }
 }
+module.exports = shops

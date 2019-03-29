@@ -1,4 +1,4 @@
-export default function bookTitles() {
+function bookTitles() {
   let names;
   let rnd;
   let rnd2;
@@ -119,3 +119,4 @@ export default function bookTitles() {
     return names;
   }
 }
+module.exports = bookTitles

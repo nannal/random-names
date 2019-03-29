@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function dugs() {
+function dugs() {
   let namelast;
   let names;
   const nm1 = ['b', 'd', 'g', 'gr', 'j', 'k', 'n', 'p', 'pr', 'r', 's', 't', 'tr', 'v'];
@@ -20,3 +20,4 @@ export default function dugs() {
     return names;
   }
 }
+module.exports = dugs

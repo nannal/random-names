@@ -1,4 +1,4 @@
-export default function duross() {
+function duross() {
   let namelast;
   let names;
   let rnd3b;
@@ -71,3 +71,4 @@ export default function duross() {
     return names;
   }
 }
+module.exports = duross

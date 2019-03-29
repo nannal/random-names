@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function detectives() {
+function detectives() {
   let names;
   const type = Math.floor(Math.random() * 3.0);
   const nm1 = ['Ace', 'Adam', 'Adrian', 'Alec', 'Alex', 'Andrew', 'Arthur', 'Barry', 'Bill', 'Brad', 'Braden', 'Brian', 'Bruce', 'Carl', 'Chad', 'Charles', 'Chris', 'Clive', 'Conan', 'Conor', 'Craig', 'Dale', 'Dan', 'Darryl', 'Dave', 'David', 'Denzel', 'Derek', 'Don', 'Donald', 'Drake', 'Dwayne', 'Ed', 'Edgar', 'Ethan', 'Frank', 'Fred', 'Gavin', 'George', 'Glenn', 'Gordon', 'Graham', 'Grant', 'Greg', 'Gus', 'Hal', 'Hank', 'Harold', 'Harris', 'Harry', 'Hector', 'Henry', 'Jack', 'Jacob', 'Jake', 'James', 'Jason', 'Jim', 'Joe', 'Jon', 'Kurt', 'Lance', 'Larry', 'Lars', 'Leo', 'Logan', 'Lou', 'Luke', 'Marcus', 'Martin', 'Marvin', 'Matt', 'Max', 'Michael', 'Mike', 'Miles', 'Moe', 'Morgan', 'Nic', 'Oscar', 'Owen', 'Oz', 'Paul', 'Pete', 'Peter', 'Phil', 'Pierce', 'Ray', 'Raymond', 'Rex', 'Rick', 'Rob', 'Robert', 'Roger', 'Russ', 'Russell', 'Ryan', 'Sam', 'Samuel', 'Saul', 'Scott', 'Sean', 'Seth', 'Shawn', 'Sid', 'Stan', 'Stephen', 'Steven', 'Terry', 'Thomas', 'Tom', 'Tony', 'Trevor', 'Victor', 'Vince', 'Walter', 'Wayne', 'Will', 'William', 'Zac', 'Zack'];
@@ -18,3 +18,4 @@ export default function detectives() {
     return names;
   }
 }
+module.exports = detectives

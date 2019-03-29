@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function mermaids() {
+function mermaids() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aqilus', 'Porcus', 'Nater', 'Filtys', 'Merpus ', 'Tertis', 'Osharus', 'Rimulus', 'Aberdeen', 'Aberforth', 'Adrian', 'Aeces', 'Aenon', 'Agual', 'Anchor', 'Andaman', 'Anenon', 'Aquarius', 'Aquor', 'Arroyo', 'Baltic', 'Barracudon', 'Bay', 'Beck', 'Bered', 'Bo', 'Bourne', 'Brendan', 'Brooke', 'Bruinen', 'Calder', 'Caol', 'Cari', 'Caspian', 'Cato', 'Chalakon', 'Clifford', 'Clyde', 'Coburn', 'Como', 'Conway', 'Cruise', 'Cyraenan', 'Cyraeneus', 'Cyraeni', 'Cyreus', 'Dathan', 'Davey', 'Deniz', 'Dewy', 'Dillon', 'Dorado', 'Douglas', 'Dover', 'Drake', 'Duff', 'Dune', 'Duxor', 'Dylan', 'Dylon', 'Eärendil', 'Earendil', 'Ecthelion', 'Ervin', 'Finn', 'Ford', 'Gal', 'Gar', 'Guadalupe', 'Hali', 'Hawkins', 'Hiro', 'Hurley', 'Indra', 'Irvin', 'Irving', 'Jabal', 'Jack', 'Jacques', 'Jafar', 'Jetty', 'Jonah', 'Jorah', 'Jordan', 'Jubal', 'Kae', 'Kaerio', 'Kaerius', 'Kai', 'Kailani', 'Kairius', 'Kawai', 'Keel', 'Kelvin', 'Kendall', 'Kenn', 'Krill', 'Kyle', 'Lachlan', 'Laekces', 'Laguna', 'Laiken', 'Leith', 'Leomaris', 'Leven', 'Ligurian', 'Lincoln', 'Llyr', 'Lusca', 'Lynn', 'Maggiore', 'Mako', 'Marin', 'Marinus', 'Marious', 'Marius', 'Marlin', 'Marlow', 'Marlowe', 'Marsh', 'Marshal', 'Marsious', 'Maxwell', 'Merrick', 'Mizuko', 'Moby', 'Monroe', 'Moor', 'Moore', 'Morcant', 'Morgan', 'Morrissey', 'Mortimer', 'Morven', 'Muir', 'Muiress', 'Muriel', 'Murphy', 'Murray', 'Murrissey', 'Naga', 'Nebraska', 'Neptune', 'Neres', 'Nereus', 'Nerio', 'Nerrocen', 'Noelani', 'Oceanus', 'Octopian', 'Orman', 'Orta', 'Paio', 'Pelagius', 'Peleg', 'Pike', 'Plato', 'Poseider', 'Poseidon', 'Queseon', 'Raen', 'Ran', 'Ray', 'Reif', 'Ren', 'Rio', 'Rip', 'Roan', 'Ronan', 'Ross', 'Santus', 'Seaton', 'Seirus', 'Shar', 'Skipper', 'Storm', 'Strom', 'Tack', 'Tad', 'Tamesis', 'Taron', 'Thames', 'Tide', 'Trent', 'Trenton', 'Tridenton', 'Triton', 'Tullius', 'Wade', 'Wyatt', 'Yarrow', 'Yuval', 'Zale', 'Zander'];
@@ -14,3 +14,4 @@ export default function mermaids() {
     return names;
   }
 }
+module.exports = mermaids

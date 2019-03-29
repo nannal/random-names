@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function benzites() {
+function benzites() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'd', 'g', 'j', 'k', 'm', 'p', 'q', 'r', 't', 'v', 'z'];
@@ -27,3 +27,4 @@ export default function benzites() {
     return names;
   }
 }
+module.exports = benzites

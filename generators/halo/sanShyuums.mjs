@@ -1,4 +1,4 @@
-export default function sanShyuums() {
+function sanShyuums() {
   let names;
   let rnd;
   let rnd2;
@@ -44,3 +44,4 @@ export default function sanShyuums() {
     return names;
   }
 }
+module.exports = sanShyuums

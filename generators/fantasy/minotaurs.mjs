@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function minotaurs() {
+function minotaurs() {
   let names;
   const type = Math.floor(Math.random() * 3.0);
   const nm1 = ['Ar', 'Are', 'Ba', 'Bra', 'Bri', 'Da', 'Dha', 'Dra', 'Dri', 'Dru', 'Gar', 'Gara', 'Gna', 'Gnar', 'Gno', 'Gnu', 'Gra', 'Gri', 'Gru', 'Gun', 'Hon', 'Hun', 'Ja', 'Jan', 'Jar', 'Kal', 'Kan', 'Kha', 'Khu', 'Kon', 'Kul', 'Man', 'Min', 'Mo', 'Moh', 'Mohr', 'Mon', 'Mu', 'Mun', 'Mur', 'Na', 'Ni', 'No', 'Nohr', 'Nu', 'Nur', 'Par', 'Pra', 'Pru', 'Ra', 'Rahd', 'Ran', 'Rat', 'Ren', 'Ret', 'Ri', 'Ril', 'Ro', 'Ru', 'Rut', 'Sir', 'Su', 'Sur', 'Sy', 'Syn', 'Syr', 'Te', 'Tin', 'Tra', 'Tu', 'Tuhr', 'Tun', 'Tur', 'Ty', 'Tyr', 'Va', 'Vo', 'Vra', 'Vru', 'Vu', 'Vy', 'Vyr', 'Wan', 'War', 'Wra', 'Wri', 'Wru', 'Wry', 'Wu', 'Wun', 'Wur', 'Wy', 'Wyr', 'Xa', 'Xin', 'Xu', 'Xur', 'Xy', 'Za', 'Zam', 'Zan', 'Zu', 'Zun', 'Zy', 'Zyr'];
@@ -20,3 +20,4 @@ export default function minotaurs() {
     return names;
   }
 }
+module.exports = minotaurs

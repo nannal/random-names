@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function orc() {
+function orc() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aggu', 'Agu', 'Ar', 'Arn', 'Aso', 'At', 'Atru', 'Bar', 'Bel', 'Bo', 'Bor', 'Brak', 'Ca', 'Cra', 'Do', 'Dor', 'Dra', 'Du', 'Dur', 'Ga', 'Gal', 'Gan', 'Gar', 'Go', 'Gor', 'Got', 'Gram', 'Grim', 'Gro', 'Grom', 'Gru', 'Gul', 'Hag', 'Han', 'Har', 'Hog', 'Hon', 'Hor', 'Hun', 'Hur', 'Ka', 'Kal', 'Kam', 'Kar', 'Karo', 'Kel', 'Kil', 'Ko', 'Kom', 'Kor', 'Kra', 'Kru', 'Ku', 'Kul', 'Kur', 'La', 'Lam', 'Lu', 'Lum', 'Ma', 'Mag', 'Mahl', 'Mak', 'Mal', 'Mar', 'Mo', 'Mog', 'Mok', 'Mor', 'Mu', 'Mug', 'Muk', 'Mura', 'Nee', 'Oggu', 'Ogu', 'Ok', 'Oko', 'Olla', 'Or', 'Oro', 'Rek', 'Ron', 'Rona', 'Sa', 'Sar', 'So', 'Sor', 'Tha', 'Thar', 'Ther', 'Thra', 'Thro', 'Thru', 'Thu', 'Thur', 'Trak', 'Truk', 'Uk', 'Uko', 'Ukra', 'Ukru', 'Ulla', 'Ur', 'Urtha', 'Urthu', 'Urtra', 'Urtru', 'Za', 'Zar', 'Zas', 'Zav', 'Zev', 'Zor', 'Zu', 'Zur', 'Zus'];
@@ -19,3 +19,4 @@ export default function orc() {
     return names;
   }
 }
+module.exports = orc

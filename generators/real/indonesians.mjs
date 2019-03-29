@@ -1,4 +1,4 @@
-export default function indonesians() {
+function indonesians() {
   let names;
   let rnd0;
   let rnd1;
@@ -55,3 +55,4 @@ export default function indonesians() {
     return names;
   }
 }
+module.exports = indonesians

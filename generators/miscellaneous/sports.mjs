@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function sports() {
+function sports() {
   let names;
   const nm1 = ['Acro', 'Adven', 'Aero', 'Air', 'Alpha', 'Ama', 'Anar', 'Ani', 'Aqua', 'Asteroi', 'Auto', 'Azu', 'Bad', 'Bala', 'Bea', 'Bia', 'Biath', 'Blitz', 'Brawl', 'Bungee', 'Chaos', 'Chrono', 'Clash', 'Comb', 'Comet', 'Corner', 'Crash', 'Cri', 'Cross', 'Cryo', 'Cy', 'Cyclo', 'Death', 'Deca', 'Demo', 'Demoli', 'Dino', 'Diplo', 'Dirt', 'Dis', 'Disc', 'Dog', 'Domi', 'Domina', 'Draft', 'Drag', 'Drago', 'Dri', 'Drift', 'Dril', 'Dual', 'Duo', 'Electri', 'Endu', 'Equi', 'Fien', 'Fluke', 'Fore', 'Free', 'Frost', 'Fur', 'Fury', 'Fuse', 'Geo', 'Giga', 'Gli', 'Glue', 'Grav', 'Grim', 'Gut', 'Gutter', 'Hi', 'Hollow', 'Hover', 'Hy', 'Hybri', 'Hypo', 'Ice', 'Immu', 'Indi', 'Infini', 'Inter', 'Kil', 'Laser', 'Lim', 'Lo', 'Mara', 'Mash', 'Matri', 'Maze', 'Mer', 'Meta', 'Mind', 'Mini', 'Mix', 'Mod', 'Mono', 'Mud', 'Neo', 'Nether', 'Nova', 'Omega', 'Orient', 'Pandemo', 'Para', 'Persi', 'Pitch', 'Pod', 'Prime', 'Pro', 'Psy', 'Pyra', 'Pyre', 'Pyro', 'Quad', 'Quadri', 'Quantum', 'Race', 'Rando', 'Resi', 'Reso', 'Rever', 'Ring', 'Ro', 'Roa', 'Rock', 'Rum', 'Sam', 'Scu', 'Scuf', 'Seg', 'Siege', 'Skele', 'Skir', 'Soar', 'Speed', 'Sti', 'Storm', 'Strate', 'Strato', 'Sub', 'Sur', 'Swor', 'Sym', 'Sys', 'Tag', 'Tele', 'Terri', 'Terror', 'Thunder', 'Tira', 'Tiro', 'Titan', 'Trampo', 'Tria', 'Triad', 'Trini', 'Tug', 'Tum', 'Ulti', 'Ultra', 'Uni', 'Venti', 'Vertex', 'Verti', 'Virti', 'Vitali', 'Void', 'Wall', 'War', 'Wel', 'Wheel', 'Wish', 'Wub', 'Zephy'];
   const nm2 = ['ball', 'base', 'bat', 'batics', 'boarding', 'chase', 'course', 'cross', 'crosse', 'cycling', 'derby', 'dive', 'diving', 'draft', 'game', 'glide', 'go', 'goal', 'hoop', 'line', 'ling', 'mix', 'net', 'play', 'pool', 'race', 'raid', 'rally', 'relay', 'sail', 'slam', 'style', 'surf', 'surfing', 'tag', 'ton', 'tour', 'trial', 'vault', 'volley'];
@@ -16,3 +16,4 @@ export default function sports() {
     return names;
   }
 }
+module.exports = sports

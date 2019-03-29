@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function wildstarHumans() {
+function wildstarHumans() {
   let name;
   let lname;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -18,3 +18,4 @@ export default function wildstarHumans() {
     return name;
   }
 }
+module.exports = wildstarHumans

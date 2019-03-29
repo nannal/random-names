@@ -1,4 +1,4 @@
-export default function zoras() {
+function zoras() {
   let names;
   let rnd;
   let rnd2;
@@ -54,3 +54,4 @@ export default function zoras() {
     return names;
   }
 }
+module.exports = zoras

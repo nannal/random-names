@@ -1,4 +1,4 @@
-export default function cityDistricts() {
+function cityDistricts() {
   let names;
   let rnd;
   let rnd2;
@@ -52,3 +52,4 @@ export default function cityDistricts() {
     return names;
   }
 }
+module.exports = cityDistricts

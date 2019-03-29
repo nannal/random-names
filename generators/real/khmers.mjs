@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function khmers() {
+function khmers() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Achariya', 'Akara', 'Amara', 'Anchaly', 'Arun', 'Atith', 'Bona', 'Bora', 'Boran', 'Borey', 'Bourey', 'Bunroeun', 'Chakara', 'Chakra', 'Chakriya', 'Chamroeun', 'Chankrisna', 'Chann', 'Chanthou', 'Chantou', 'Chantrea', 'Chanvatey', 'Chariya', 'Charya', 'Chea', 'Chhay', 'Chhaya', 'Dara', 'Darany', 'Davuth', 'Heng', 'Khemera', 'Kiri', 'Kosal', 'Kravann', 'Leap', 'Makara', 'Many', 'Mao', 'Mau', 'Meaker', 'Mittapheap', 'Montha', 'Mony', 'Munney', 'Munny', 'Narith', 'Nhean', 'Nimith', 'Nimol', 'Nisay', 'Noreaksey', 'Oudom', 'Peou', 'Phala', 'Pheakdei', 'Phirum', 'Phirun', 'Pich', 'Piseth', 'Pisey', 'Poeu', 'Ponleak', 'Ponleu', 'Ponlok', 'Prak', 'Pros', 'Puthyrith', 'Rachana', 'Rainsey', 'Raksmei', 'Rangsei', 'Rasmey', 'Rath', 'Rathana', 'Rathanak', 'Reasmey', 'Rith', 'Rithipol', 'Rithisak', 'Rithy', 'Roth', 'Rotha', 'Rothana', 'Rothanak', 'Rottana', 'Sakngea', 'Samang', 'Samay', 'Sambath', 'Samlain', 'Samnang', 'Samphy', 'Samrin', 'Sangha', 'Sann', 'Serey', 'Sokha', 'Sokhem', 'Sokhom', 'Sokun', 'Somnang', 'Sonith', 'Sopat', 'Sopath', 'Sophat', 'Sophea', 'Sopheaktra', 'Sopheap', 'Sopheara', 'Soriya', 'Sorya', 'Sotearith', 'Sotha', 'Sotharith', 'Sothea', 'Sothear', 'Sothiya', 'Sothy', 'Sourkea', 'Sov', 'Sovann', 'Sovanna', 'Sovannarith', 'Sros', 'Thom', 'Vannak', 'Veasna', 'Veha', 'Vibol', 'Vichear', 'Vichet', 'Vireak', 'Vireakboth', 'Visal', 'Viseth', 'Visna', 'Visoth', 'Visothirith', 'Vithara', 'Vithu'];
@@ -15,3 +15,4 @@ export default function khmers() {
     return names;
   }
 }
+module.exports = khmers

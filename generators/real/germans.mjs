@@ -1,4 +1,4 @@
-export default function germans() {
+function germans() {
   let names;
   let rnd;
   let rnd2;
@@ -14,3 +14,4 @@ export default function germans() {
     return names;
   }
 }
+module.exports = germans

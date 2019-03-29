@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function lakes() {
+function lakes() {
   let names;
   const nm1 = ['Abysmal', 'Alligator', 'Amazon', 'Arctic', 'Arrowhead', 'Bamboo', 'Barren', 'Black', 'Bland', 'Blue', 'Bogbeast', 'Boiling', 'Bottomless', 'Brilliant', 'Bursting', 'Calm', 'Calmest', 'Charmed', 'Cheerless', 'Cobalt', 'Cold', 'Coral', 'Crocodile', 'Crystal', 'Cursed', 'Dancing', 'Dark', 'Darkest', 'Dead', 'Deep', 'Deepest', 'Dense', 'Depraved', 'Distant', 'Dragonfly', 'Dread', 'Dreaded', 'Eastern', 'Emerald', 'Empty', 'Enchanted', 'Ethereal', 'Fair', 'Flat', 'Flowing', 'Fluorescent', 'Foaming', 'Forbidden', 'Frothy', 'Frozen', 'Furthest', 'Glassy', 'Gleaming', 'Glistening', 'Grave', 'Gray', 'Green', 'Harmonious', 'Harmony', 'Heartless', 'Heaving', 'Hungry', 'Infernal', 'Infinite', 'Invisible', 'Iris', 'Isolated', 'Jade', 'Laughing', 'Lifeless', 'Lilypad', 'Living', 'Lonely', 'Lotus', 'Lucent', 'Majestic', 'Mesmerizing', 'Midnight', 'Mighty', 'Mirror', 'Mirrored', 'Misty', 'Moaning', 'Moon-lit', 'Motionless', 'Moving', 'Narrow', 'Neglected', 'New', 'Northern', 'Peaceful', 'Perfumed', 'Pleasant', 'Primeval', 'Pristine', 'Quiet', 'Raging', 'Rainy', 'Red', 'Reflecting', 'Relaxing', 'Restless', 'Rippling', 'Rocking', 'Rolling', 'Rough', 'Rushing', 'Salty', 'Sandy', 'Sanguine', 'Sapphire', 'Savage', 'Serene', 'Shaded', 'Shadow', 'Shady', 'Shimmering', 'Silent', 'Sleeping', 'Soundless', 'Southern', 'Spacious', 'Sparkling', 'Sterile', 'Sunny', 'Surging', 'Tadpole', 'Teal', 'Thundering', 'Tinted', 'Tortoise', 'Tranquil', 'Tropic', 'Troubled', 'Turbulent', 'Turquoise', 'Turtle', 'Ugly', 'Uncanny', 'Unknown', 'Unstable', 'Vast', 'Violent', 'Walled', 'Wasted', 'Wasteful', 'Wasting', 'Waveless', 'Western', 'Whispering', 'White', 'Wild', 'Windy', 'Wondering', 'Wrinkled', 'Yearning'];
   const nm2 = ['Basin', 'Cove', 'Depths', 'Domain', 'Expanse', 'Gorge', 'Lagoon', 'Lake', 'Loch', 'Pond', 'Reservoir', 'Shallows', 'Waters'];
@@ -21,3 +21,4 @@ export default function lakes() {
     return names;
   }
 }
+module.exports = lakes

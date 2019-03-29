@@ -1,4 +1,4 @@
-export default function crops() {
+function crops() {
   let names;
   let rnd;
   let rnd2;
@@ -42,3 +42,4 @@ export default function crops() {
     return names;
   }
 }
+module.exports = crops

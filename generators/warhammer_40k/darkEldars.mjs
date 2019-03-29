@@ -1,4 +1,4 @@
-export default function darkEldars() {
+function darkEldars() {
   let names;
   let rnd;
   let rnd2;
@@ -20,3 +20,4 @@ export default function darkEldars() {
     return names;
   }
 }
+module.exports = darkEldars

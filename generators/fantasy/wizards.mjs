@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function wizards() {
+function wizards() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', ''];
@@ -40,3 +40,4 @@ export default function wizards() {
     return names;
   }
 }
+module.exports = wizards

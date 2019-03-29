@@ -1,4 +1,4 @@
-export default function camps() {
+function camps() {
   let names;
   let rnd;
   const names1 = ['Aegis', 'Ambition', 'Amnesty', 'Armor', 'Bastion', 'Blessing', 'Chance', 'Charity', 'Chastity', 'Cherish', 'Citadel', 'Clemency', 'Comfort', 'Companion', 'Companionship', 'Company', 'Compassion', 'Conquest', 'Control', 'Courage', 'Covenant', 'Custody', 'Daydream', 'Delight', 'Desire', 'Dignity', 'Divinity', 'Dominion', 'Dream', 'Duty', 'Ecstasy', 'Eden', 'Elation', 'Elysium', 'Euphoria', 'Faith', 'Fantasy', 'Favor', 'Felicity', 'Fellowship', 'Fortitude', 'Fortune', 'Foster', 'Freedom', 'Glee', 'Glory', 'Goodwill', 'Guidance', 'Happiness', 'Harmony', 'Heart', 'Honesty', 'Honor', 'Hope', 'Immunity', 'Joy', 'Jubilee', 'Karma', 'Kudos', 'Liberty', 'Love', 'Luck', 'Majesty', 'Mercy', 'Mirth', 'Nourish', 'Nurture', 'Paradise', 'Parry', 'Passion', 'Piety', 'Prestige', 'Pride', 'Privilege', 'Promise', 'Purity', 'Redemption', 'Reliance', 'Remedy', 'Resistance', 'Respect', 'Return', 'Revolution', 'Safeguard', 'Salvation', 'Sanctuary', 'Solitude', 'Supremacy', 'Sweetness', 'Sympathy', 'Synthesis', 'Tribute', 'Triumph', 'Trust', 'Truth', 'Unity', 'Utopia', 'Victory', 'Vindicate', 'Virtue', 'Wish', 'Wonder', 'Zeal', 'Zion'];
@@ -19,3 +19,4 @@ export default function camps() {
     return names;
   }
 }
+module.exports = camps

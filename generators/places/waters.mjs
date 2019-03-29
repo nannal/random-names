@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function waters() {
+function waters() {
   let names;
   const nm1 = ['Abysmal', 'Arching', 'Red', 'Black', 'White', 'Cursed', 'Frozen', 'Arctic', 'Barren', 'Billowy', 'Bland', 'Blue', 'Boiling', 'Boisterous', 'Bottomless', 'Boundless', 'Brilliant', 'Bursting', 'Calm', 'Calmest', 'Charmed', 'Cheerless', 'Choral', 'Circumfluous', 'Climbing', 'Cobalt', 'Cold', 'Coral', 'Crystal', 'Dancing', 'Dread', 'Dreaded', 'Dark', 'Darkest', 'Dead', 'Deep', 'Deepest', 'Delicious', 'Dense', 'Depraved', 'Distant', 'Eastern', 'Emerald', 'Empty', 'Enchanted', 'Ethereal', 'Ever Reaching', 'Fair', 'Farthest', 'Flat', 'Forbidden', 'Quiet', 'Flowing', 'Foaming', 'Frothy', 'Glassy', 'Gleaming', 'Glistening', 'Grave', 'Gray', 'Green', 'Harmonious', 'Heartless', 'Heaving', 'Homeless', 'Hungry', 'Infernal', 'Infinite', 'Invisible', 'Isolated', 'Jade', 'Laughing', 'Lifeless', 'Living', 'Lonely', 'Lucent', 'Majestic', 'Mesmerizing', 'Mighty', 'Misty', 'Moaning', 'Molten', 'Moon-lit', 'Motionless', 'Narrow', 'Neglected', 'Northern', 'Orient', 'Peaceful', 'Perfumed', 'Pleasant', 'Primeval', 'Raging', 'Rainy', 'Rippling', 'Rocking', 'Rolling', 'Rough', 'Rushing', 'Sandy', 'Sanguine', 'Savage', 'Serene', 'Shimmering', 'Shoaling', 'Shoreless', 'Sleeping', 'Slumbrous', 'Soundless', 'Southern', 'Spacious', 'Sparkling', 'Sterile', 'Stern', 'Straitened', 'Sunny', 'Surging', 'Teal', 'Terrestrial', 'Throbbing', 'Thundering', 'Tideless', 'Tinted', 'Tossing', 'Tranquil', 'Treacherous', 'Triumphant', 'Mirrored', 'Restless', 'Tropic', 'Troubled', 'Turbulent', 'Turquoise', 'Ugly', 'Ultramarine', 'Uncanny', 'Unfathomed', 'Unknown', 'Unresting', 'Unruffled', 'Unstable', 'Vast', 'Violent', 'Walled', 'Wasted', 'Wasteful', 'Wasting', 'Waveless', 'Western', 'Whelming', 'Whispering', 'Wild', 'Windy', 'Wondering', 'Wrinkled', 'Yearning'];
   const nm2 = ['Abyss', 'Tides', 'Waves', 'Bay', 'Deep', 'Depths', 'Domain', 'Expanse', 'Gulf', 'Ocean', 'Sea', 'Waters'];
@@ -20,3 +20,4 @@ export default function waters() {
     return names;
   }
 }
+module.exports = waters

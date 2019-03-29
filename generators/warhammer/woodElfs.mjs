@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function woodElfs() {
+function woodElfs() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'c', 'd', 'dh', 'g', 'k', 'kh', 'sc', 'str', 't', 'th', 'tr', 'v', 'z'];
@@ -27,3 +27,4 @@ export default function woodElfs() {
     return names;
   }
 }
+module.exports = woodElfs

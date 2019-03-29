@@ -1,4 +1,4 @@
-export default function squads() {
+function squads() {
   let names;
   let rnd;
   let rnd2;
@@ -27,3 +27,4 @@ export default function squads() {
     return names;
   }
 }
+module.exports = squads

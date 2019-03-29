@@ -1,4 +1,4 @@
-export default function darkElfs() {
+function darkElfs() {
   let names;
   let nameL;
   let rnd;
@@ -57,3 +57,4 @@ export default function darkElfs() {
     return names;
   }
 }
+module.exports = darkElfs

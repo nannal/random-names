@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function bloodElf() {
+function bloodElf() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aer', 'Aeri', 'Al', 'Ala', 'Ba', 'Bac', 'Bae', 'Baem', 'Baema', 'Be', 'Bem', 'Bema', 'Bi', 'Bit', 'Ca', 'Cae', 'Caem', 'Cam', 'Dra', 'Drae', 'Du', 'Duy', 'Er', 'Eri', 'Ha', 'Hat', 'He', 'Her', 'In', 'Ine', 'Inet', 'It', 'Je', 'Jen', 'Kee', 'Keel', 'Kre', 'Lo', 'Lor', 'Ma', 'Mat', 'Matha', 'Me', 'Mel', 'No', 'Nor', 'Norae', 'Oni', 'Pa', 'Par', 'Pe', 'Per', 'Qu', 'Qui', 'Ra', 'Rah', 'Sa', 'Sae', 'Saet', 'Sat', 'So', 'Ta', 'Tan', 'Vy', 'Vya', 'We', 'Wel', 'Wele', 'Wi', 'Win', 'Ya', 'Yat', 'Za', 'Zae', 'Zan', 'Ze', 'Zel'];
@@ -27,3 +27,4 @@ export default function bloodElf() {
     return names;
   }
 }
+module.exports = bloodElf

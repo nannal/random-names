@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function akans() {
+function akans() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Kwadwó (Monday)', 'Kwabená (Tuesday)', 'Kwakú (Wednesday)', 'Yaw (Thursday)', 'Kofí (Friday)', 'Kwámè (Saturday)', 'Kwǎmè (Saturday)', 'Kwasí (Sunday)', 'Kodjó (Monday)', 'Kojo (Monday)', 'Jojo (Monday)', 'Cudjoe (Monday)', 'Komlá (Tuesday)', 'Komlã (Tuesday)', 'Komlan (Tuesday)', 'Kabenla Kobby (Tuesday)', 'Ebo (Tuesday)', 'Kobi Kobina (Tuesday)', 'Koku (Wednesday)', 'Kokou (Wednesday)', 'Kweku (Wednesday)', 'Kaku (Wednesday)', 'Kuuku (Wednesday)', 'Yao (Thursday)', 'Yaba (Thursday)', 'Yawo (Thursday)', 'Ekow (Thursday)', 'Kow (Thursday)', 'Kwaw (Thursday)', 'Koffi (Friday)', 'Fiifi (Friday)', 'Yoofi (Friday)', 'Ato (Saturday)', 'Kwami (Saturday)', 'Kuwame (Saturday)', 'Kwamena (Saturday)', 'Kwamina (Saturday)', 'Komi (Saturday)', 'Kwesi (Sunday)', 'Siisi (Sunday)', 'Akwasi (Sunday)', 'Kosi (Sunday)', 'Atá (Twin)', 'Atá Pánin (Younger Twin)', 'Atá Kúmaa (Elder Twin)', 'Táwia (Born after twins)', 'Gaddo (Born after \'Táwia\')', 'Píèsíe (First Born)', 'Mǎnu (Second Born)', 'Meńsã́ (Third Born)', 'Anan (Fourth Born)', 'Anané (Fourth Born)', 'Núm (Fifth Born)', 'Anúm (Fifth Born)', 'Nsĩã́ (Sixth Born)', 'Asón (Seventh Born)', 'Bótwe (Eight Born)', 'Ákron (Ninth Born)', 'Nkróma (Ninth Born)', 'Badú (Tenth Born)', 'Dúkũ (Eleventh Born)', 'Dúnu (Twelfth Born)', 'Kaakyire (Last Born)', 'Mensah (Third Born)', 'Mansah (Third Born)', 'Annan (Fourth Born)', 'Essien (Sixth Born)', 'Esson (Seventh Born)', 'Ansong (Seventh Born)', 'Awotwe (Eight Born)', 'Awotwie (Eight Born)', 'Akun (Ninth Born)', 'Ackon (Ninth Born)', 'Nkrumah (Ninth Born)', 'Bedu (Tenth Born)', 'Berko (First Born)', 'Arko (First Born)', 'Afúom (On the field)', 'Ɔkwán (On the road)', 'Bekṍe (In war)', 'Afiríyie (Happy circumstances)', 'Adofo (Loving circumstances)', 'Agyenim (Great one)', 'Nyamékyε (After long childlessness)', 'Nyaméama (Premature)', 'Kumi (Forcefully)', 'Antó (After death of father)', 'Obím̀pέ (Father refuses)', 'Yεmpέw (Father refuses)'];
@@ -15,3 +15,4 @@ export default function akans() {
     return names;
   }
 }
+module.exports = akans

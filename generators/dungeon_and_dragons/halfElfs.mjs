@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function halfElfs() {
+function halfElfs() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Al', 'Aro', 'Bar', 'Bel', 'Cor', 'Cra', 'Dav', 'Dor', 'Eir', 'El', 'Fal', 'Fril', 'Gaer', 'Gra', 'Hal', 'Hor', 'Ian', 'Ilo', 'Jam', 'Kev', 'Kri', 'Leo', 'Lor', 'Mar', 'Mei', 'Nil', 'Nor', 'Ori', 'Os', 'Pan', 'Pet', 'Quo', 'Raf', 'Ri', 'Sar', 'Syl', 'Tra', 'Tyr', 'Uan', 'Ul', 'Van', 'Vic', 'Wal', 'Wil', 'Xan', 'Xav', 'Yen', 'Yor', 'Zan', 'Zyl'];
@@ -16,3 +16,4 @@ export default function halfElfs() {
     return names;
   }
 }
+module.exports = halfElfs

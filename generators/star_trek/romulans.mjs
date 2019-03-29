@@ -1,4 +1,4 @@
-export default function romulans() {
+function romulans() {
   let names;
   let rnd;
   let rnd2;
@@ -45,3 +45,4 @@ export default function romulans() {
     return names;
   }
 }
+module.exports = romulans

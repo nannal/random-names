@@ -1,4 +1,4 @@
-export default function vehicles() {
+function vehicles() {
   let names;
   let rnd;
   let rnd2;
@@ -40,3 +40,4 @@ export default function vehicles() {
     return names;
   }
 }
+module.exports = vehicles

@@ -1,4 +1,4 @@
-export default function halfOrcs() {
+function halfOrcs() {
   let nameLast;
   let names;
   let rnd;
@@ -92,3 +92,4 @@ export default function halfOrcs() {
     return names;
   }
 }
+module.exports = halfOrcs

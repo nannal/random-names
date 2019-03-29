@@ -1,4 +1,4 @@
-export default function dragons() {
+function dragons() {
   let names;
   let rnd;
   let rnd2;
@@ -28,3 +28,4 @@ export default function dragons() {
     return names;
   }
 }
+module.exports = dragons

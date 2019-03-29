@@ -1,4 +1,4 @@
-export default function myLittlePonys() {
+function myLittlePonys() {
   let names;
   let names1;
   let names2;
@@ -32,3 +32,4 @@ export default function myLittlePonys() {
     return names;
   }
 }
+module.exports = myLittlePonys

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function sangheilis() {
+function sangheilis() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'd', 'f', 'gr', 'j', 'k', 'kh', 'l', 'mr', 'n\'th', 'r', 'rt', 's', 't', 'th', 'v', 'x', 'z', '', ''];
@@ -21,3 +21,4 @@ export default function sangheilis() {
     return names;
   }
 }
+module.exports = sangheilis

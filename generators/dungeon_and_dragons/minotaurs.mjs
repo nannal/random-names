@@ -1,4 +1,4 @@
-export default function minotaurs() {
+function minotaurs() {
   let names;
   let rnd;
   let rnd2;
@@ -24,3 +24,4 @@ export default function minotaurs() {
     return names;
   }
 }
+module.exports = minotaurs

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function wheelOfTimes() {
+function wheelOfTimes() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ad', 'Al', 'Ar', 'Art', 'B', 'Ben', 'Ber', 'Bin', 'C', 'Cal', 'Coul', 'Cul', 'Eam', 'El', 'Er', 'Ert', 'G', 'Gaid', 'Galv', 'Gar', 'J', 'Jan', 'Jand', 'Jul', 'K', 'Kal', 'Ken', 'L', 'Laer', 'Lan', 'Lest', 'Mas', 'Mat', 'Matt', 'Maz', 'Nad', 'Nal', 'Ner', 'Nor', 'Ol', 'Olv', 'Ond', 'Os', 'P', 'Pad', 'Pel', 'Per', 'R', 'Ran', 'Reld', 'Rh', 'S', 'Sal', 'Sar', 'Sil', 'T', 'Th', 'Ther', 'Tor', 'Val', 'Vend', 'Ver', 'Vor', 'Z', 'Zan', 'Zol', 'Zor'];
@@ -18,3 +18,4 @@ export default function wheelOfTimes() {
     return names;
   }
 }
+module.exports = wheelOfTimes

@@ -1,4 +1,4 @@
-export default function wildstarChuas() {
+function wildstarChuas() {
   let name;
   let lname;
   let rnd;
@@ -47,3 +47,4 @@ export default function wildstarChuas() {
     return name;
   }
 }
+module.exports = wildstarChuas

@@ -1,4 +1,4 @@
-export default function keLdors() {
+function keLdors() {
   let namelast;
   let names;
   let rnd5b;
@@ -87,3 +87,4 @@ export default function keLdors() {
     return names;
   }
 }
+module.exports = keLdors

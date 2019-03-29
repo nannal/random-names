@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function tieflings() {
+function tieflings() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aet', 'Ak', 'Am', 'Aran', 'And', 'Ar', 'Ark', 'Bar', 'Car', 'Cas', 'Dam', 'Dhar', 'Eb', 'Ek', 'Er', 'Gar', 'Gu', 'Gue', 'Hor', 'Ia', 'Ka', 'Kai', 'Kar', 'Kil', 'Kos', 'Ky', 'Loke', 'Mal', 'Male', 'Mav', 'Me', 'Mor', 'Neph', 'Oz', 'Ral', 'Re', 'Rol', 'Sal', 'Sha', 'Sir', 'Ska', 'The', 'Thy', 'Thyne', 'Ur', 'Uri', 'Val', 'Xar', 'Zar', 'Zer', 'Zher', 'Zor'];
@@ -24,3 +24,4 @@ export default function tieflings() {
     return names;
   }
 }
+module.exports = tieflings

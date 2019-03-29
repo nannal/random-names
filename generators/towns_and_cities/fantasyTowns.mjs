@@ -1,4 +1,4 @@
-export default function fantasyTowns() {
+function fantasyTowns() {
   let names;
   let rnd;
   let rnd2;
@@ -14,3 +14,4 @@ export default function fantasyTowns() {
     return names;
   }
 }
+module.exports = fantasyTowns

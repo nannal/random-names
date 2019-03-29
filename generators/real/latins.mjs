@@ -1,4 +1,4 @@
-export default function latins() {
+function latins() {
   let names;
   let rnd;
   let rnd1;
@@ -14,3 +14,4 @@ export default function latins() {
     return names;
   }
 }
+module.exports = latins

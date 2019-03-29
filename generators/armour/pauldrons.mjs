@@ -1,4 +1,4 @@
-export default function pauldrons() {
+function pauldrons() {
   let names;
   let rnd0;
   let rnd1;
@@ -48,3 +48,4 @@ export default function pauldrons() {
     return names;
   }
 }
+module.exports = pauldrons

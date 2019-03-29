@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function dragons() {
+function dragons() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'c', 'd', 'f', 'g', 'gl', 'gr', 'k', 'l', 'n', 'r', 's', 'sr', 'shr', 't', 'th', 'v'];
@@ -29,3 +29,4 @@ export default function dragons() {
     return names;
   }
 }
+module.exports = dragons

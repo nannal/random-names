@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function fursonas() {
+function fursonas() {
   let names;
   const type = Math.floor(Math.random() * 3.0);
   const nm1 = ['Amber', 'Arctic', 'Ash', 'Atom', 'Autumn', 'Big', 'Dire', 'Black', 'Blaze', 'Blue', 'Bone', 'Boulder', 'Bright', 'Bronze', 'Cinder', 'Cloud', 'Common', 'Crest', 'Crimson', 'Crystal', 'Dark', 'Dawn', 'Day', 'Desert', 'Dew', 'Doom', 'Dream', 'Dusk', 'Dust', 'Earth', 'Ebon', 'Ember', 'Evening', 'Feather', 'Feral', 'Fire', 'Flame', 'Forest', 'Free', 'Frenzy', 'Frost', 'Fury', 'Gloom', 'Gold', 'Grand', 'Gray', 'Grim', 'High', 'Hill', 'Humble', 'Ice', 'Iron', 'Jade', 'Keen', 'Light', 'Lightning', 'Low', 'Luna', 'Lunar', 'Magic', 'Meadow', 'Mild', 'Mist', 'Molten', 'Moon', 'Morning', 'Mountain', 'Mud', 'Night', 'Noble', 'Ocean', 'Old', 'Pale', 'Pride', 'Proud', 'Rage', 'Rain', 'Rainbow', 'Rapid', 'Rave', 'Razor', 'Red', 'Regal', 'River', 'Rock', 'Rough', 'Rune', 'Sea', 'Shade', 'Shadow', 'Short', 'Silent', 'Silver', 'Simple', 'Sky', 'Small', 'Snow', 'Soft', 'Solar', 'Spark', 'Spirit', 'Spring', 'Star', 'Steel', 'Stone', 'Storm', 'Stout', 'Strong', 'Summer', 'Sun', 'Swift', 'Tall', 'Terra', 'Thunder', 'True', 'Velvet', 'Whit', 'White', 'Wild', 'Wind', 'Winter', 'Wise', 'Wood', 'Young'];
@@ -35,3 +35,4 @@ export default function fursonas() {
     return names;
   }
 }
+module.exports = fursonas

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function laboratorys() {
+function laboratorys() {
   let names;
   const nm1 = ['Lab', 'Laboratory', 'Testing Bureau', 'Research Center', 'Test Center', 'Research Lab', 'Testing Grounds', 'Defense Lab'];
   const nm2 = ['Abused', 'Abusing', 'Adjusted', 'Advanced', 'Advancing', 'Altered', 'Altering', 'Ambiguous', 'Analysing', 'Augmentating', 'Augmented', 'Changing', 'Classified', 'Customized', 'Declined', 'Declining', 'Defined', 'Detecting', 'Deteriorated', 'Deteriorating', 'Developed', 'Developing', 'Diagnosing', 'Diminished', 'Diminishing', 'Discovered', 'Discovering', 'Documented', 'Dynamic', 'Enhanced', 'Enhancing', 'Enriched', 'Enriching', 'Enterprising', 'Established', 'Evolution', 'Evolved', 'Exploring', 'Exposed', 'Exposing', 'Harmful', 'Hidden', 'Improved', 'Improving', 'Intervened', 'Intervening', 'Introduced', 'Introducing', 'Modern', 'Modified', 'Mutating', 'Obscure', 'Organized', 'Progressed', 'Progressing', 'Progressive', 'Public', 'Rare', 'Recovered', 'Recovering', 'Rectified', 'Rectifying', 'Reformed', 'Reforming', 'Regenerating', 'Reinforced', 'Reinforcing', 'Revised', 'Revolutionary', 'Sheltered', 'Stagnated', 'Stagnating', 'Standardized', 'Tabulated', 'Transformed', 'Transforming', 'Unknown', 'Unrevealed', 'Verified'];
@@ -16,3 +16,4 @@ export default function laboratorys() {
     return names;
   }
 }
+module.exports = laboratorys

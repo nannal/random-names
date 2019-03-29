@@ -1,4 +1,4 @@
-export default function drows() {
+function drows() {
   let nameLast;
   let names;
   let rnd;
@@ -88,3 +88,4 @@ export default function drows() {
     return names;
   }
 }
+module.exports = drows

@@ -1,4 +1,4 @@
-export default function gods() {
+function gods() {
   let rnd1b;
   let rnd2b;
   let rnd3b;
@@ -160,3 +160,4 @@ export default function gods() {
   result += name5;
   return result;
 }
+module.exports = gods

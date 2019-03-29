@@ -1,4 +1,4 @@
-export default function toydarians() {
+function toydarians() {
   let namelast;
   let names;
   let rnd;
@@ -73,3 +73,4 @@ export default function toydarians() {
     return names;
   }
 }
+module.exports = toydarians

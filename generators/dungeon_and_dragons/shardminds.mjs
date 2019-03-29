@@ -1,4 +1,4 @@
-export default function shardminds() {
+function shardminds() {
   let names;
   let rnd;
   let rnd2;
@@ -11,3 +11,4 @@ export default function shardminds() {
     return names;
   }
 }
+module.exports = shardminds

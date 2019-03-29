@@ -1,4 +1,4 @@
-export default function awards() {
+function awards() {
   let names;
   let rnd;
   let rnd2;
@@ -19,3 +19,4 @@ export default function awards() {
     return names;
   }
 }
+module.exports = awards

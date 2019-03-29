@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function lamias() {
+function lamias() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Absyr', 'Acast', 'Acher', 'Adelph', 'Adr', 'Aeac', 'Aes', 'Aesc', 'Agath', 'Alc', 'Alex', 'Alph', 'Amph', 'Amyc', 'Anast', 'Anaszt', 'Anath', 'Anc', 'Anch', 'Anst', 'Ant', 'Antiph', 'Aphol', 'Aphr', 'Arist', 'Ars', 'Arth', 'Ashat', 'Ath', 'Athan', 'Bas', 'Bast', 'Baz', 'Bras', 'Buth', 'Caes', 'Caphan', 'Cas', 'Cast', 'Cel', 'Ceph', 'Cir', 'Cyr', 'Das', 'Dath', 'Demith', 'Demoph', 'Deph', 'Deuc', 'Dionys', 'Eph', 'Eras', 'Erasm', 'Eus', 'Eust', 'Hel', 'Heph', 'Her', 'Hesp', 'Ibys', 'Icel', 'Inach', 'Iphicr', 'Iphit', 'Isocr', 'Ix', 'Jas', 'Kos', 'Kosm', 'Krath', 'Laest', 'Lich', 'Lox', 'Lyc', 'Lys', 'Mops', 'Mos', 'Naph', 'Nis', 'Ocean', 'Oediph', 'Orthr', 'Paph', 'Parth', 'Pestr', 'Phaeth', 'Phal', 'Phalaem', 'Phant', 'Phil', 'Phleg', 'Phyl', 'Phrix', 'Priaph', 'Proph', 'Protes', 'Pyras', 'Rasm', 'Rist', 'Salm', 'Scop', 'Socr', 'Sot', 'Soter', 'Spyr', 'Stam', 'Stef', 'Steph', 'Taras', 'Thadd', 'Thal', 'Than', 'Tharas', 'Thelam', 'Theoph', 'Ther', 'Therr', 'Thers', 'Thes', 'Thim', 'Thit', 'Thyest', 'Troph', 'Tyliss', 'Typh', 'Ulyss', 'Vas', 'Vasil', 'Xanth', 'Xen', 'Xerx', 'Xuth', 'Zal', 'Zeph', 'Zet'];
@@ -16,3 +16,4 @@ export default function lamias() {
     return names;
   }
 }
+module.exports = lamias

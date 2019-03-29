@@ -1,4 +1,4 @@
-export default function herbs() {
+function herbs() {
   let names;
   let rnd;
   let rnd2;
@@ -34,3 +34,4 @@ export default function herbs() {
     return names;
   }
 }
+module.exports = herbs

@@ -1,4 +1,4 @@
-export default function devas() {
+function devas() {
   let names;
   let rnd;
   let rnd2;
@@ -31,3 +31,4 @@ export default function devas() {
     return names;
   }
 }
+module.exports = devas

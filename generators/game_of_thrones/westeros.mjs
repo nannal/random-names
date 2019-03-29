@@ -1,4 +1,4 @@
-export default function westeros() {
+function westeros() {
   let names;
   let rnd;
   let rnd2;
@@ -27,3 +27,4 @@ export default function westeros() {
     return names;
   }
 }
+module.exports = westeros

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function weaponAbilities() {
+function weaponAbilities() {
   let names;
   const nm1 = ['Absolving', 'Ambush', 'Ancestral', 'Annihilation', 'Beastly', 'Behemoth', 'Betrayal', 'Blackout', 'Blazing', 'Bleeding', 'Blessed', 'Blind', 'Blinding', 'Blocking', 'Branding', 'Brutal', 'Burning', 'Burst', 'Carving', 'Cataclysmic', 'Chain', 'Cleaving', 'Colossal', 'Combo', 'Combustion', 'Commanding', 'Confusion', 'Corrosive', 'Corrupting', 'Corruption', 'Counter', 'Crackling', 'Crippling', 'Critical', 'Cruel', 'Crumbling', 'Cunning', 'Darkness', 'Dazzling', 'Defiled', 'Defiling', 'Demon', 'Destruction', 'Detonation', 'Disabling', 'Dishonor', 'Dismembering', 'Disrupting', 'Disruption', 'Dissecting', 'Dissection', 'Distracting', 'Divided', 'Divine', 'Division', 'Dizzying', 'Doom', 'Elusive', 'Enveloping', 'Eternal', 'False', 'Fatal', 'Fire', 'Fissure', 'Flame', 'Focusing', 'Fracture', 'Freezing', 'Frenzied', 'Frenzy', 'Fury', 'Gloom', 'Gore', 'Grave', 'Hemorrhaging', 'Holy', 'Honor', 'Howling', 'Hungering', 'Igniting', 'Ignition', 'Immobilizing', 'Immortal', 'Incinerating', 'Incineration', 'Infinity', 'Insanity', 'Interrupting', 'Judgment', 'Justice', 'Karma', 'Knockout', 'Lacerating', 'Lava', 'Legacy', 'Lightning', 'Mad', 'Mammoth', 'Melting', 'Mighty', 'Mirror', 'Molten', 'Mortal', 'Mutilation', 'Needle', 'Nimble', 'Overpowering', 'Paralyzing', 'Perforating', 'Perforation', 'Perpetual', 'Phantom', 'Piercing', 'Poison', 'Power', 'Primal', 'Provoking', 'Puncturing', 'Purging', 'Rampage', 'Reckless', 'Relentless', 'Righteous', 'Rogue', 'Rupturing', 'Ruthless', 'Sacrificial', 'Savage', 'Searing', 'Shadow', 'Shattering', 'Shocking', 'Shrouded', 'Singing', 'Sinister', 'Sliding', 'Smoldering', 'Splinter', 'Stealth', 'Stinging', 'Subtle', 'Summoning', 'Sundering', 'Sweeping', 'Terminal', 'Thunder', 'Titan', 'Titanic', 'Trance', 'Trick', 'Turbulent', 'Twin', 'Ultimatum', 'Unholy', 'Vampiric', 'Vanishing', 'Venom', 'Vital', 'Volley', 'Whirling', 'Whirlwind', 'Whispering', 'Wild'];
   const nm2 = ['Strike', 'Shot', 'Burst', 'Crash', 'Force', 'Thrust', 'Bash', 'Slash', 'Slice', 'Gash', 'Rip', 'Smash', 'Blow', 'Slam', 'Cleave', 'Strikes', 'Strike', 'Strike', 'Shot'];
@@ -15,3 +15,4 @@ export default function weaponAbilities() {
     return names;
   }
 }
+module.exports = weaponAbilities

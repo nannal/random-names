@@ -1,4 +1,4 @@
-export default function volcanos() {
+function volcanos() {
   let name;
   let rnd;
   let rnd2;
@@ -33,3 +33,4 @@ export default function volcanos() {
     return name;
   }
 }
+module.exports = volcanos

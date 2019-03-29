@@ -1,4 +1,4 @@
-export default function apocalypseMutants() {
+function apocalypseMutants() {
   let rnd;
   let names;
   const type = Math.floor(Math.random() * 3.0);
@@ -19,3 +19,4 @@ export default function apocalypseMutants() {
     return names;
   }
 }
+module.exports = apocalypseMutants

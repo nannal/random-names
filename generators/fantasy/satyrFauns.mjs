@@ -1,4 +1,4 @@
-export default function satyrFauns() {
+function satyrFauns() {
   let names;
   let rnd;
   let rnd2;
@@ -47,3 +47,4 @@ export default function satyrFauns() {
     return names;
   }
 }
+module.exports = satyrFauns

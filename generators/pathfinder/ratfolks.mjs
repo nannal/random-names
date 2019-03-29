@@ -1,4 +1,4 @@
-export default function ratfolks() {
+function ratfolks() {
   let names;
   let rnd;
   let rnd2;
@@ -48,3 +48,4 @@ export default function ratfolks() {
     return names;
   }
 }
+module.exports = ratfolks

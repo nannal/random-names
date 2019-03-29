@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function batarians() {
+function batarians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm2 = ['a', 'e', 'u', 'i', 'o', '', '', '', '', '', '', '', '', '', ''];
@@ -20,3 +20,4 @@ export default function batarians() {
     return names;
   }
 }
+module.exports = batarians

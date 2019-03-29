@@ -1,4 +1,4 @@
-export default function postApocalypticSocietys() {
+function postApocalypticSocietys() {
   let names;
   let rnd;
   let rnd1;
@@ -18,3 +18,4 @@ export default function postApocalypticSocietys() {
     return names;
   }
 }
+module.exports = postApocalypticSocietys

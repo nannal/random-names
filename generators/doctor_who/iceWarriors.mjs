@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function iceWarriors() {
+function iceWarriors() {
   let names;
   const nm1 = ['h', 'gr', 'g', 'gl', 'k', 'kr', 'kl', 'r', 'sk', 'sl', 'ss', 'sr', 'sz', 'v', 'vr', 'xz', 'x', 'xr', 'xzn', 'z'];
   const nm2 = ['a', 'i', 'o', 'e', 'aa', 'a', 'u', 'a', 'y', 'a'];
@@ -17,3 +17,4 @@ export default function iceWarriors() {
     return names;
   }
 }
+module.exports = iceWarriors

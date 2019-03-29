@@ -1,4 +1,4 @@
-export default function cafes() {
+function cafes() {
   let rnd2;
   let rnd0;
   let rnd1;
@@ -22,3 +22,4 @@ export default function cafes() {
     return name;
   }
 }
+module.exports = cafes

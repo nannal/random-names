@@ -1,4 +1,4 @@
-export default function mutantSpecies() {
+function mutantSpecies() {
   let names;
   let rnd;
   let rnd2;
@@ -35,3 +35,4 @@ export default function mutantSpecies() {
     return names;
   }
 }
+module.exports = mutantSpecies

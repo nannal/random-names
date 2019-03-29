@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function modernEgyptians() {
+function modernEgyptians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abasi', 'Abdalla', 'Abdelrahman', 'Achraf', 'Adel', 'Adham', 'Ahmad', 'Ahmed', 'Alaa', 'Ali', 'Aly', 'Amir', 'Amr', 'Anwar', 'Ari', 'Ashraf', 'Assem', 'Athouman', 'Aymn', 'Barika', 'Bassam', 'Bassel', 'Bebi', 'Bebti', 'Bedario', 'Boody', 'Chaths', 'Chatuluka', 'Chibale', 'Chigaru', 'Chisisi', 'Darwishi', 'David', 'Desire', 'Dodi', 'Dodo', 'Dods', 'Gahiji', 'Garai', 'Gyasi', 'Haisam', 'Haji', 'Hamadi', 'Hamed', 'Hanbal', 'Hanif', 'Hany', 'Hassan', 'Hatem', 'Haytham', 'Hesso', 'Hosni', 'Hossam', 'Husani', 'Hussein', 'Ishaq', 'Islam', 'Isma', 'Ismael', 'Issa', 'Kafele', 'Kamuzu', 'Kaphiri', 'Kareem', 'Karim', 'Kasiya', 'Kasto', 'Khaled', 'Kontar', 'Louai', 'Madu', 'Maged', 'Mahmoud', 'Male', 'Mamdoh', 'Mando', 'Manu', 'Marwan', 'Masud', 'Mazen', 'Medo', 'Mero', 'Mido', 'Mina', 'Mody', 'Mohab', 'Mohammed', 'Momo', 'Monim', 'Moustafa', 'Muhanad', 'Mustafa', 'Nader', 'Nafty', 'Nassor', 'Nino', 'Nizsm', 'Nour', 'Nuru', 'Odion', 'Omar', 'Osahar', 'Osaze', 'Osman', 'Ossama', 'Psamtic', 'Qeb', 'Quasshie', 'Radames', 'Raffy', 'Ragab', 'Reda', 'Redore', 'Romuald', 'Sadiki', 'Samir', 'Seif', 'Selim', 'Shaaban', 'Shakir', 'Sharky', 'Teremun', 'Thabit', 'Tsekani', 'Ubaid', 'Ufa', 'Usi', 'Wael', 'Waleed', 'Wessam'];
@@ -15,3 +15,4 @@ export default function modernEgyptians() {
     return names;
   }
 }
+module.exports = modernEgyptians

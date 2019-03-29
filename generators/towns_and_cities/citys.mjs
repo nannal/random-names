@@ -1,4 +1,4 @@
-export default function citys() {
+function citys() {
   let names;
   let rnd0;
   let rnd1;
@@ -46,3 +46,4 @@ export default function citys() {
     return names;
   }
 }
+module.exports = citys

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function animatronics() {
+function animatronics() {
   let rnd2;
   let rnd3;
   let names;
@@ -190,3 +190,4 @@ export default function animatronics() {
     return names;
   }
 }
+module.exports = animatronics

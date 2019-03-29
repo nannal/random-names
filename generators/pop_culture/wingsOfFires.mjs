@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function wingsOfFires() {
+function wingsOfFires() {
   let names;
   let rnd;
   const nm1 = ['Anorak', 'Avalanche', 'Beret', 'Bleak', 'Blizz', 'Blizzard', 'Borean', 'Brumal', 'Calve', 'Casaba', 'Chill', 'Chinook', 'Clinch', 'Crymodinia', 'Cryo', 'Crystal', 'Diamond', 'Draft', 'Eranthis', 'Ermine', 'Flake', 'Fleece', 'Floe', 'Flurry', 'Frappe', 'Frigid', 'Frigor', 'Frost', 'Glacial', 'Hailstone', 'Halcyon', 'Hiemal', 'Hiems', 'Hoar', 'Humboldt', 'Hummock', 'Hyemal', 'Hyemate', 'Icy', 'Igloo', 'Luge', 'Melt', 'Miniver', 'Mistral', 'Neige', 'Nippy', 'Nivial', 'Parka', 'Perhiemate', 'Polar', 'Quilt', 'Rime', 'Serac', 'Sherbet', 'Shiver', 'Skate', 'Ski', 'Sledge', 'Sleet', 'Slide', 'Slush', 'Snap', 'Solstice', 'Sorbet', 'Stale', 'Thaw', 'Thaws', 'Toboggan', 'Uncia', 'Woolens'];
@@ -36,3 +36,4 @@ export default function wingsOfFires() {
     return names;
   }
 }
+module.exports = wingsOfFires

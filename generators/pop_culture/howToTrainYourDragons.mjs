@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function howToTrainYourDragons() {
+function howToTrainYourDragons() {
   let names;
   const nm1 = ['Adder', 'Alder', 'Arrow', 'Bewilder', 'Blaze', 'Blubber', 'Bone', 'Bull', 'Burro', 'Change', 'Cloud', 'Crooked', 'Dark', 'Dawn', 'Day', 'Dead', 'Death', 'Desert', 'Doom', 'Dragon', 'Dread', 'Dream', 'Dull', 'Dusk', 'Elder', 'Eternal', 'Fire', 'Flame', 'Flapper', 'Flutter', 'Forever', 'Frost', 'Fury', 'Ghost', 'Gloom', 'Glow', 'Gore', 'Great', 'Grim', 'Ground', 'Hallow', 'Hell', 'Hollow', 'Hook', 'Hypno', 'Inferno', 'Light', 'Little', 'Mild', 'Mud', 'Night', 'Rage', 'Razor', 'Rocket', 'Rumble', 'Sand', 'Sea', 'Shadow', 'Shiver', 'Shock', 'Silver', 'Snow', 'Song', 'Speed', 'Storm', 'Swift', 'Sword', 'Talon', 'Terror', 'Thunder', 'Torch', 'Tranquil', 'Tumble', 'Venom', 'Whirl', 'Wild'];
   const nm2 = ['back', 'beast', 'belly', 'breath', 'claw', 'cutter', 'drum', 'eye', 'eyes', 'fang', 'flight', 'glider', 'grunt', 'horn', 'hunter', 'jaw', 'jumper', 'nose', 'paw', 'ripper', 'roar', 'smasher', 'song', 'striker', 'tail', 'tongue', 'tooth', 'twister', 'whip', 'wing'];
@@ -15,3 +15,4 @@ export default function howToTrainYourDragons() {
     return names;
   }
 }
+module.exports = howToTrainYourDragons

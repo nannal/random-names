@@ -1,4 +1,4 @@
-export default function ithorians() {
+function ithorians() {
   let namelast;
   let names;
   let rnd5b;
@@ -96,3 +96,4 @@ export default function ithorians() {
     return names;
   }
 }
+module.exports = ithorians

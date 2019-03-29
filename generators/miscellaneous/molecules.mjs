@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function molecules() {
+function molecules() {
   let names;
   const nm1 = ['', '', '', '', '', '', '', '', '', '', '', '', '', 'deca', 'di', 'duo', 'hepta', 'hexa', 'hydra', 'hydro', 'hypo', 'iso', 'mono', 'octa', 'penta', 'tetra', 'tri'];
   const nm2 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'a', 'e', 'i', 'o'];
@@ -20,3 +20,4 @@ export default function molecules() {
     return names;
   }
 }
+module.exports = molecules

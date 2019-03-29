@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function pirateCoves() {
+function pirateCoves() {
   let names;
   const nm1 = ['Ahoy', 'Anchor', 'Barnacle', 'Big Horn', 'Black Sand', 'Black Spot', 'Black Water', 'Blackbeard\'s', 'Blimey', 'Blood', 'Bloodmoon', 'Booty', 'Broken Tooth', 'Buccaneer\'s', 'Buried', 'Corsair', 'Covert', 'Crimson', 'Crocodile', 'Cross', 'Crow\'s Nest', 'Cutlass', 'Cyclone', 'Dagger Tooth', 'Danger', 'Davy Jones\'', 'Dead Kraken', 'Dead Man\'s', 'Dead Men', 'Dead Whale', 'Death Curse', 'Debris', 'Demon', 'Devil\'s', 'Dry Rum', 'Dubloon', 'Execution', 'Freebooter', 'Full Moon', 'Gibbit', 'Gold', 'Golden Tooth', 'Grog', 'Gunpowder', 'Hazard', 'Hempen Halter', 'High Tide', 'Hornswaggle', 'Jagged Reef', 'Jolly Roger', 'Keelhaul', 'Killer Whale', 'Kraken', 'Landlubber', 'Last Words', 'Lost Treasure', 'Low Tide', 'Macaw', 'Marauder', 'Maroon', 'Mermaid', 'Monkey', 'Monsoon', 'Murder', 'Mutiny', 'Mystery', 'Nemo', 'No Tale', 'Occult', 'Old Salt', 'Parley', 'Parrot', 'Peril', 'Plunder', 'Privateer', 'Quartermaster', 'Rapier', 'Red Sand', 'Red Water', 'Rum', 'Rumrunner', 'Salty Sand', 'Sanguine', 'Scallywag', 'Scourge', 'Scurvy', 'Scuttle', 'Scuttlebutt', 'Sea Monster', 'Seadog', 'Seaweed', 'Shark', 'Shark Fin', 'Shipwreck', 'Shiver', 'Silver', 'Skeleton', 'Skull', 'Stormy', 'Sunken', 'Sunken Reef', 'Swashbuckler', 'Tempest', 'Thunder', 'Timber', 'Tortoise', 'Trophy', 'Turtle', 'Unnamed', 'Wreckage'];
   const nm2 = ['Anchorage', 'Atoll', 'Bay', 'Cave', 'Cavern', 'Cay', 'Cove', 'Enclave', 'Haven', 'Hideout', 'Island', 'Isle', 'Lagoon', 'Port', 'Reef', 'Refuge', 'Retreat', 'Sanctuary'];
@@ -15,3 +15,4 @@ export default function pirateCoves() {
     return names;
   }
 }
+module.exports = pirateCoves

@@ -1,4 +1,4 @@
-export default function filmStudios() {
+function filmStudios() {
   let names;
   let rnd;
   let rnd1;
@@ -33,3 +33,4 @@ export default function filmStudios() {
     return names;
   }
 }
+module.exports = filmStudios

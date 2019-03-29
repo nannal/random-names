@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function wolfs() {
+function wolfs() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ace', 'Akira', 'Alistair', 'Alpha', 'Apache', 'Apollo', 'Archer', 'Artemis', 'Astro', 'Athene', 'Atlas', 'Avalanche', 'Axis', 'Bandit', 'Bane', 'Baron', 'Beacon', 'Bear', 'Blaze', 'Blitz', 'Bolt', 'Bones', 'Boomer', 'Boon', 'Booth', 'Boulder', 'Brawn', 'Brick', 'Brock', 'Browne', 'Bruno', 'Brutus', 'Buck', 'Bud', 'Buddy', 'Bullet', 'Buster', 'Butch', 'Buzz', 'Caesar', 'Camelot', 'Chase', 'Chewy', 'Chronos', 'Cloud', 'Colt', 'Comet', 'Conan', 'Courage', 'Dagger', 'Dane', 'Danger', 'Dash', 'Delta', 'Dexter', 'Diablo', 'Digger', 'Drake', 'Duke', 'Dust', 'Dutch', 'Echo', 'Edge', 'Excalibur', 'Fang', 'Farkas', 'Flash', 'Frost', 'Fury', 'Ghost', 'Goliath', 'Gray', 'Grunt', 'Hannibal', 'Havoc', 'Hawke', 'Hawkeye', 'Hector', 'Hercules', 'Hooch', 'Hulk', 'Hunter', 'Hyde', 'Ice', 'Jaws', 'Jax', 'Jeckyll', 'Jethro', 'Judge', 'Kaine', 'Kane', 'Khan', 'Killer', 'King', 'Lad', 'Laika', 'Lecter', 'Lightning', 'Logan', 'Loki', 'Lupin', 'Lupus', 'Magnus', 'Mako', 'Mason', 'Maverick', 'Max', 'Maximus', 'Mayhem', 'Menace', 'Midnight', 'Miles', 'Murdoch', 'Myst', 'Nanook', 'Nero', 'Nightmare', 'Nova', 'Oak', 'Obsidian', 'Odin', 'Omega', 'Omen', 'Onyx', 'Orbit', 'Outlaw', 'Patriot', 'Phantom', 'Prince', 'Pyro', 'Quicksilver', 'Rage', 'Ralph', 'Ranger', 'Razor', 'Rebel', 'Rex', 'Rider', 'Riggs', 'Ripley', 'Riptide', 'Rogue', 'Rover', 'Scar', 'Scout', 'Shade', 'Shadow', 'Shepherd', 'Shredder', 'Silver', 'Skye', 'Slate', 'Sly', 'Smoke', 'Splinter', 'Steele', 'Storm', 'Striker', 'Summit', 'Tank', 'Thor', 'Thunder', 'Timber', 'Titan', 'Tooth', 'Trace', 'Trapper', 'Trouble', 'Tundra', 'Vapor', 'Whisper', 'Wolf'];
@@ -14,3 +14,4 @@ export default function wolfs() {
     return names;
   }
 }
+module.exports = wolfs

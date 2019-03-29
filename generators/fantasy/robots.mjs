@@ -1,4 +1,4 @@
-export default function robots() {
+function robots() {
   let names;
   let rnd0;
   let rnd1;
@@ -35,3 +35,4 @@ export default function robots() {
     return names;
   }
 }
+module.exports = robots

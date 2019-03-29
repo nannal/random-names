@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function chiss() {
+function chiss() {
   let names;
   const nm1 = ['B', 'C', 'D', 'G', 'H', 'J', 'K', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Z'];
   const nm2 = ['a', 'e', 'u', 'i', 'o', 'a', 'e', 'u', 'i', 'o', 'ra', 're', 'ru', 'ri', 'ro', 'la', 'le', 'lu', 'li', 'lo'];
@@ -21,3 +21,4 @@ export default function chiss() {
     return names;
   }
 }
+module.exports = chiss

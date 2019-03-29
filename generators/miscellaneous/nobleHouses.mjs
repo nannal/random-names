@@ -1,4 +1,4 @@
-export default function nobleHouses() {
+function nobleHouses() {
   let names;
   let rnd;
   let rnd2;
@@ -39,3 +39,4 @@ export default function nobleHouses() {
     return names;
   }
 }
+module.exports = nobleHouses

@@ -1,4 +1,4 @@
-export default function spriggans() {
+function spriggans() {
   let names;
   let rnd0;
   let rnd1;
@@ -17,3 +17,4 @@ export default function spriggans() {
     return names;
   }
 }
+module.exports = spriggans

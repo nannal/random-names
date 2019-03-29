@@ -1,4 +1,4 @@
-export default function krogans() {
+function krogans() {
   let names4;
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['B', 'Br', 'C', 'Cr', 'Ch', 'D', 'Dr', 'F', 'G', 'Gr', 'H', 'J', 'K', 'Kh', 'Kr', 'M', 'N', 'P', 'Pr', 'Q', 'Qr', 'R', 'S', 'Sr', 'Str', 'T', 'Tr', 'V', 'Vr', 'W', 'Wr', 'Zr'];
@@ -19,3 +19,4 @@ export default function krogans() {
   const rnd6 = Math.floor(Math.random() * names5.length);
   return `${names1[rnd4] + names2[rnd5] + names5[rnd6]} ${names1[rnd0]}${names2[rnd1]}${names3[rnd2]}${names4[rnd3]}`;
 }
+module.exports = krogans

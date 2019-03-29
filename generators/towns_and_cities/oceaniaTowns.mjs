@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function oceaniaTowns() {
+function oceaniaTowns() {
   let names;
   let rndb;
   const nm1 = ['Adel', 'Al', 'Alb', 'Alt', 'Arm', 'Armad', 'Ash', 'Aub', 'Ball', 'Balw', 'Bath', 'Baulkh', 'Berw', 'Boov', 'Boron', 'Bris', 'Brisb', 'Brunsw', 'Brunw', 'Bud', 'Bunb', 'Bund', 'Burn', 'Buss', 'Cabool', 'Cair', 'Cal', 'Camb', 'Canb', 'Carl', 'Carn', 'Carr', 'Cessn', 'Chelt', 'Clayt', 'Cob', 'Crag', 'Craig', 'Cranb', 'Cron', 'Dand', 'Darw', 'Dev', 'Donc', 'Ech', 'Elth', 'Eng', 'Engad', 'Epp', 'Ess', 'Essend', 'Forst', 'Frem', 'Gawl', 'Geel', 'Ger', 'Glad', 'Glenm', 'Glenr', 'Gosn', 'Goulb', 'Granv', 'Griff', 'Hawth', 'Hob', 'Hopp', 'Kalg', 'Kat', 'Kwin', 'Lal', 'Lanc', 'Langw', 'Lar', 'Lil', 'Lilyd', 'Lism', 'Malv', 'Mand', 'Mar', 'Marr', 'Melb', 'Melt', 'Mild', 'Mor', 'Morph', 'Mosm', 'Murr', 'Nar', 'Ner', 'Nowr', 'Pak', 'Palm', 'Param', 'Prest', 'Randw', 'Rowv', 'Roxb', 'Seaf', 'Shepp', 'Sidn', 'Sunb', 'Tamw', 'Tar', 'Tarn', 'Thornl', 'Um', 'Umin', 'Wag', 'Wagg', 'Wang', 'Want', 'War', 'Warrn', 'Werr', 'Will', 'Wod', 'Woll', 'Woodr', 'Wynd'];
@@ -40,3 +40,4 @@ export default function oceaniaTowns() {
     return names;
   }
 }
+module.exports = oceaniaTowns

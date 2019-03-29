@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function betazoids() {
+function betazoids() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', ''];
@@ -36,3 +36,4 @@ export default function betazoids() {
     return names;
   }
 }
+module.exports = betazoids

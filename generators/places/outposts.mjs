@@ -1,4 +1,4 @@
-export default function outposts() {
+function outposts() {
   let names;
   let rnd;
   let rnd2;
@@ -22,3 +22,4 @@ export default function outposts() {
     return names;
   }
 }
+module.exports = outposts

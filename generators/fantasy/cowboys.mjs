@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function cowboys() {
+function cowboys() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aaron', 'Abraham', 'Adam', 'Adolph', 'Albert', 'Alex', 'Alexander', 'Alfred', 'Allen', 'Alonzo', 'Alva', 'Alvin', 'Amos', 'Andrew', 'Anthony', 'Anton', 'Archie', 'Arnold', 'Arthur', 'August', 'Ben', 'Benjamin', 'Bennie', 'Bernard', 'Bert', 'Bill', 'Calvin', 'Carl', 'Cecil', 'Charles', 'Charley', 'Charlie', 'Chester', 'Christopher', 'Clarence', 'Claud', 'Claude', 'Clayton', 'Cleveland', 'Clifford', 'Clifton', 'Clinton', 'Clyde', 'Cornelius', 'Curtis', 'Dan', 'Daniel', 'Dave', 'David', 'Dennis', 'Dewey', 'Donald', 'Earl', 'Earnest', 'Ed', 'Eddie', 'Edgar', 'Edmund', 'Edward', 'Edwin', 'Elbert', 'Eli', 'Elijah', 'Ellis', 'Elmer', 'Emil', 'Emmett', 'Ernest', 'Eugene', 'Everett', 'Felix', 'Floyd', 'Francis', 'Frank', 'Franklin', 'Fred', 'Frederick', 'Fredrick', 'George', 'Gerald', 'Gilbert', 'Glen', 'Glenn', 'Gordon', 'Grover', 'Gus', 'Guy', 'Harley', 'Harold', 'Harrison', 'Harry', 'Harvey', 'Henry', 'Herbert', 'Herman', 'Hiram', 'Homer', 'Horace', 'Howard', 'Hubert', 'Hugh', 'Ira', 'Irvin', 'Irving', 'Isaac', 'Jack', 'Jacob', 'Jake', 'James', 'Jasper', 'Jay', 'Jeff', 'Jerry', 'Jess', 'Jesse', 'Jessie', 'Jim', 'Joe', 'John', 'Johnnie', 'Jose', 'Joseph', 'Julius', 'Kenneth', 'Lawrence', 'Lee', 'Leo', 'Leon', 'Leonard', 'Leroy', 'Leslie', 'Lester', 'Levi', 'Lewis', 'Lloyd', 'Lonnie', 'Louis', 'Luther', 'Mack', 'Manuel', 'Marion', 'Mark', 'Marshall', 'Martin', 'Marvin', 'Matthew', 'Maurice', 'Max', 'Melvin', 'Michael', 'Mike', 'Milton', 'Morris', 'Moses', 'Nathan', 'Nelson', 'Nicholas', 'Noah', 'Norman', 'Oliver', 'Ollie', 'Orville', 'Oscar', 'Otis', 'Otto', 'Owen', 'Patrick', 'Paul', 'Percy', 'Perry', 'Peter', 'Philip', 'Phillip', 'Ralph', 'Ray', 'Raymond', 'Reuben', 'Richard', 'Robert', 'Roland', 'Roscoe', 'Ross', 'Roy', 'Rudolph', 'Rufus', 'Russell', 'Sam', 'Samuel', 'Sherman', 'Sidney', 'Silas', 'Simon', 'Stanley', 'Stephen', 'Steve', 'Sylvester', 'Theodore', 'Thomas', 'Timothy', 'Tom', 'Vernon', 'Victor', 'Vincent', 'Virgil', 'Wallace', 'Walter', 'Warren', 'Wesley', 'Wilbur', 'Wiley', 'Will', 'Willard', 'William', 'Willie', 'Willis', 'Wilson'];
@@ -16,3 +16,4 @@ export default function cowboys() {
     return names;
   }
 }
+module.exports = cowboys

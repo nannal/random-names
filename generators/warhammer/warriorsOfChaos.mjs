@@ -1,4 +1,4 @@
-export default function warriorsOfChaos() {
+function warriorsOfChaos() {
   let names;
   let lName;
   let rnd;
@@ -66,3 +66,4 @@ export default function warriorsOfChaos() {
     return names;
   }
 }
+module.exports = warriorsOfChaos

@@ -1,4 +1,4 @@
-export default function tribes() {
+function tribes() {
   let names;
   let rnd;
   let rnd2;
@@ -14,3 +14,4 @@ export default function tribes() {
     return names;
   }
 }
+module.exports = tribes

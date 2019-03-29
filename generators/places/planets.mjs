@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function planets() {
+function planets() {
   let names;
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'o', 'u'];
@@ -25,3 +25,4 @@ export default function planets() {
     return names;
   }
 }
+module.exports = planets

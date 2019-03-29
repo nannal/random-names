@@ -1,4 +1,4 @@
-export default function halflings() {
+function halflings() {
   let nameLast;
   let names;
   let rnd;
@@ -90,3 +90,4 @@ export default function halflings() {
     return names;
   }
 }
+module.exports = halflings

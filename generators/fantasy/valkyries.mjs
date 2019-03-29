@@ -1,4 +1,4 @@
-export default function valkyries() {
+function valkyries() {
   let names;
   let rnd;
   let rnd2;
@@ -11,3 +11,4 @@ export default function valkyries() {
     return names;
   }
 }
+module.exports = valkyries

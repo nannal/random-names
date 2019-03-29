@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function dwarfs() {
+function dwarfs() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ad', 'Am', 'Arm', 'Baer', 'Daer', 'Bal', 'Ban', 'Bar', 'Bel', 'Ben', 'Ber', 'Bhal', 'Bhar', 'Bhel', 'Bram', 'Bran', 'Brom', 'Brum', 'Bun', 'Dal', 'Dar', 'Dol', 'Dul', 'Eb', 'Em', 'Erm', 'Far', 'Gal', 'Gar', 'Ger', 'Gim', 'Gral', 'Gram', 'Gran', 'Grem', 'Gren', 'Gril', 'Gry', 'Gul', 'Har', 'Hjal', 'Hjol', 'Hjul', 'Hor', 'Hul', 'Hur', 'Kar', 'Khar', 'Kram', 'Krom', 'Krum', 'Mag', 'Mal', 'Mel', 'Mor', 'Muir', 'Mur', 'Rag', 'Ran', 'Reg', 'Rot', 'Thal', 'Thar', 'Thel', 'Ther', 'Tho', 'Thor', 'Thul', 'Thur', 'Thy', 'Tor', 'Ty', 'Um', 'Urm', 'Von'];
@@ -16,3 +16,4 @@ export default function dwarfs() {
     return names;
   }
 }
+module.exports = dwarfs

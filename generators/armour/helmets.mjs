@@ -1,4 +1,4 @@
-export default function helmets() {
+function helmets() {
   let rnd0;
   let rnd1;
   let rnd2;
@@ -52,3 +52,4 @@ export default function helmets() {
     return names;
   }
 }
+module.exports = helmets

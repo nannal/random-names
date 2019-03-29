@@ -1,4 +1,4 @@
-export default function fetchlings() {
+function fetchlings() {
   let names;
   let rnd;
   let rnd2;
@@ -46,3 +46,4 @@ export default function fetchlings() {
     return names;
   }
 }
+module.exports = fetchlings

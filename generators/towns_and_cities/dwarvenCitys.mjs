@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function dwarvenCitys() {
+function dwarvenCitys() {
   let names;
   const nm1 = ['B', 'D', 'Dh', 'Bh', 'G', 'H', 'K', 'Kh', 'M', 'N', 'Th', 'V'];
   const nm2 = ['ag', 'agh', 'al', 'am', 'an', 'ar', 'arn', 'eg', 'egh', 'el', 'em', 'en', 'er', 'ern', 'ig', 'igh', 'il', 'im', 'in', 'ir', 'irn', 'og', 'ogh', 'ol', 'om', 'on', 'or', 'orn', 'ug', 'ugh', 'ul', 'um', 'un', 'ur', 'urn'];
@@ -10,3 +10,4 @@ export default function dwarvenCitys() {
     return names;
   }
 }
+module.exports = dwarvenCitys

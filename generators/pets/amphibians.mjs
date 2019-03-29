@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function amphibians() {
+function amphibians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Alien', 'Arrow', 'Bazoo', 'Beaker', 'Belch', 'Belcher', 'Binky', 'Bloats', 'Blob', 'Bob', 'Bog', 'Bogs', 'Booger', 'Boogy', 'Bubba', 'Bubbles', 'Buffle', 'Buffles', 'Bully', 'Buster', 'Charizard', 'Charmander', 'Chubber', 'Chubbles', 'Chubbs', 'Chubby', 'Chunky', 'Claw', 'Clawde', 'Clawdius', 'Claws', 'Cozmo', 'Cricket', 'Croak', 'Croaker', 'Croaks', 'Crook', 'Cruncher', 'Crunchy', 'Curmet', 'Dart', 'Darts', 'Doc', 'Fatty', 'Fiddles', 'Fire', 'Flibbit', 'Flippy', 'Flips', 'Flubber', 'Flubs', 'Flye', 'Freak', 'Freckles', 'Frogger', 'Froggie', 'Frogzilla', 'Gobbles', 'Goble', 'Gobles', 'Godzilla', 'Golem', 'Goliath', 'Gooey', 'Grog', 'Hobbit', 'Hopkins', 'Hopper', 'Hopscotch', 'Hudini', 'Jabba', 'JarJar', 'Kermi', 'Kermie', 'Kermit', 'Leaps', 'Leapy', 'Mantis', 'Marsh', 'Mello', 'Mellow', 'Mog', 'MrSticky', 'Mud', 'Muds', 'Newt', 'Newton', 'Orbit', 'Patches', 'Pickle', 'Pickles', 'Pogo', 'Predator', 'Prince', 'Puddles', 'Pudge', 'Pug', 'Quibbit', 'Ribbit', 'Shmoo', 'Shmooch', 'Skippy', 'Skittles', 'Slick', 'Slimes', 'Slippy', 'Slub', 'Slug', 'Slugg', 'Sluggs', 'Slugs', 'Smeagol', 'Smudge', 'Spot', 'Sticky', 'Stinky', 'Stubby', 'Stumper', 'Swampie', 'Swamps', 'Thor', 'Toad', 'Weirdo', 'Whopper', 'Wiggles', 'Wobble', 'Wobbles', 'Yoda'];
@@ -14,3 +14,4 @@ export default function amphibians() {
     return names;
   }
 }
+module.exports = amphibians

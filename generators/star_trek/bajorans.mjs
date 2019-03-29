@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function bajorans() {
+function bajorans() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z', 'ch', 'sh', 'br', 'pr', 'tr', 'dr', 'kr', 'vr', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -35,3 +35,4 @@ export default function bajorans() {
     return names;
   }
 }
+module.exports = bajorans

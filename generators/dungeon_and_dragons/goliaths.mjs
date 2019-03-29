@@ -1,4 +1,4 @@
-export default function goliaths() {
+function goliaths() {
   let names;
   let rnd;
   let rnd2;
@@ -32,3 +32,4 @@ export default function goliaths() {
     return names;
   }
 }
+module.exports = goliaths

@@ -1,4 +1,4 @@
-export default function naturalDisasters() {
+function naturalDisasters() {
   let names;
   let rnd;
   let rnd2;
@@ -11,3 +11,4 @@ export default function naturalDisasters() {
     return names;
   }
 }
+module.exports = naturalDisasters

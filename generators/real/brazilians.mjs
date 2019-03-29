@@ -1,4 +1,4 @@
-export default function brazilians() {
+function brazilians() {
   let names;
   let rnd;
   let rnd2;
@@ -15,3 +15,4 @@ export default function brazilians() {
     return names;
   }
 }
+module.exports = brazilians

@@ -1,4 +1,4 @@
-export default function videoGames() {
+function videoGames() {
   let names;
   let rnd;
   let rnd2;
@@ -95,3 +95,4 @@ export default function videoGames() {
     return names;
   }
 }
+module.exports = videoGames

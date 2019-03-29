@@ -1,4 +1,4 @@
-export default function shifters() {
+function shifters() {
   let names;
   let rnd;
   let rnd2;
@@ -16,3 +16,4 @@ export default function shifters() {
     return names;
   }
 }
+module.exports = shifters

@@ -1,4 +1,4 @@
-export default function weequays() {
+function weequays() {
   let namelast;
   let names;
   let rnd;
@@ -82,3 +82,4 @@ export default function weequays() {
     return names;
   }
 }
+module.exports = weequays

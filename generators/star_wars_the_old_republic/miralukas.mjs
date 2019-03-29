@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function miralukas() {
+function miralukas() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'B', 'Ch', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '', '', ''];
@@ -20,3 +20,4 @@ export default function miralukas() {
     return names;
   }
 }
+module.exports = miralukas

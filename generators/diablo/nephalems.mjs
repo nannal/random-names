@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function nephalems() {
+function nephalems() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'c', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'ph', 'r', 't', 'v', 'w', 'z'];
@@ -27,3 +27,4 @@ export default function nephalems() {
     return names;
   }
 }
+module.exports = nephalems

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function orc() {
+function orc() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Agr', 'Agro', 'Atu', 'Atul', 'Azu', 'Azuk', 'Bag', 'Baga', 'Bak', 'Bakh', 'Bal', 'Bala', 'Bar', 'Baro', 'Bas', 'Bash', 'Bat', 'Baz', 'Bazg', 'Bazu', 'Bog', 'Boga', 'Bogr', 'Bol', 'Bolo', 'Bor', 'Bork', 'Boru', 'Bot', 'Both', 'Bra', 'Brag', 'Bro', 'Brok', 'Bru', 'Brug', 'Bug', 'Buga', 'Bugd', 'Bugh', 'Bugr', 'Bum', 'Bumb', 'Bur', 'Bura', 'Burg', 'Buru', 'Burz', 'Dub', 'Dubo', 'Dul', 'Dula', 'Dulf', 'Dulp', 'Dulu', 'Dum', 'Duma', 'Dumb', 'Dur', 'Dura', 'Durb', 'Durg', 'Durz', 'Dus', 'Dush', 'Gad', 'Gadb', 'Gar', 'Garo', 'Garz', 'Gas', 'Gash', 'Gat', 'Gatu', 'Gha', 'Gham', 'Gho', 'Ghor', 'Ghu', 'Ghun', 'Glu', 'Glus', 'Gog', 'Gogr', 'Gor', 'Gorg', 'Gra', 'Grak', 'Gram', 'Grat', 'Gro', 'Grog', 'Grom', 'Gru', 'Grul', 'Grus', 'Gruz', 'Gua', 'Guar', 'Gul', 'Gula', 'Gur', 'Gura', 'Han', 'Hanz', 'Kha', 'Khad', 'Khag', 'Khar', 'Kof', 'Koff', 'Kro', 'Krog', 'Kur', 'Kurd', 'Kurz', 'Lar', 'Lara', 'Larg', 'Lob', 'Lor', 'Lorb', 'Lorz', 'Lug', 'Lugd', 'Lugr', 'Lum', 'Lumd', 'Lur', 'Lurb', 'Luro', 'Mag', 'Magr', 'Magu', 'Mah', 'Mahk', 'Mak', 'Makh', 'Makn', 'Mako', 'Mal', 'Malk', 'Mas', 'Mash', 'Mat', 'Matu', 'Mau', 'Mauh', 'Maz', 'Mazo', 'Mog', 'Mogh', 'Mogr', 'Mol', 'Mor', 'Morb', 'Mot', 'Moth', 'Mug', 'Mugd', 'Muk', 'Mul', 'Mulu', 'Mur', 'Mura', 'Murk', 'Murz', 'Muz', 'Muzg', 'Nag', 'Nagr', 'Nar', 'Nas', 'Nash', 'Ogl', 'Oglu', 'Ogo', 'Ogol', 'Ogr', 'Ogru', 'Olf', 'Olfi', 'Olp', 'Olpa', 'Olu', 'Olum', 'Olur', 'Ora', 'Orak', 'Oro', 'Orok', 'Oth', 'Othm', 'Ram', 'Ramo', 'Rog', 'Rogd', 'Rug', 'Rugd', 'Sha', 'Shag', 'Shak', 'Sham', 'Shar', 'Shat', 'Shaz', 'She', 'Shel', 'Sho', 'Shob', 'Shu', 'Shul', 'Shum', 'Shur', 'Shuz', 'Sna', 'Snag', 'Snak', 'Snat', 'Ugd', 'Ugdu', 'Ugh', 'Ugha', 'Ula', 'Ulag', 'Ulam', 'Ulm', 'Ulmu', 'Umu', 'Umug', 'Umur', 'Ura', 'Urag', 'Uram', 'Urb', 'Urbu', 'Uri', 'Urim', 'Uru', 'Urul', 'Urz', 'Urzo', 'Ush', 'Usha', 'Ushn', 'Uzg', 'Uzga', 'Uzu', 'Uzul', 'Yad', 'Yadb', 'Yag', 'Yaga', 'Yak', 'Yam', 'Yama', 'Yamb', 'Yar', 'Yarg', 'Yas', 'Yash', 'Yat', 'Yatu'];
@@ -18,3 +18,4 @@ export default function orc() {
     return names;
   }
 }
+module.exports = orc

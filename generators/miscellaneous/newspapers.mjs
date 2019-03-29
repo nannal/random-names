@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function newspapers() {
+function newspapers() {
   let names;
   const nm3 = [
     ['The ', 'Bulletin'],
@@ -46,3 +46,4 @@ export default function newspapers() {
     return names;
   }
 }
+module.exports = newspapers

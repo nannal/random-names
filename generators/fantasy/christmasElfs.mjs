@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function christmasElfs() {
+function christmasElfs() {
   let names;
   const type = Math.floor(Math.random() * 3.0);
   const nm1 = ['Alabaster', 'Angel', 'Berry', 'Bing', 'Bling', 'Blitz', 'Blue', 'Bluebell', 'Brandysnap', 'Brownie', 'Buddy', 'Bushy', 'Buster', 'Butters', 'Button', 'Buttons', 'Candycane', 'Cedar', 'Chestnut', 'Choco', 'Cinnamon', 'Coco', 'Cocoa', 'Cookie', 'Dash', 'Elm', 'Evergreen', 'Fig', 'Figgy', 'Fir', 'Fizzy', 'Flake', 'Fluffy', 'Frost', 'Frosty', 'Fruity', 'Fudge', 'Fuzzle', 'Garland', 'Ginger', 'Gingernuts', 'Gingersnap', 'Glitter', 'Glory', 'Hazelnut', 'Ice', 'Jangle', 'Jingle', 'Jolly', 'Marzipan', 'Merry', 'Mince', 'Mint', 'Mistle', 'Mistletoe', 'Noel', 'Nutmeg', 'Pepper', 'Peppetmint', 'Perky', 'Pine', 'Pinecone', 'Pudding', 'Rusty', 'Shimmer', 'Skittle', 'Snappy', 'Snow', 'Snowball', 'Snowdrop', 'Snowflake', 'Sparkle', 'Sprinkle', 'Sprinkles', 'Starlight', 'Stripes', 'Sugar', 'Sugarplum', 'Tinkles', 'Tinsel', 'Tiny', 'Topper', 'Trinket', 'Twinkle', 'Twinkletoes', 'Wink', 'Winter', 'Yule'];
@@ -19,3 +19,4 @@ export default function christmasElfs() {
     return names;
   }
 }
+module.exports = christmasElfs

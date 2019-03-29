@@ -1,4 +1,4 @@
-export default function valyrians() {
+function valyrians() {
   let names;
   let rnd;
   let rnd2;
@@ -28,3 +28,4 @@ export default function valyrians() {
     return names;
   }
 }
+module.exports = valyrians

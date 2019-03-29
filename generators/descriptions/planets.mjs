@@ -1,4 +1,4 @@
-export default function planets() {
+function planets() {
   let result;
   const type = Math.random() > 0.5 ? 0 : 1;
   let planetType = Math.floor((Math.random() * 3) + 1);
@@ -187,3 +187,4 @@ export default function planets() {
   result += name8;
   return result;
 }
+module.exports = planets

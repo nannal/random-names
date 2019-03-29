@@ -1,4 +1,4 @@
-export default function geths() {
+function geths() {
   let names;
   let rnd;
   let rnd0;
@@ -20,3 +20,4 @@ export default function geths() {
     return names;
   }
 }
+module.exports = geths

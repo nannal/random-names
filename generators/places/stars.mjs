@@ -1,4 +1,4 @@
-export default function stars() {
+function stars() {
   let names;
   let rnd;
   let rnd2;
@@ -36,3 +36,4 @@ export default function stars() {
     return names;
   }
 }
+module.exports = stars

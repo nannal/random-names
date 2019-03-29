@@ -1,4 +1,4 @@
-export default function forsworns() {
+function forsworns() {
   let nameLast;
   let names;
   let rnd8a;
@@ -73,3 +73,4 @@ export default function forsworns() {
     return names;
   }
 }
+module.exports = forsworns

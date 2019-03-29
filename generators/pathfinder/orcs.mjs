@@ -1,4 +1,4 @@
-export default function orcs() {
+function orcs() {
   let nameLast;
   let names;
   let rnd;
@@ -82,3 +82,4 @@ export default function orcs() {
     return names;
   }
 }
+module.exports = orcs

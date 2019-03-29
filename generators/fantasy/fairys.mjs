@@ -1,4 +1,4 @@
-export default function fairys() {
+function fairys() {
   let names;
   let rnd;
   let rnd2;
@@ -17,3 +17,4 @@ export default function fairys() {
     return names;
   }
 }
+module.exports = fairys

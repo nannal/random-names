@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function catfolks() {
+function catfolks() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['br', 'c', 'cr', 'dr', 'f', 'g', 'gr', 'j', 'k', 'kr', 'm', 'n', 'p', 'pr', 'q', 'qr', 'r', 't', 'z'];
@@ -27,3 +27,4 @@ export default function catfolks() {
     return names;
   }
 }
+module.exports = catfolks

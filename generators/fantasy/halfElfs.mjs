@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function halfElfs() {
+function halfElfs() {
   let nameLast;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -20,3 +20,4 @@ export default function halfElfs() {
     return names;
   }
 }
+module.exports = halfElfs

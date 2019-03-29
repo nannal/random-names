@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function tajiks() {
+function tajiks() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Anoushirvan', 'Arash', 'Ardavan', 'Ardshir', 'Armeen', 'Aryan', 'Arzhang', 'Ashkan', 'Atash', 'Awrang', 'Azad', 'Azada', 'Azarkhsh', 'Azerm', 'Babak', 'Bahman', 'Bahram', 'Bamdad', 'Behnam', 'Behrang', 'Behruz', 'Behzad', 'Buzurgmehr', 'Dara', 'Darab', 'Daryush', 'Dehqan', 'Esfandyar', 'Faramarz', 'Faraz', 'Fardad', 'Fardin', 'Farhad', 'Farhang', 'Fariad', 'Fariborz', 'Farrukh', 'Farrukhzad', 'Farshad', 'Farzad', 'Farzam', 'Farzann', 'Farzin', 'Feda', 'Firuz', 'Forood', 'Fraidun', 'Fruhar', 'Giv', 'Goudarz', 'Gulab', 'Gushtasb', 'Hamasa', 'Hoshang', 'Houshmand', 'Housyar', 'Human', 'Humayon', 'Hurmoz', 'Iraj', 'Jahandar', 'Jahangeer', 'Jahanshah', 'Jawid', 'Kaihan', 'Kaikhosrow', 'Kaiqubad', 'Kaiyan', 'Kambiz ', 'Kamran', 'Kamshad', 'Kamyar', 'Kanishka', 'Kasra', 'Kavah', 'Kavoos', 'Khashyar', 'Khoram', 'Khuda Dad', 'Kia', 'Kianoosh', 'Kiumars', 'Kohyar', 'Kosha', 'Koshan', 'Kourash', 'Mahyar', 'Mani', 'Manuchehar', 'Mazdak', 'Mehrab', 'Mehrak', 'Mehran', 'Mehrang', 'Mehrdad', 'Mehrzad', 'Morad', 'Namdar', 'Namvar', 'Naraiman', 'Neda', 'Niyoosha', 'Noushzad', 'Omaid', 'Padshah', 'Paghahan', 'Pagzman', 'Paikan', 'Paiman', 'Parsa', 'Parwaaze', 'Payam', 'Pazhman', 'Pendar', 'Piruz', 'Poya', 'Qiomars', 'Qubad', 'Rastin', 'Rohina', 'Roozbeh', 'Roshan', 'Royan', 'Rozi', 'Rukhshan', 'Rustam', 'Salar', 'Sam', 'Saman', 'Sasan', 'Sepehr', 'Shadan', 'Shahbaz', 'Shaheen', 'Shahpur', 'Shahram', 'Shahrdad', 'Shahrukh', 'Shahryar', 'Shaya', 'Shayan', 'Shuhab', 'Siamak', 'Siamu', 'Siawash', 'Sina', 'Soroush', 'Sougand', 'Suhrab', 'Tahmaseb', 'Toktam', 'Tooraj', 'Tora', 'Toramana', 'Varshasb', 'Veda', 'Vishtasb', 'Yama', 'Zal', 'Zand ', 'Zardusht', 'Khosrow'];
@@ -14,3 +14,4 @@ export default function tajiks() {
     return names;
   }
 }
+module.exports = tajiks

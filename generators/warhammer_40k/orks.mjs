@@ -1,4 +1,4 @@
-export default function orks() {
+function orks() {
   let names;
   let rnd;
   let rnd2;
@@ -29,3 +29,4 @@ export default function orks() {
     return names;
   }
 }
+module.exports = orks

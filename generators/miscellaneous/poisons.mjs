@@ -1,4 +1,4 @@
-export default function poisons() {
+function poisons() {
   let names;
   let rnd;
   let rnd2;
@@ -39,3 +39,4 @@ export default function poisons() {
     return names;
   }
 }
+module.exports = poisons

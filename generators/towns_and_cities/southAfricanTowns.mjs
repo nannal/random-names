@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function southAfricanTowns() {
+function southAfricanTowns() {
   let names;
   /* Botswana */
   const nm1 = ['Bo', 'Bob', 'Boro', 'Cha', 'Chadi', 'Du', 'Duk', 'Et', 'Ga', 'Gaba', 'Gabo', 'Gha', 'Ghan', 'Gu', 'Guma', 'Gwe', 'Hu', 'Huku', 'Hukun', 'Jwa', 'Ka', 'Kan', 'Kasa', 'Khu', 'Khudu', 'Ko', 'Kopo', 'Ku', 'Kuma', 'Le', 'Len', 'Lera', 'Let', 'Letha', 'Lo', 'Loba', 'Lot', 'Ma', 'Maha', 'Mai', 'Maiten', 'Malo', 'Malol', 'Man', 'Mandu', 'Mandun', 'Maro', 'Masun', 'Matha', 'Mathan', 'Mau', 'Mauna', 'Me', 'Metsi', 'Mma', 'Mmadi', 'Mmank', 'Mo', 'Mochu', 'Mogo', 'Mogodi', 'Moi', 'Moiya', 'Mola', 'Molapo', 'Mole', 'Molepo', 'Moo', 'Mooka', 'Mopi', 'Moshu', 'Na', 'Nka', 'Noka', 'Oo', 'Ora', 'Pa', 'Pala', 'Ra', 'Rako', 'Ramo', 'Ramok', 'Rana', 'Se', 'Sebi', 'Sefo', 'Sehi', 'Sele', 'Seli', 'Sero', 'Seron', 'Sha', 'Shaka', 'Sho', 'Shoro', 'Ta', 'Tha', 'Thaba', 'Thama', 'Tlo', 'Tlok', 'To', 'Toba', 'Tono', 'Tse', 'Tsetse', 'Tsha', 'Tu', 'Tuma', 'Tutu'];
@@ -33,3 +33,4 @@ export default function southAfricanTowns() {
     return names;
   }
 }
+module.exports = southAfricanTowns

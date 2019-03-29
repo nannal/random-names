@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function nagas() {
+function nagas() {
   let names;
   const nm1 = ['', '', '', '', '', '', 'ch', 'd', 'dh', 'dhr', 'h', 'hr', 'j', 'jy', 'k', 'kh', 'kr', 'ksh', 'l', 'm', 'n', 'p', 'pr', 's', 'sr', 't', 'v', 'vr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'a', 'a', 'a', 'a', 'a', 'i', 'i'];
@@ -30,3 +30,4 @@ export default function nagas() {
     return names;
   }
 }
+module.exports = nagas

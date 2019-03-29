@@ -1,4 +1,4 @@
-export default function animeAttacks() {
+function animeAttacks() {
   let rnd;
   let rnd2;
   let rnd3;
@@ -46,3 +46,4 @@ export default function animeAttacks() {
     return names;
   }
 }
+module.exports = animeAttacks

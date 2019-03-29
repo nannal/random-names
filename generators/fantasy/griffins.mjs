@@ -1,4 +1,4 @@
-export default function griffins() {
+function griffins() {
   let names;
   let rnd;
   let rnd1;
@@ -25,3 +25,4 @@ export default function griffins() {
     return names;
   }
 }
+module.exports = griffins

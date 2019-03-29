@@ -1,4 +1,4 @@
-export default function korunnais() {
+function korunnais() {
   let namelast;
   let names;
   let rnd;
@@ -59,3 +59,4 @@ export default function korunnais() {
     return names;
   }
 }
+module.exports = korunnais

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function vietnameses() {
+function vietnameses() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Au', 'Ba', 'Banh', 'Bi', 'Bien', 'Bo', 'Bui', 'Cam', 'Can', 'Cao', 'Chan', 'Chau', 'Che', 'Chiem', 'Chu', 'Chung', 'Chuong', 'Co', 'Cong', 'Dai', 'Dam', 'Dan', 'Dang', 'Danh', 'Dao', 'Dau', 'Diep', 'Dieu', 'Dinh', 'Dinn', 'Do', 'Doan', 'Don', 'Dong', 'Du', 'Dung', 'Duong', 'Giang', 'Ha', 'Hai', 'Han', 'Hang', 'Hau', 'Ho', 'Hoang', 'Hua', 'Hue', 'Huynh', 'Hy', 'Kha', 'Khong', 'Khuu', 'Kien', 'Kieu', 'Kim', 'Ky', 'La', 'Lac', 'Lai', 'Lam', 'Lang', 'Lavan', 'Le', 'Lien', 'Lieu', 'Lo', 'Loi', 'Luc', 'Luong', 'Luu', 'Ly', 'Ma', 'Mac', 'Mach', 'Mai', 'Minh', 'Nghiem', 'Ngo', 'Ngu', 'Nguy', 'Nguyen', 'Nhan', 'Nzuyen', 'On', 'Ong', 'Pham', 'Phan', 'Phang', 'Phong', 'Phu', 'Phung', 'Phuong', 'Quach', 'Quang', 'Quyen', 'Sai', 'Su', 'Ta', 'Tang', 'Tat', 'Thach', 'Thai', 'Tham', 'Than', 'Thang', 'Thanh', 'Thao', 'Thi', 'Thong', 'Thuy', 'Tian', 'Tien', 'Tieu', 'To', 'Ton', 'Trach', 'Tram', 'Tran', 'Trang', 'Tri', 'Trieu', 'Trinh', 'Tron', 'Troung', 'Truong', 'Tu', 'Tuan', 'Ty', 'Van', 'Vang', 'Vien', 'Vinh', 'Vo', 'Vong', 'Voong', 'Vu', 'Vuong', 'Vuu'];
@@ -17,3 +17,4 @@ export default function vietnameses() {
     return names;
   }
 }
+module.exports = vietnameses

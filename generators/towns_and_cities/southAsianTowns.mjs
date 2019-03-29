@@ -1,4 +1,4 @@
-export default function southAsianTowns() {
+function southAsianTowns() {
   let names;
   let rnd0;
   let rnd1;
@@ -56,3 +56,4 @@ export default function southAsianTowns() {
     return names;
   }
 }
+module.exports = southAsianTowns

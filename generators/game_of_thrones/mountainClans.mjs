@@ -1,4 +1,4 @@
-export default function mountainClans() {
+function mountainClans() {
   let names;
   let rnd;
   let rnd2;
@@ -20,3 +20,4 @@ export default function mountainClans() {
     return names;
   }
 }
+module.exports = mountainClans

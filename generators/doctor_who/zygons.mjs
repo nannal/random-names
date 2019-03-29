@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function zygons() {
+function zygons() {
   let names;
   const nm1 = ['B', 'Br', 'Cr', 'D', 'Dr', 'G', 'Gr', 'K', 'Kr', 'R', 'S', 'Sr', 'Str', 'St', 'T', 'Tr', 'V', 'Vr'];
   const nm2 = ['e', 'a', 'o'];
@@ -11,3 +11,4 @@ export default function zygons() {
     return names;
   }
 }
+module.exports = zygons

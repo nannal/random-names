@@ -1,4 +1,4 @@
-export default function chineses() {
+function chineses() {
   let names;
   let rnd;
   let rnd1;
@@ -15,3 +15,4 @@ export default function chineses() {
     return names;
   }
 }
+module.exports = chineses

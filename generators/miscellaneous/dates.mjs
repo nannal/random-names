@@ -1,4 +1,4 @@
-export default function dates() {
+function dates() {
   let names;
   let rnd3b;
   let rnd3c;
@@ -91,3 +91,4 @@ export default function dates() {
     return names;
   }
 }
+module.exports = dates

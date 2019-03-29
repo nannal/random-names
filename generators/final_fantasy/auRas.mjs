@@ -1,4 +1,4 @@
-export default function auRas() {
+function auRas() {
   const type = Math.random() < 0.5 ? 0 : 1;
   let rnd;
   let rnd2;
@@ -38,3 +38,4 @@ export default function auRas() {
   }
   return names;
 }
+module.exports = auRas

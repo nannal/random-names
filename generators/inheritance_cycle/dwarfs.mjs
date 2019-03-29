@@ -1,4 +1,4 @@
-export default function dwarfs() {
+function dwarfs() {
   let names;
   let rnd;
   let rnd2;
@@ -60,3 +60,4 @@ export default function dwarfs() {
     return names;
   }
 }
+module.exports = dwarfs

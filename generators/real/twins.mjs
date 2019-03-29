@@ -1,4 +1,4 @@
-export default function twins() {
+function twins() {
   let names;
   let rnd;
   let rnd2;
@@ -49,3 +49,4 @@ export default function twins() {
     return names;
   }
 }
+module.exports = twins

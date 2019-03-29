@@ -1,4 +1,4 @@
-export default function anoukis() {
+function anoukis() {
   let rnd;
   let rnd2;
   let rnd3;
@@ -19,3 +19,4 @@ export default function anoukis() {
     return names;
   }
 }
+module.exports = anoukis

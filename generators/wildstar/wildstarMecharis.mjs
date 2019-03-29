@@ -1,4 +1,4 @@
-export default function wildstarMecharis() {
+function wildstarMecharis() {
   let names;
   let lname;
   let rnd;
@@ -58,3 +58,4 @@ export default function wildstarMecharis() {
     return names;
   }
 }
+module.exports = wildstarMecharis

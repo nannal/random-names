@@ -1,4 +1,4 @@
-export default function gnolls() {
+function gnolls() {
   let names;
   let nmLast;
   let rnd;
@@ -79,3 +79,4 @@ export default function gnolls() {
     return names;
   }
 }
+module.exports = gnolls

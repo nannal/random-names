@@ -1,4 +1,4 @@
-export default function frenchs() {
+function frenchs() {
   let names;
   let rnd;
   let rnd2;
@@ -18,3 +18,4 @@ export default function frenchs() {
     return names;
   }
 }
+module.exports = frenchs

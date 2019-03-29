@@ -1,4 +1,4 @@
-export default function homestucks() {
+function homestucks() {
   let names;
   let namesf;
   let rnd;
@@ -123,3 +123,4 @@ export default function homestucks() {
     return names;
   }
 }
+module.exports = homestucks

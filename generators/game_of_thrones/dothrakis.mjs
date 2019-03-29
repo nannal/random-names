@@ -1,4 +1,4 @@
-export default function dothrakis() {
+function dothrakis() {
   let names;
   let rnd;
   let rnd2;
@@ -70,3 +70,4 @@ export default function dothrakis() {
     return names;
   }
 }
+module.exports = dothrakis

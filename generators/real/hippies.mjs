@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function hippies() {
+function hippies() {
   let names;
   const type = Math.floor(Math.random() * 3.0);
   const nm1 = ['Aden', 'Aestas', 'Aiken', 'Alastair', 'Alchemy', 'Algernon', 'Ali', 'Alma', 'Angel', 'Apollo', 'Aries', 'Aristotle', 'Arwen', 'Ash', 'Ashby', 'Atticus', 'August', 'Baird', 'Basil', 'Bastien', 'Bear', 'Belou', 'Birch', 'Blade', 'Blaze', 'Blu', 'Blue', 'Bowie', 'Brandon', 'Brave', 'Breeze', 'Broderick', 'Bud', 'Burgundy', 'Carmel', 'Cedar', 'Chakra', 'Chance', 'Chestnut', 'Christian', 'Clayton', 'Cloud', 'Coriander', 'Cosmic', 'Crimson', 'Cullan', 'Cypress', 'Cyress', 'Dancer', 'Danna', 'Dawn', 'Daydream', 'Desert', 'Destiny', 'Donovan', 'Drake', 'Dream', 'Dusk', 'Dylan', 'Eagle', 'Earth', 'Echo', 'Eclipse', 'Elm', 'Ethan', 'Ethereal', 'Evaan', 'Fall', 'Fire', 'Flame', 'Flow', 'Floyd', 'Forbes', 'Fray', 'Free', 'Freedom', 'Gabriel', 'Garcia', 'Gemini', 'Genesis', 'Glenn', 'Grace', 'Grainne', 'Gram', 'Griffin', 'Harbor', 'Heart', 'Holden', 'Honest', 'Honor', 'Ideal', 'Infinity', 'Jaco', 'Jagger', 'Jan', 'Jay', 'John', 'Jorma', 'Jude', 'Jules', 'Jupiter', 'Justice', 'Kami', 'Karma', 'Keenak', 'Kiefer', 'Kieran', 'Korin', 'Kyle', 'Lachlan', 'Lake', 'Landis', 'Laurel', 'Leaf', 'Leary', 'Leland', 'Lennon', 'Liberty ', 'Light', 'Logan', 'Loki', 'Lore', 'Love', 'Lucas', 'Lucky', 'Lyric', 'Maple', 'March', 'Marley', 'Mars', 'Marsh', 'Matthew', 'Mercury', 'Merlin', 'Micha', 'Milo', 'Miracle', 'Mist', 'Moon', 'Moonbean', 'Moonlight', 'Moonshine', 'Moss', 'Mountain', 'Mystery', 'Nirvana', 'Nova', 'November', 'Nug', 'Oak', 'Ocean', 'Ode', 'Om', 'Orion', 'Oz', 'Pan', 'Passion', 'Peace', 'Perry', 'Pheonix', 'Phoenix', 'Polaris', 'Promise', 'Psyche', 'Quentin', 'Quest', 'Quicksilver', 'Quincy', 'Quinn', 'Rain', 'Raine', 'Rayne', 'Rebel', 'Remi', 'River', 'Rock', 'Roman', 'Sarin', 'Saturn', 'Shine', 'Sierra', 'Silver', 'Simon', 'Sirius', 'Sky', 'Skye', 'Skyler', 'Smiles', 'Snow', 'Soul', 'Sparrow', 'Star', 'Starbuck', 'Stone', 'Stoney', 'Storm', 'Strider', 'Sun', 'Sundance', 'Sunny', 'Sunray', 'Sydney', 'Terra', 'Thunder', 'Thyme', 'Toby', 'Tranquill', 'Trent', 'Trey', 'True', 'Truth', 'Tuesday', 'Tyler', 'Unity', 'Van', 'Vega', 'Wesley', 'Whisper', 'Wind', 'Winter', 'Wood', 'Xavier', 'Zachary', 'Zen', 'Zephyrus'];
@@ -17,3 +17,4 @@ export default function hippies() {
     return names;
   }
 }
+module.exports = hippies

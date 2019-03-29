@@ -1,4 +1,4 @@
-export default function magicalPlants() {
+function magicalPlants() {
   let names;
   let rnd;
   let rnd2;
@@ -61,3 +61,4 @@ export default function magicalPlants() {
     return names;
   }
 }
+module.exports = magicalPlants

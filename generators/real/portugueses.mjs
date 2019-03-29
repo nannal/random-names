@@ -1,4 +1,4 @@
-export default function portugueses() {
+function portugueses() {
   let names;
   let rnd;
   let rnd1;
@@ -14,3 +14,4 @@ export default function portugueses() {
     return names;
   }
 }
+module.exports = portugueses

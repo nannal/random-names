@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function aasimars() {
+function aasimars() {
   let nameLast;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -37,3 +37,4 @@ export default function aasimars() {
     return names;
   }
 }
+module.exports = aasimars

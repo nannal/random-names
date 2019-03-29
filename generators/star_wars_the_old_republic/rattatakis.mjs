@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function rattatakis() {
+function rattatakis() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'i', 'o', 'u', 'ai', 'au', 'ei', 'ou', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -20,3 +20,4 @@ export default function rattatakis() {
     return names;
   }
 }
+module.exports = rattatakis

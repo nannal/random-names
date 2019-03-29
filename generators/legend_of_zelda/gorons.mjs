@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function gorons() {
+function gorons() {
   let names;
   const nm1 = ['B', 'D', 'G', 'K', 'M', 'N', 'R', 'T'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o'];
@@ -19,3 +19,4 @@ export default function gorons() {
     return names;
   }
 }
+module.exports = gorons

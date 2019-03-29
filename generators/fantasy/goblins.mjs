@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function goblins() {
+function goblins() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'p', 'r', 't', 'v', 'w', 'x', 'z', 'br', 'bl', 'cr', 'cl', 'ch', 'dr', 'fr', 'gr', 'gl', 'gn', 'kr', 'kl', 'pr', 'pl', 'str', 'st', 'sr', 'sl', 'tr', 'vr', 'wr', 'zr'];
@@ -27,3 +27,4 @@ export default function goblins() {
     return names;
   }
 }
+module.exports = goblins

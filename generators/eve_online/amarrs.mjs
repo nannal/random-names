@@ -1,4 +1,4 @@
-export default function amarrs() {
+function amarrs() {
   let rnd;
   let rnd2;
   let rnd3;
@@ -26,3 +26,4 @@ export default function amarrs() {
   }
   return names;
 }
+module.exports = amarrs

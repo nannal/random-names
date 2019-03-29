@@ -1,4 +1,4 @@
-export default function gauntlets() {
+function gauntlets() {
   let names;
   let rnd;
   let rnd1;
@@ -42,3 +42,4 @@ export default function gauntlets() {
     return names;
   }
 }
+module.exports = gauntlets

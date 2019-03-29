@@ -1,4 +1,4 @@
-export default function lalafells() {
+function lalafells() {
   let names;
   let rnd;
   let rnd2;
@@ -78,3 +78,4 @@ export default function lalafells() {
     return names;
   }
 }
+module.exports = lalafells

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function superheroTeams() {
+function superheroTeams() {
   let names;
   const nm1 = ['Aberration', 'Alpha', 'Amendment', 'Angel', 'Anomaly', 'Apex', 'Arachnid', 'Arcane', 'Assault', 'Augmented', 'Aura', 'Aurora', 'Banshee', 'Barrage', 'Behemoth', 'Blitz', 'Blood', 'Cardinal', 'Carnage', 'Castaway', 'Challenger', 'Chaperon', 'Chief', 'Cobra', 'Cosmos', 'Covert', 'Crimson', 'Crisis', 'Crux', 'Curator', 'Custodian', 'Daemon', 'Defiance', 'Demon', 'Destiny', 'Devil', 'Divine', 'Eerie', 'Enigma', 'Epitome', 'Eternity', 'Ethereal', 'Exile', 'Extreme', 'Feral', 'Figment', 'Flux', 'Freak', 'Fugitive', 'Future', 'Galaxy', 'Global', 'Golden', 'Grim', 'Guardian', 'Hazard', 'Illusion', 'Impact', 'Infernal', 'Inferno', 'Infinity', 'Inhuman', 'Insurgence', 'Invasion', 'Ironclad', 'Jackal', 'Justice', 'Juvenile', 'Light', 'Maestro', 'Maraud', 'Maroon', 'Memento', 'Miracle', 'Mirage', 'Monster', 'Mutant', 'Myriad', 'Mystery', 'Mythic', 'Nebula', 'Nemesis', 'New', 'New Law', 'New Vision', 'Nightmare', 'Nova', 'Omega', 'Oracle', 'Parable', 'Paradox', 'Paragon', 'Paramount', 'Phantom', 'Phenomenon', 'Phoenix', 'Pinnacle', 'Power', 'Primal', 'Prime', 'Prodigy', 'Prototype', 'Quantum', 'Rascal', 'Reformation', 'Remedy', 'Revelation', 'Revenent', 'Riot', 'Rogue', 'Ruthless', 'Sanction', 'Sanguine', 'Savage', 'Sentence', 'Sentinel', 'Seraph', 'Shadow', 'Shepherd', 'Silent', 'Silver', 'Singular', 'Singularity', 'Skirmish', 'Sovereign', 'Spectral', 'Storm', 'Super', 'Supreme', 'Terra', 'Thunder', 'Time', 'Transcendent', 'Triad', 'Trinity', 'Universe', 'Vagrant', 'Vertex', 'Vigilante', 'Viper', 'Visionary', 'Vitality', 'Void', 'Watchdog', 'Whisper', 'Wonder', 'Zealot'];
   const nm2 = ['Alliance', 'Allies', 'Battalion', 'Brawlers', 'Centurions', 'Champions', 'Clan', 'Crew', 'Crusaders', 'Custodians', 'Defenders', 'Fighters', 'Flight', 'Force', 'Guardians', 'Guards', 'Heroes', 'Knights', 'League', 'Legion', 'Marvels', 'Masters', 'Oracles', 'Outcasts', 'Pack', 'Patrol', 'Rangers', 'Rebels', 'Sentinels', 'Soldiers', 'Squad', 'Squadron', 'Syndicate', 'Titans', 'Troopers', 'Unit', 'Warriors', 'Watch', 'Wings'];
@@ -15,3 +15,4 @@ export default function superheroTeams() {
     return names;
   }
 }
+module.exports = superheroTeams

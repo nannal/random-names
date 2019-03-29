@@ -1,4 +1,4 @@
-export default function killers() {
+function killers() {
   let names;
   let rnd;
   let rnd2;
@@ -18,3 +18,4 @@ export default function killers() {
     return names;
   }
 }
+module.exports = killers

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function pokemons() {
+function pokemons() {
   let names;
   let rnd0;
   let rnd1;
@@ -50,3 +50,4 @@ export default function pokemons() {
     return names;
   }
 }
+module.exports = pokemons

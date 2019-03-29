@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function onePieceDevilFruits() {
+function onePieceDevilFruits() {
   let names;
   const nm1 = [
     ['Ame', 'Rain'],
@@ -129,3 +129,4 @@ export default function onePieceDevilFruits() {
     return names;
   }
 }
+module.exports = onePieceDevilFruits

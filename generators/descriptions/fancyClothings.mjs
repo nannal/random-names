@@ -1,4 +1,4 @@
-export default function fancyClothings() {
+function fancyClothings() {
   let rnd1;
   let rnd2;
   let rnd3;
@@ -162,3 +162,4 @@ export default function fancyClothings() {
   result += name5;
   return result;
 }
+module.exports = fancyClothings

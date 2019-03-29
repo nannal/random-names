@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function fallens() {
+function fallens() {
   let names;
   const nm1 = ['b', 'br', 'd', 'dr', 'f', 'fr', 'g', 'gr', 'k', 'kr', 'n', 'p', 'ph', 'pr', 'r', 's', 'sk', 't', 'tr', 'v', 'vr', 'w', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'y'];
@@ -16,3 +16,4 @@ export default function fallens() {
     return names;
   }
 }
+module.exports = fallens

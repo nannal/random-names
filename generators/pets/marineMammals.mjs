@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function marineMammals() {
+function marineMammals() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abalone', 'Acro', 'Aenon', 'Artic', 'Avalon', 'Bay', 'Bayou', 'Beaker', 'Beck', 'Bered', 'Blue', 'Bo', 'Boomer', 'Bourne', 'Brook', 'Bubbles', 'Bullet', 'Captain', 'Caspian', 'Comet', 'Cruise', 'Dash', 'Crunch', 'Dew', 'Dips', 'Diver', 'Dover', 'Dune', 'Dyve', 'Echo', 'Finn', 'Flipper', 'Flips', 'Frost', 'Gal', 'Gar', 'Harbor', 'Harbour', 'Haven', 'Hurley', 'Ice', 'Jetty', 'Jive', 'Kai', 'Kane', 'Krill', 'Kyle', 'Lach', 'Lagoon', 'Laike', 'Lake', 'Mako', 'Marlin', 'Marlow', 'Marsh', 'Moor', 'Moore', 'Muir', 'Neptune', 'Nerio', 'Nero', 'Nile', 'Niles', 'Pisces', 'Plunge', 'Poseidon', 'Rain', 'Ray', 'Reef', 'Ren', 'Rio', 'Rip', 'Ripley', 'Sailor', 'Salty', 'Saul', 'Screech', 'Shade', 'Shadow', 'Shimmy', 'Shore', 'Sid', 'Sidney', 'Snorkel', 'Snowball', 'Snowflake', 'Soakes', 'Speedy', 'Splash', 'Spray', 'Sprinkle', 'Storm', 'Strom', 'Tad', 'Tails', 'Tango', 'Tide', 'Tracker', 'Triton', 'Troy', 'Tumble', 'Twister', 'Tyde', 'Wayde'];
@@ -14,3 +14,4 @@ export default function marineMammals() {
     return names;
   }
 }
+module.exports = marineMammals

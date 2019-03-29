@@ -1,4 +1,4 @@
-export default function eldars() {
+function eldars() {
   let names;
   let rnd;
   let rnd2;
@@ -20,3 +20,4 @@ export default function eldars() {
     return names;
   }
 }
+module.exports = eldars

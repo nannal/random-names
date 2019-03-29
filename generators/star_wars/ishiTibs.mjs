@@ -1,4 +1,4 @@
-export default function ishiTibs() {
+function ishiTibs() {
   let namelast;
   let names;
   let rnd5b;
@@ -84,3 +84,4 @@ export default function ishiTibs() {
     return names;
   }
 }
+module.exports = ishiTibs

@@ -1,4 +1,4 @@
-export default function chaos() {
+function chaos() {
   let names;
   let rnd;
   let rnd2;
@@ -20,3 +20,4 @@ export default function chaos() {
     return names;
   }
 }
+module.exports = chaos

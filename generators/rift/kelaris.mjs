@@ -1,4 +1,4 @@
-export default function kelaris() {
+function kelaris() {
   let names1;
   let names2;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -13,3 +13,4 @@ export default function kelaris() {
   const rnd2 = Math.floor(Math.random() * names2.length);
   return names1[rnd] + names2[rnd2];
 }
+module.exports = kelaris

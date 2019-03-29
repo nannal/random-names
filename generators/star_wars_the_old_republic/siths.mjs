@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function siths() {
+function siths() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'i', 'o', 'u', 'â', 'û', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -26,3 +26,4 @@ export default function siths() {
     return names;
   }
 }
+module.exports = siths

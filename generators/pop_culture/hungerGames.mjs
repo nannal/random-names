@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function hungerGames() {
+function hungerGames() {
   let names;
   let rnd;
   const type = Math.floor(Math.random() * 3.0);
@@ -23,3 +23,4 @@ export default function hungerGames() {
     return names;
   }
 }
+module.exports = hungerGames

@@ -1,4 +1,4 @@
-export default function malaysians() {
+function malaysians() {
   let names;
   let rnd;
   let rnd2;
@@ -31,3 +31,4 @@ export default function malaysians() {
     return names;
   }
 }
+module.exports = malaysians

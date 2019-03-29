@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function orions() {
+function orions() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['D', 'G', 'H', 'J', 'L', 'M', 'N', 'Ng', 'R', 'T', 'Th', 'V'];
@@ -28,3 +28,4 @@ export default function orions() {
     return names;
   }
 }
+module.exports = orions

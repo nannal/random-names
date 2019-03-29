@@ -1,4 +1,4 @@
-export default function fantasyAnimals() {
+function fantasyAnimals() {
   let nm;
   let rnd;
   let rnd2;
@@ -72,3 +72,4 @@ export default function fantasyAnimals() {
     return nm;
   }
 }
+module.exports = fantasyAnimals

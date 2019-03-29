@@ -1,4 +1,4 @@
-export default function potions() {
+function potions() {
   let names;
   let rnd;
   let rnd2;
@@ -11,3 +11,4 @@ export default function potions() {
     return names;
   }
 }
+module.exports = potions

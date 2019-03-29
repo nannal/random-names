@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function oreads() {
+function oreads() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'b', 'd', 'g', 'j', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v'];
@@ -26,3 +26,4 @@ export default function oreads() {
     return names;
   }
 }
+module.exports = oreads

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function medievals() {
+function medievals() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Admiral', 'Alderman', 'Archbishop', 'Baron', 'Baronet', 'Bishop', 'Cardinal', 'Chancellor', 'Count', 'Duke', 'Earl', 'Emperor', 'Grand Duke', 'King', 'King', 'Knight', 'Landgrave', 'Lord', 'Margrave', 'Monk', 'Peasant', 'Prince', 'Prince', 'Prince Consort', 'Reeve', 'Serf', 'Sir', 'Squire', 'Vicar', 'Viscount', 'Yeoman'];
@@ -16,3 +16,4 @@ export default function medievals() {
     return names;
   }
 }
+module.exports = medievals

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function elfs() {
+function elfs() {
   let lastTwoChar;
   let name1;
   let name2;
@@ -1998,3 +1998,4 @@ export default function elfs() {
     return `${names1} ${names2}`;
   }
 }
+module.exports = elfs

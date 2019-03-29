@@ -1,4 +1,4 @@
-export default function snowlands() {
+function snowlands() {
   let names;
   let rnd;
   let rnd2;
@@ -32,3 +32,4 @@ export default function snowlands() {
     return names;
   }
 }
+module.exports = snowlands

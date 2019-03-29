@@ -1,4 +1,4 @@
-export default function niktos() {
+function niktos() {
   let namelast;
   let names;
   let rnd3b;
@@ -81,3 +81,4 @@ export default function niktos() {
     return names;
   }
 }
+module.exports = niktos

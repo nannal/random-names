@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function bothans() {
+function bothans() {
   let namelast;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -33,3 +33,4 @@ export default function bothans() {
     return names;
   }
 }
+module.exports = bothans

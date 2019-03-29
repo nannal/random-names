@@ -1,4 +1,4 @@
-export default function ortolans() {
+function ortolans() {
   let namelast;
   let names;
   let rnd;
@@ -64,3 +64,4 @@ export default function ortolans() {
     return names;
   }
 }
+module.exports = ortolans

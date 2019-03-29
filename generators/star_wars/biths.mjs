@@ -1,4 +1,4 @@
-export default function biths() {
+function biths() {
   let namelast;
   let names;
   let rnd;
@@ -73,3 +73,4 @@ export default function biths() {
     return names;
   }
 }
+module.exports = biths

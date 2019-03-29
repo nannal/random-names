@@ -1,4 +1,4 @@
-export default function martialArts() {
+function martialArts() {
   let names;
   let rnd;
   let rnd2;
@@ -149,3 +149,4 @@ export default function martialArts() {
     return names;
   }
 }
+module.exports = martialArts

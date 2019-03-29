@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function unicorns() {
+function unicorns() {
   let names;
   const type = Math.floor(Math.random() * 3.0);
   const nm1 = ['Aeolus', 'Ainsel', 'Aiolos', 'Albion', 'Alewar', 'Amyntas', 'Anor', 'Argus', 'Argyros', 'Arion', 'Aron', 'Arryn', 'Auris', 'Baine', 'Bastion', 'Blythe', 'Boaz', 'Brand', 'Cadillac', 'Calimerio', 'Calimero', 'Chant', 'Chanted', 'Chipper', 'Colbolt', 'Corin', 'Craze', 'Dashing', 'Demetrius', 'Dryade', 'Elgar', 'Elmas', 'Elwyn', 'Eos', 'Erwin', 'Estar', 'Euros', 'Fernaco', 'Garvin', 'Giddy', 'Gil', 'Giulio', 'Grace', 'Grant', 'Gwayne', 'Gwyn', 'Happy', 'Hart', 'Helios', 'Hesperos', 'Iris', 'Izar', 'Jada', 'Jaden', 'Jasper', 'Jolly', 'Joshi', 'Julius', 'Kaisa', 'Kimber', 'Knight', 'Lance', 'Lancelot', 'Lanstrom', 'Linus', 'Lothir', 'Majesty', 'Marcello', 'Marjallo', 'Matia', 'Mawu', 'Meara', 'Merry', 'Midnight', 'Mika', 'Milky Way', 'Monterya', 'Moriba', 'Mortus', 'Mystery', 'Mystic', 'Nestor', 'Nightwind', 'Olwen', 'Olwin', 'Ozzy', 'Perky', 'Phaeton', 'Placido', 'Poseidon', 'Prancer', 'Rainbow', 'Robin', 'Roshan', 'Rune', 'Sable', 'Sapphire', 'Sigil', 'Silly', 'Silvesse', 'Silvester', 'Sly', 'Snow', 'Snowflake', 'Solstice', 'Sparkles', 'Starburst', 'Stardust', 'Sterling', 'Sunny', 'Sunshine', 'Titanius', 'Tomo', 'Tryne', 'Twilight', 'Twinkle', 'Unity', 'Virgil', 'Wilbur', 'Willow', 'Wrynn', 'Wynn', 'Wynstar', 'Xavier', 'Zane', 'Zion'];
@@ -15,3 +15,4 @@ export default function unicorns() {
   }
   return names;
 }
+module.exports = unicorns

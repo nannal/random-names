@@ -1,4 +1,4 @@
-export default function ethiopians() {
+function ethiopians() {
   let names;
   let rnd;
   let rnd2;
@@ -18,3 +18,4 @@ export default function ethiopians() {
     return names;
   }
 }
+module.exports = ethiopians

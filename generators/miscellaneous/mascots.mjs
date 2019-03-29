@@ -1,4 +1,4 @@
-export default function mascots() {
+function mascots() {
   let names;
   let rnd;
   let rnd2;
@@ -18,3 +18,4 @@ export default function mascots() {
     return names;
   }
 }
+module.exports = mascots

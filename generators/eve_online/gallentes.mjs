@@ -1,4 +1,4 @@
-export default function gallentes() {
+function gallentes() {
   let names;
   let rnd;
   let rnd2;
@@ -28,3 +28,4 @@ export default function gallentes() {
     return names;
   }
 }
+module.exports = gallentes

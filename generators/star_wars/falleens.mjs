@@ -1,4 +1,4 @@
-export default function falleens() {
+function falleens() {
   let namelast;
   let names;
   let rnd;
@@ -66,3 +66,4 @@ export default function falleens() {
     return names;
   }
 }
+module.exports = falleens

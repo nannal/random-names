@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function gamorreans() {
+function gamorreans() {
   let namelast;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -30,3 +30,4 @@ export default function gamorreans() {
     return names;
   }
 }
+module.exports = gamorreans

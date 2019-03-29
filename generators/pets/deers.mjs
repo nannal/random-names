@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function deers() {
+function deers() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Angel', 'Asp', 'Ghost', 'Aspen', 'Avalon', 'Ayalon', 'Bay', 'Birr', 'Blitz', 'Blitzen', 'Bolt', 'Boomerang', 'Bou', 'Brake', 'Browne', 'Brutus', 'Buck', 'Buckeye', 'Buckley', 'Bucky', 'Buff', 'Buttons', 'Champion', 'Chantler', 'Charger', 'Chase', 'Chestnut', 'Colt', 'Comet', 'Covert', 'Cupid', 'Dancer', 'Dapper', 'Darby', 'Dart', 'Darton', 'Dash', 'Dearborn', 'Derland', 'Devin', 'Doc', 'Doe', 'Donner', 'Dot', 'Drummer', 'Edge', 'Elk', 'Elwood', 'Fable', 'Forest', 'Forester', 'Freckles', 'Gallop', 'Giggle', 'Grayson', 'Grove', 'Grover', 'Hersh', 'Hershel', 'Indy', 'Ivor', 'Jingle', 'John Doe', 'Jumbo', 'Juno', 'Knob', 'Knobs', 'Legacy', 'Lightning', 'Lockhart', 'Lucky', 'Magnum', 'Mahony', 'Midnight', 'Mohawk', 'Prancer', 'Quest', 'Ray', 'Rocky', 'Roe', 'Rohan', 'Romulus', 'Roscoe', 'Rowan', 'Rush', 'Russet', 'Scooter', 'Shade', 'Shadow', 'Silver', 'Sky', 'Snow', 'Solace', 'Spike', 'Spot', 'Springer', 'Sprinter', 'Sprite', 'Spruce', 'Spurt', 'Starbuck', 'Storm', 'Stormy', 'Sunny', 'Tawn', 'Thicket', 'Thunder', 'Timber', 'Titan', 'Umber', 'Ward', 'Weald', 'Willow', 'Wonder', 'Woods', 'Woody', 'Yogi'];
@@ -14,3 +14,4 @@ export default function deers() {
     return names;
   }
 }
+module.exports = deers

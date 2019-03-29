@@ -1,4 +1,4 @@
-export default function gorgons() {
+function gorgons() {
   let names;
   let rnd;
   let rnd2;
@@ -41,3 +41,4 @@ export default function gorgons() {
     return names;
   }
 }
+module.exports = gorgons

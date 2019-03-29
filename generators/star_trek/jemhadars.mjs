@@ -1,4 +1,4 @@
-export default function jemhadars() {
+function jemhadars() {
   let names;
   let names1;
   let rnd;
@@ -60,3 +60,4 @@ export default function jemhadars() {
     return names;
   }
 }
+module.exports = jemhadars

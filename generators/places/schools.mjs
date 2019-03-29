@@ -1,4 +1,4 @@
-export default function schools() {
+function schools() {
   let names;
   let rnd;
   let rnd2;
@@ -11,3 +11,4 @@ export default function schools() {
     return names;
   }
 }
+module.exports = schools

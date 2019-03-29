@@ -1,4 +1,4 @@
-export default function languages() {
+function languages() {
   let name;
   let rnd;
   let rnd2;
@@ -62,3 +62,4 @@ export default function languages() {
     return name;
   }
 }
+module.exports = languages

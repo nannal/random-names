@@ -1,4 +1,4 @@
-export default function jungles() {
+function jungles() {
   let names;
   let rnd;
   let rnd2;
@@ -39,3 +39,4 @@ export default function jungles() {
     return names;
   }
 }
+module.exports = jungles

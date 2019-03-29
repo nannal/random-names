@@ -1,4 +1,4 @@
-export default function jiralhanaes() {
+function jiralhanaes() {
   let names;
   let rnd;
   let rnd2;
@@ -27,3 +27,4 @@ export default function jiralhanaes() {
     return names;
   }
 }
+module.exports = jiralhanaes

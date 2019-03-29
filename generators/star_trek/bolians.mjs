@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function bolians() {
+function bolians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ado', 'Ara', 'Ardo', 'Ba', 'Bo', 'Bra', 'Che', 'Co', 'Cra', 'Da', 'Dai', 'Dri', 'Ga', 'Grai', 'Gri', 'Ha', 'Hi', 'Hra', 'La', 'Li', 'Lo', 'Ma', 'Mai', 'Mo', 'Na', 'Ni', 'No', 'Oda', 'Ori', 'Orla', 'Qa', 'Qe', 'Qhi', 'Ra', 'Rai', 'Ri', 'Sa', 'Sho', 'Sra', 'The', 'To', 'Tra', 'Va', 'Vo', 'Vri', 'Xa', 'Xai', 'Xi', 'Ya', 'Yai', 'Ye', 'Za', 'Zai', 'Zi'];
@@ -18,3 +18,4 @@ export default function bolians() {
     return names;
   }
 }
+module.exports = bolians

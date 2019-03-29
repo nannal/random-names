@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function altmers() {
+function altmers() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aic', 'Aica', 'Aid', 'Aide', 'Ald', 'Alda', 'Ana', 'Anar', 'Anc', 'Anca', 'Anco', 'And', 'Andi', 'Ang', 'Anga', 'Ango', 'Ara', 'Aran', 'Are', 'Arel', 'Ari', 'Arin', 'Ark', 'Arkv', 'Arm', 'Armi', 'Arn', 'Aro', 'Aron', 'Arr', 'Arri', 'Art', 'Arte', 'Asl', 'Asli', 'Ath', 'Athe', 'Cal', 'Calc', 'Cali', 'Car', 'Cara', 'Care', 'Cary', 'Cel', 'Cele', 'Cir', 'Ciri', 'Core', 'Corri', 'Cyre', 'Ear', 'Eari', 'Earm', 'Eld', 'Elda', 'Eli', 'Elid', 'Enr', 'Enri', 'Era', 'Eraa', 'Err', 'Erra', 'Eru', 'Erun', 'Est', 'Esto', 'Fae', 'Fael', 'Fai', 'Fain', 'Fal', 'Fala', 'Falc', 'Fan', 'Fani', 'Fas', 'Fase', 'Fii', 'Fiir', 'Gan', 'Gil', 'Gilg', 'Gla', 'Glad', 'Gyr', 'Gyrn', 'Hal', 'Hali', 'Hec', 'Hece', 'Hen', 'Hena', 'Hid', 'Hide', 'Hin', 'Hind', 'Hir', 'Hirt', 'Hon', 'Hond', 'Hya', 'Hyar', 'Iac', 'Iach', 'Ilm', 'Ilmi', 'Ing', 'Inga', 'Iro', 'Iror', 'Ite', 'Iter', 'Jov', 'Jovr', 'Kae', 'Kael', 'Kala', 'Kar', 'Kard', 'Kelkemme', 'Kor', 'Korn', 'Lan', 'Land', 'Lilland', 'Lin', 'Linw', 'Lit', 'Lith', 'Lovi', 'Lyl', 'Lyli', 'Man', 'Mank', 'Mann', 'Mea', 'Mean', 'Mel', 'Mela', 'Mer', 'Mera', 'Meri', 'Mery', 'Mith', 'Mol', 'Moll', 'Mor', 'Mora', 'Moro', 'Mos', 'Moss', 'Mur', 'Muri', 'Nae', 'Naem', 'Nan', 'Nand', 'Nel', 'Nela', 'Ner', 'Neri', 'Nor', 'Nori', 'Nur', 'Nure', 'Oca', 'Ocat', 'Oht', 'Ohti', 'Olq', 'Olqu', 'Ond', 'Ondo', 'Ori', 'Orin', 'Orm', 'Ormi', 'Ort', 'Orth', 'Pel', 'Pell', 'Qor', 'Qorw', 'Qua', 'Quar', 'Rav', 'Rave', 'Rim', 'Rimi', 'Rul', 'Ruli', 'Rum', 'Ruma', 'Run', 'Runi', 'Rya', 'Ryai', 'Sal', 'Salm', 'San', 'Sany', 'Saru', 'Sau', 'Sea', 'Sean', 'Ser', 'Seri', 'Sin', 'Sind', 'Siny', 'Soli', 'Sor', 'Sorc', 'Suu', 'Suur', 'Tan', 'Tand', 'Tau', 'Taur', 'Tel', 'Teli', 'Til', 'Tilm', 'Tra', 'Trag', 'Tre', 'Trec', 'Tum', 'Tumi', 'Tun', 'Tune', 'Tus', 'Tusa', 'Tye', 'Tyer', 'Ulu', 'Ulun', 'Umb', 'Umba', 'Und', 'Undi', 'Ung', 'Unga', 'Uul', 'Uule', 'Val', 'Valm', 'Via', 'Viar', 'Vin', 'Ving', 'Vol', 'Vola', 'Vor', 'Vora', 'Vori', 'Yak', 'Yako', 'Yan', 'Yann', 'Yar', 'Yarn'];
@@ -18,3 +18,4 @@ export default function altmers() {
     return names;
   }
 }
+module.exports = altmers

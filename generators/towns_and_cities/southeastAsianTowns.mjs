@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function southeastAsianTowns() {
+function southeastAsianTowns() {
   let names;
   const nm1 = ['Am', 'Ba', 'Ban', 'Bat', 'Battam', 'Cheo', 'Dam', 'Kam', 'Khma', 'Khmao', 'Khmau', 'Khu', 'Ko', 'Kou', 'Kra', 'Mo', 'Mong', 'Mou', 'Nea', 'Ou', 'Pha', 'Phanom', 'Phno', 'Po', 'Poi', 'Pre', 'Prea', 'Pur', 'Rôm', 'Ro', 'Sam', 'Sen', 'Si', 'Sie', 'Siha', 'Siso', 'Sku', 'Stu', 'Suo', 'Sva', 'Ta', 'Tbou', 'Thma', 'Tu', 'Tue'];
   const nm2 = ['bang', 'bel', 'beng', 'chey', 'dong', 'kéo', 'kol', 'kuon', 'lean', 'leang', 'len', 'leung', 'lung', 'luos', 'méas', 'mao', 'mar', 'mau', 'monorom', 'mum', 'nom', 'nomsok', 'norom', 'penh', 'pet', 'phon', 'phos', 'pong', 'pot', 'puok', 'ráng', 'ran', 'raong', 'reah', 'reng', 'rey', 'rieng', 'rom', 'sat', 'sei', 'sok', 'tam', 'tambang', 'tié', 'vay'];
@@ -42,3 +42,4 @@ export default function southeastAsianTowns() {
     return names;
   }
 }
+module.exports = southeastAsianTowns

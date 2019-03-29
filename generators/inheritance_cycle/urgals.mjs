@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function urgals() {
+function urgals() {
   let names;
   const nm1 = ['', '', 'b', 'd', 'g', 'kh', 'k', 'r', 'sk', 'skg', 't', 'y', 'v', 'z'];
   const nm2 = ['a', 'e', 'o', 'u'];
@@ -18,3 +18,4 @@ export default function urgals() {
     return names;
   }
 }
+module.exports = urgals

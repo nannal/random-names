@@ -1,4 +1,4 @@
-export default function vulcans() {
+function vulcans() {
   let names;
   let rnd;
   let rnd2;
@@ -57,3 +57,4 @@ export default function vulcans() {
     return names;
   }
 }
+module.exports = vulcans

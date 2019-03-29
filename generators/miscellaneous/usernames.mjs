@@ -1,4 +1,4 @@
-export default function usernames() {
+function usernames() {
   let names;
   let rnd;
   let rnd2;
@@ -18,3 +18,4 @@ export default function usernames() {
     return names;
   }
 }
+module.exports = usernames

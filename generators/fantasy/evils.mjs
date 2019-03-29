@@ -1,4 +1,4 @@
-export default function evils() {
+function evils() {
   let names;
   let rnd0;
   let rnd1;
@@ -14,3 +14,4 @@ export default function evils() {
     return names;
   }
 }
+module.exports = evils

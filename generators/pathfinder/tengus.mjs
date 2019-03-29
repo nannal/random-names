@@ -1,4 +1,4 @@
-export default function tengus() {
+function tengus() {
   let lastName;
   let names;
   let rnd;
@@ -84,3 +84,4 @@ export default function tengus() {
     return names;
   }
 }
+module.exports = tengus

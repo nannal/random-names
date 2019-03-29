@@ -1,4 +1,4 @@
-export default function skulduggeryPleasants() {
+function skulduggeryPleasants() {
   let names;
   let rnd;
   let rnd2;
@@ -43,3 +43,4 @@ export default function skulduggeryPleasants() {
     return names;
   }
 }
+module.exports = skulduggeryPleasants

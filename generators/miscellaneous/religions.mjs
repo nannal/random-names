@@ -1,4 +1,4 @@
-export default function religions() {
+function religions() {
   let names;
   let rnd0;
   let rnd1;
@@ -48,3 +48,4 @@ export default function religions() {
     return names;
   }
 }
+module.exports = religions

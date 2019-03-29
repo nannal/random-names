@@ -1,4 +1,4 @@
-export default function songTitles() {
+function songTitles() {
   let names;
   let rnd;
   let rnd2;
@@ -161,3 +161,4 @@ export default function songTitles() {
     return names;
   }
 }
+module.exports = songTitles

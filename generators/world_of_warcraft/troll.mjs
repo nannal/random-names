@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function troll() {
+function troll() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Al', 'An', 'Azi', 'Dru', 'Druk', 'Hai', 'Hak', 'Haka', 'Haku', 'Ham', 'Han', 'Hana', 'Hok', 'Hoki', 'Huka', 'Ja', 'Jal', 'Jan', 'Jar', 'Jes', 'Jin', 'Ju', 'Jum', 'Jun', 'Kai', 'Kaz', 'Kel', 'Ko', 'Kor', 'Ku', 'Kur', 'Kuz', 'Li', 'Lin', 'Maal', 'Mal', 'Muz', 'Mul', 'Mal', 'Pel', 'Pele', 'Rah', 'Rak', 'Rap', 'Ras', 'Raz', 'Rej', 'Reji', 'Rhaz', 'Rhuz', 'Ruja', 'Ruz', 'Seji', 'Sen', 'Ses', 'Sesh', 'Sez', 'Sha', 'Shak', 'She', 'Shen', 'Sin', 'Shun', 'Tan', 'Taz', 'Tes', 'Tesh', 'Traz', 'Trez', 'Tun', 'Tzal', 'Tzan', 'Tzul', 'Tzun', 'Ugo', 'Um', 'Un', 'Ur', 'Uthel', 'Ven', 'Vol', 'Vu', 'Vul', 'Vuz', 'Vuza', 'Vuze', 'Wan', 'Won', 'Wun', 'Xan', 'Xen', 'Xon', 'Xu', 'Xuk', 'Xun', 'Za', 'Zae', 'Zaej', 'Zal', 'Zan', 'Zando', 'Zax', 'Zeb', 'Zel', 'Zela', 'Zen', 'Zendo', 'Zes', 'Zil', 'Zilzi', 'Zin', 'Zol', 'Zon', 'Zu', 'Zub', 'Zuba', 'Zuf', 'Zul', 'Zula', 'Zulya', 'Zun', 'Zuva', 'Zux', 'Val', 'Van', 'Vun', 'Vin', 'Von', 'Kan', 'Kun', 'Kuz', 'Jam', 'Jama', 'Jum', 'Juma', 'Jun', 'Jan', 'Juna', 'Zal', 'Sal', 'Zala', 'Zula', 'Zalu', 'Gol', 'Gul', 'Gal', 'Mug', 'Mig', 'Ros', 'Rus'];
@@ -17,3 +17,4 @@ export default function troll() {
     return names;
   }
 }
+module.exports = troll

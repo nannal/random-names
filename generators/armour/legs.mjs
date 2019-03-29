@@ -1,4 +1,4 @@
-export default function legs() {
+function legs() {
   let names;
   let names4;
   let names5;
@@ -52,3 +52,4 @@ export default function legs() {
     return names;
   }
 }
+module.exports = legs

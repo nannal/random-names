@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function catalans() {
+function catalans() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Àlvar', 'Àngel', 'Àngel ', 'Òscar', 'Úmar ', 'Aaró', 'Aaron', 'Abelard', 'Abraham', 'Absaló', 'Abundi', 'Adalbert', 'Adam', 'Adrià', 'Agustí', 'Agustí ', 'Alaric', 'Albà', 'Albí', 'Aleix', 'Alexandre', 'Alfons', 'Amèric', 'Amadeu', 'Ambròs ', 'Andreu', 'Antoni', 'Aquil·les', 'Ariel', 'Arnau', 'Artur', 'August', 'Balthazar', 'Benjamí ', 'Bernabè', 'Bernat', 'Bertran', 'Biel', 'Blai', 'Borja', 'Brandà', 'Brandan', 'Cal·línic', 'Cam', 'Carles', 'Cecili', 'Cir', 'Conradí ', 'Conrad', 'Cosme', 'Cristòfol', 'Cristòfor', 'Dídac', 'Dari', 'Darios', 'Dioclecià', 'Dionís', 'Domènec ', 'Elià', 'Elies', 'Eliseu', 'Emeric', 'Emili', 'Enric', 'Esdres', 'Esteve', 'Ezequies', 'Fabià ', 'Felip', 'Feliu', 'Ferran', 'Francés', 'Francesc', 'Frederic', 'Fructuós', 'Gabriel', 'Galè ', 'Gastó ', 'Gedeó ', 'Germà', 'Gonçal', 'Gondicari ', 'Gregori', 'Guifré', 'Guillem', 'Guiu', 'Hugo', 'Ignaci', 'Ignasi', 'Iker', 'Isaïes', 'Isaac', 'Jèred', 'Jaïr', 'Jacint', 'Jacob', 'Jasó', 'Jaume', 'Jeremies', 'Jeroni', 'Joan', 'Joaquim', 'Jonatan', 'Jordà ', 'Jordi', 'Josep', 'Josuè ', 'Judes', 'Justí ', 'Just', 'Ladislau', 'Leodogari ', 'Livi', 'Llàtzer', 'Lleó', 'Llorenç ', 'Lluís', 'Lluc', 'Llucià', 'Màrius', 'Macedoni', 'Malaquies', 'Manel', 'Martí', 'Martí ', 'Mateu', 'Matties', 'Melcion', 'Melcior', 'Menna', 'Micolau', 'Miquees', 'Miquel', 'Moisès', 'Nèstor', 'Nadal', 'Narcís', 'Narcís ', 'Nicolau', 'Octavi', 'Orió', 'Oriol', 'Ot', 'Pascual', 'Pasqual', 'Patrici', 'Pau', 'Pau, Pol', 'Pep', 'Pere', 'Pol', 'Pompeu', 'Pròsper', 'Prudencià', 'Prudenci', 'Quirze', 'Raül', 'Rafael', 'Raimon', 'Ramir', 'Ramon', 'Reginald', 'Ricard', 'Robert', 'Roc', 'Roderic', 'Rodolf', 'Roger', 'Romeu', 'Rubèn', 'Salomó ', 'Salvador', 'Samsó', 'Sebastià', 'Sebastià ', 'Sergi', 'Sever', 'Silvestre', 'Simó', 'Siveri', 'Teodor', 'Tomàs', 'Tomau', 'Ulric', 'Urbà ', 'Uries', 'Vícenç', 'Valentí', 'Vicenç', 'Vicent', 'Xavier', 'Zèfir', 'Zeferí '];
@@ -15,3 +15,4 @@ export default function catalans() {
     return names;
   }
 }
+module.exports = catalans

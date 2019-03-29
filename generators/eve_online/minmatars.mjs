@@ -1,4 +1,4 @@
-export default function minmatars() {
+function minmatars() {
   let names;
   let rnd;
   let rnd2;
@@ -28,3 +28,4 @@ export default function minmatars() {
     return names;
   }
 }
+module.exports = minmatars

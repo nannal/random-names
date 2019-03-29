@@ -1,4 +1,4 @@
-export default function quarrens() {
+function quarrens() {
   let namelast;
   let names;
   let rnd;
@@ -50,3 +50,4 @@ export default function quarrens() {
     return names;
   }
 }
+module.exports = quarrens

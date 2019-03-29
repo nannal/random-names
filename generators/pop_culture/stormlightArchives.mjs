@@ -1,4 +1,4 @@
-export default function stormlightArchives() {
+function stormlightArchives() {
   let names;
   let sname;
   let lname;
@@ -177,3 +177,4 @@ export default function stormlightArchives() {
     return names;
   }
 }
+module.exports = stormlightArchives

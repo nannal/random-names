@@ -1,4 +1,4 @@
-export default function rodians() {
+function rodians() {
   let namelast;
   let names;
   let rnd5b;
@@ -96,3 +96,4 @@ export default function rodians() {
     return names;
   }
 }
+module.exports = rodians

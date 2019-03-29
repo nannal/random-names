@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function kigYars() {
+function kigYars() {
   let names;
   const nm1 = ['a', 'e', 'i', 'o', 'u'];
   const nm2 = ['b', 'c', 'd', 'g', 'j', 'n', 'k', 'm', 'r', 't', 'th', 'y', 'z', 'zh'];
@@ -15,3 +15,4 @@ export default function kigYars() {
     return names;
   }
 }
+module.exports = kigYars

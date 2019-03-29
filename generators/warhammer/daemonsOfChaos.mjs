@@ -1,4 +1,4 @@
-export default function daemonsOfChaos() {
+function daemonsOfChaos() {
   let names;
   let rnd;
   let rnd2;
@@ -34,3 +34,4 @@ export default function daemonsOfChaos() {
     return names;
   }
 }
+module.exports = daemonsOfChaos

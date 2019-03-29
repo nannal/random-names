@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function oasis() {
+function oasis() {
   let names;
   const nm1 = ['Abyssal', 'Airy', 'Amber', 'Ancient', 'Angelic', 'Arcane', 'Arctic', 'Aromatic', 'Aurora', 'Awoken', 'Azure', 'Beryl', 'Blossom', 'Blossoming', 'Blue Moon', 'Blushing', 'Boiling', 'Bold', 'Brilliant', 'Bronze', 'Bubbling', 'Carmine', 'Cerulean', 'Changing', 'Chasm', 'Chittering', 'Chuckling', 'Claret', 'Cleansing', 'Coiling', 'Convex', 'Crane', 'Crawling', 'Crescent', 'Croaking', 'Curiosity', 'Curious', 'Dahlia', 'Dancing', 'Dark', 'Daydream', 'Demilune', 'Discovery', 'Divine', 'Eastern', 'Ebony', 'Electric', 'Empty', 'Enchanted', 'Enchanting', 'Enigma', 'Enlightened', 'Enlightenment', 'Evergreen', 'False', 'Firefly', 'Flickering', 'Foggy', 'Forbidden', 'Forsaken', 'Fragrant', 'Frozen', 'Geiser', 'Glass', 'Gleaming', 'Glistening', 'Glowing', 'Golden', 'Grand', 'Great', 'Halcyon', 'Half', 'Harmony', 'Hollow', 'Holy', 'Hotspring', 'Infinite', 'Infinity', 'Ivory', 'Jade', 'Laughing', 'Lava', 'Little', 'Living', 'Lone', 'Lonely', 'Lost', 'Luminous', 'Lunar', 'Lune', 'Lurking', 'Lustrious', 'Lustrous', 'Magma', 'Majestic', 'Malachite', 'Mammoth', 'Maroon', 'Meditating', 'Meditation', 'Merry', 'Mountain', 'Mumbling', 'Mystery', 'Nightmare', 'Northern', 'Observing', 'Oracle', 'Ornate', 'Petal', 'Phantom', 'Pinnacle', 'Pioneer', 'Prime', 'Radiant', 'Raging', 'Repose', 'Resting', 'Roaring', 'Royal', 'Rumbling', 'Running', 'Rustling', 'Saffron', 'Sanguine', 'Sapphire', 'Savage', 'Scarlet', 'Scented', 'Serene', 'Serenity', 'Serpent', 'Shade', 'Shadow', 'Shady', 'Shallow', 'Shimmering', 'Shivering', 'Shrouded', 'Sickle', 'Silent', 'Silver', 'Skyfall', 'Sleeping', 'Sleepy', 'Smoldering', 'Sneaking', 'Snoring', 'Solitude', 'Soothing', 'Southern', 'Sparkling', 'Starfall', 'Sweet', 'Swirling', 'Tamed', 'Tempered', 'Tempest', 'Timeless', 'Tranquil', 'Tranquility', 'Triumph', 'Twin', 'Veiled', 'Velvet', 'Verdigris', 'Vertex', 'Vibrant', 'Vine', 'Violet', 'Viridian', 'Volcano', 'Vortex', 'Waking', 'Wandering', 'Watching', 'Weeping', 'Western', 'Whisper', 'Whispering', 'Whistle', 'Whistling', 'Wicked', 'Wilted', 'Windy', 'Wish', 'Wishing', 'Youth'];
   const nm2 = ['Oasis', 'Spring', 'Fountain', 'Oasis', 'Oasis', 'Oasis', 'Oasis', 'Oasis', 'Oasis', 'Oasis'];
@@ -15,3 +15,4 @@ export default function oasis() {
     return names;
   }
 }
+module.exports = oasis

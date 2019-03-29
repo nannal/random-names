@@ -1,4 +1,4 @@
-export default function gameSoundtracks() {
+function gameSoundtracks() {
   let names;
   let rnd;
   let rnd2;
@@ -32,3 +32,4 @@ export default function gameSoundtracks() {
     return names;
   }
 }
+module.exports = gameSoundtracks

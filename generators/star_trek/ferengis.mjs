@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function ferengis() {
+function ferengis() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aba', 'Adre', 'Aga', 'Arga', 'Arri', 'Ba', 'Be', 'Belo', 'Beri', 'Bo', 'Bra', 'Bre', 'Broi', 'Bru', 'Da', 'De', 'Di', 'Do', 'Dra', 'Dre', 'Droi', 'Fa', 'Fale', 'Fare', 'Fna', 'Fra', 'Fre', 'Fri', 'Froo', 'Ga', 'Gai', 'Ge', 'Gegi', 'Gi', 'Gla', 'Gna', 'Go', 'Gora', 'Gra', 'Gri', 'Groo', 'Ha', 'Hai', 'Ho', 'Hoe', 'Hora', 'Hra', 'Iga', 'Ige', 'Ira', 'Iro', 'Ita', 'Ka', 'Kara', 'Kay', 'Kaza', 'Ke', 'Ki', 'Kola', 'Kra', 'Kre', 'Kri', 'La', 'Le', 'Lera', 'Lete', 'Li', 'Lo', 'Lu', 'Luri', 'Ma', 'Mala', 'Maza', 'Mo', 'Mona', 'Mora', 'Mu', 'Na', 'Nala', 'Nazra', 'Nera', 'Ni', 'Nibo', 'Nilra', 'No', 'Nu', 'Ola', 'Ona', 'Ora', 'Orda', 'Orpa', 'Oza', 'Pa', 'Pela', 'Pera', 'Pi', 'Ple', 'Pra', 'Ra', 'Rate', 'Raza', 'Re', 'Rha', 'Ro', 'Rotto', 'Ruta', 'Sa', 'Smee', 'So', 'Solo', 'Sova', 'Sra', 'Sto', 'Sura', 'Ta', 'Tega', 'To', 'Torro', 'Toza', 'Tra', 'Tro', 'Tu', 'Turo', 'Tye', 'Ubo', 'Ugro', 'Ulda', 'Uli', 'Ura', 'Uro', 'Ya', 'Yaza', 'Ye', 'Yna', 'Yora', 'Za', 'Ze', 'Zira', 'Zra', 'Zyla'];
@@ -16,3 +16,4 @@ export default function ferengis() {
     return names;
   }
 }
+module.exports = ferengis

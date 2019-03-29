@@ -1,4 +1,4 @@
-export default function darths() {
+function darths() {
   let names;
   let rnd;
   let rnd2;
@@ -62,3 +62,4 @@ export default function darths() {
     return names;
   }
 }
+module.exports = darths

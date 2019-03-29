@@ -1,4 +1,4 @@
-export default function lithuanians() {
+function lithuanians() {
   let names;
   let rnd;
   let rnd1;
@@ -28,3 +28,4 @@ export default function lithuanians() {
     return names;
   }
 }
+module.exports = lithuanians

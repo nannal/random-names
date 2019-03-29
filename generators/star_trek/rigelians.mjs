@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function rigelians() {
+function rigelians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'C', 'Ch', 'D', 'G', 'Gr', 'K', 'Kr', 'M', 'Pr', 'R', 'Sr', 'Sch', 'T', 'V', 'Vr', 'W', 'Z'];
@@ -27,3 +27,4 @@ export default function rigelians() {
     return names;
   }
 }
+module.exports = rigelians

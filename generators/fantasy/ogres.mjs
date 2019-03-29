@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function ogres() {
+function ogres() {
   let names;
   const nm1 = ['B', 'Bl', 'Br', 'D', 'Dr', 'G', 'Gl', 'Gr', 'K', 'Kl', 'Kr', 'M', 'N', 'T', 'Tr', 'V', 'Vr', 'W', 'X', 'Y', 'Z', '', '', '', ''];
   const nm2 = ['e', 'i', 'u', 'o', 'a'];
@@ -16,3 +16,4 @@ export default function ogres() {
     return names;
   }
 }
+module.exports = ogres

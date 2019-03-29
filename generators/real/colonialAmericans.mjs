@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function colonialAmericans() {
+function colonialAmericans() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abel', 'Abiel', 'Abijah', 'Abimael', 'Abner', 'Abraham', 'Absalom', 'Adonijah', 'Ajax', 'Alden', 'Amias', 'Amiel', 'Ammiras', 'Amos', 'Amzi', 'Ansel', 'Archibald', 'Asa', 'Asahel', 'Azariah', 'Balthasar', 'Barnabas', 'Bartholomew', 'Bazel', 'Benajah', 'Boaz', 'Chauncey', 'Christopher', 'Clement', 'Comfort', 'Constant', 'Cotton', 'Cyrus', 'Degory', 'Duncan', 'Ebenezer', 'Edward', 'Elbert', 'Eleazar', 'Eleazer', 'Eli', 'Eliab', 'Eliakim', 'Elias', 'Elihu', 'Elijah', 'Eliphalet', 'Elisha', 'Emanuel', 'Emory', 'Enoch', 'Enos', 'Ephraim', 'Experience', 'Ezekiel', 'Francis', 'Garvan', 'Gawen', 'Gerrard', 'Gideon ', 'Gideon', 'Giles', 'Hannibal', 'Henry', 'Hercules', 'Hezekiah', 'Hiram', 'Holmes', 'Homer', 'Horatio', 'Hosea', 'Increase', 'Isaac', 'Isaiah', 'Isham', 'Israel', 'Jabez', 'James', 'Jared', 'Jasper', 'Jedidiah', 'Jehu', 'Jeremiah', 'Jethro', 'Job', 'John', 'Jonas', 'Josiah', 'Jothan', 'Kenelm', 'Lazarus', 'Lemuel', 'Levi', 'Linus', 'Love', 'Matthias', 'Micajah', 'Miles', 'Moses', 'Myles', 'Nehemiah', 'Noble', 'Obadiah', 'Oceanus', 'Philo', 'Philomon', 'Phineas', 'Prosperity', 'Reason', 'Resolved', 'Richard', 'Robert', 'Rufus', 'Salmon', 'Sampson', 'Samuel', 'Seth', 'Silas', 'Simon', 'Solomon', 'Thaddeus', 'Theophilus', 'Thomas', 'Truth', 'William', 'Wrestling', 'Zaccheus', 'Zachariah', 'Zadock', 'Zadok', 'Zebulon', 'Zephaniah', 'Zophar'];
@@ -15,3 +15,4 @@ export default function colonialAmericans() {
     return names;
   }
 }
+module.exports = colonialAmericans

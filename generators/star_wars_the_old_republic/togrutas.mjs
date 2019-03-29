@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function togrutas() {
+function togrutas() {
   let names;
   let lName;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -36,3 +36,4 @@ export default function togrutas() {
     return names;
   }
 }
+module.exports = togrutas

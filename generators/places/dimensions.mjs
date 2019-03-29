@@ -1,4 +1,4 @@
-export default function dimensions() {
+function dimensions() {
   let names;
   let rnd;
   let rnd2;
@@ -31,3 +31,4 @@ export default function dimensions() {
     return names;
   }
 }
+module.exports = dimensions

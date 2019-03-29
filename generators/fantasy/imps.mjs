@@ -1,4 +1,4 @@
-export default function imps() {
+function imps() {
   let names;
   let tyr;
   let rnd;
@@ -37,3 +37,4 @@ export default function imps() {
     return names;
   }
 }
+module.exports = imps

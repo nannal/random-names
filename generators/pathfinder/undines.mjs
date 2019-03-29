@@ -1,4 +1,4 @@
-export default function undines() {
+function undines() {
   let names;
   let rnd;
   let rnd2;
@@ -55,3 +55,4 @@ export default function undines() {
     return names;
   }
 }
+module.exports = undines

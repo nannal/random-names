@@ -1,4 +1,4 @@
-export default function elfs() {
+function elfs() {
   let names;
   let rnd0;
   let rnd1;
@@ -20,3 +20,4 @@ export default function elfs() {
     return names;
   }
 }
+module.exports = elfs

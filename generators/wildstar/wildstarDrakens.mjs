@@ -1,4 +1,4 @@
-export default function wildstarDrakens() {
+function wildstarDrakens() {
   let names;
   let lname;
   let rnd;
@@ -55,3 +55,4 @@ export default function wildstarDrakens() {
     return names;
   }
 }
+module.exports = wildstarDrakens

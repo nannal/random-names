@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function afterlifes() {
+function afterlifes() {
   let name;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -35,3 +35,4 @@ export default function afterlifes() {
     return name;
   }
 }
+module.exports = afterlifes

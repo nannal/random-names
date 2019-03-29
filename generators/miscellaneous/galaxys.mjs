@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function galaxys() {
+function galaxys() {
   let names;
   const nm1 = ['Alpha', 'Apus', 'Aquila', 'Ara', 'Beta', 'Canis', 'Carina', 'Comae', 'Corona', 'Crux', 'Delta', 'Draco', 'Epsilon', 'Gamma', 'Lambda', 'Lyra', 'Nemo', 'Omega', 'Omicron', 'Pavo', 'Proxima', 'Sagitta', 'Serpens', 'Sigma', 'Theta', 'Upsilon', 'Ursa', 'Vela', 'Virgo', 'Zeta', '', '', '', '', '', ''];
   const nm2 = ['Acallaris', 'Achelois', 'Adastreia', 'Aegialeus', 'Aegimius', 'Alatheia', 'Alcyoneus', 'Aldebaran', 'Amphiaraus', 'Anadeia', 'Andromeda', 'Aquarii', 'Arcturus', 'Aristaeus', 'Asteria', 'Asteropaios', 'Astraeus', 'Aurigae', 'Boreas', 'Borysthenis', 'Calesius', 'Capella', 'Cassiopeia', 'Centauri', 'Centaurus', 'Chronos', 'Cymopoleia', 'Dioscuri', 'Draconis', 'Eioneus', 'Eridani', 'Eridanus', 'Eubuleus', 'Euphorion', 'Eusebeia', 'Euthenia', 'Hemithea', 'Hyperbius', 'Hyperes', 'Hyperion', 'Icarius', 'Ichnaea', 'Ilioneus', 'Kentaurus', 'Leporis', 'Librae', 'Lyrae', 'Majoris', 'Miriandynus', 'Myrmidon', 'Nebula', 'Nemesis', 'Odysseus', 'Ophiuchi', 'Orion', 'Orionis', 'Orithyia', 'Palioxis', 'Peleus', 'Perileos', 'Perseus', 'Phoroneus', 'Polystratus', 'Porphyrion', 'Proioxis', 'Sagittarius', 'Sirius', 'Solymus', 'Zagreus', 'Zephyrus'];
@@ -24,3 +24,4 @@ export default function galaxys() {
     return names;
   }
 }
+module.exports = galaxys

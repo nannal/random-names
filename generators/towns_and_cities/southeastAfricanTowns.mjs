@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function southeastAfricanTowns() {
+function southeastAfricanTowns() {
   let names;
   /* Madagascar */
   const nm1 = ['Ala', 'Alara', 'Amba', 'Ambala', 'Amban', 'Ambato', 'Ambi', 'Ambo', 'Amboa', 'Amboan', 'Ambodi', 'Ambohi', 'Ambosi', 'Ampa', 'Ampani', 'Ampara', 'Ampasi', 'An', 'Ana', 'Anan', 'Anda', 'Andi', 'Andila', 'Ando', 'Andovo', 'Anje', 'Anjo', 'Anka', 'Ankazo', 'Ankazon', 'Anta', 'Antafo', 'Antafon', 'Antako', 'Antana', 'Antani', 'Antsi', 'Antsira', 'Antso', 'Antsohi', 'Antsohim', 'Ari', 'Arivo', 'Be', 'Bea', 'Beala', 'Beho', 'Belo', 'Bemai', 'Bero', 'Beta', 'Bete', 'Betio', 'Dau', 'Fan', 'Fandra', 'Fandria', 'Fara', 'Farafa', 'Fenoa', 'Fiana', 'Ifa', 'Ifana', 'Iho', 'Ika', 'Ikala', 'Iko', 'Ko', 'Kopo', 'Maha', 'Mahaja', 'Mahali', 'Mahano', 'Mahave', 'Mainti', 'Mana', 'Manan', 'Manja', 'Manta', 'Maro', 'Maroa', 'Maroan', 'Meri', 'Merikan', 'Mia', 'Miada', 'Miadana', 'Miandra', 'Miandri', 'Mora', 'Morama', 'Moron', 'Nandi', 'Rano', 'Sada', 'Sadjoa', 'Saha', 'Sahata', 'Saka', 'Sakara', 'Samba', 'Sambai', 'Sava', 'Sita', 'Sitam', 'Soanie', 'Soanin', 'Soavi', 'Soavina', 'Toa', 'Toama', 'Toliaa', 'Trano', 'Tsara', 'Tsio', 'Tsiom', 'Tsiroa', 'Vangai', 'Vangain', 'Vari', 'Vava', 'Vavate', 'Vohi', 'Vohibi', 'Vohima', 'Vondro'];
@@ -33,3 +33,4 @@ export default function southeastAfricanTowns() {
     return names;
   }
 }
+module.exports = southeastAfricanTowns

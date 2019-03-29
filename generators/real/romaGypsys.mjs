@@ -1,4 +1,4 @@
-export default function romaGypsys() {
+function romaGypsys() {
   let names;
   let rnd;
   let rnd1;
@@ -14,3 +14,4 @@ export default function romaGypsys() {
     return names;
   }
 }
+module.exports = romaGypsys

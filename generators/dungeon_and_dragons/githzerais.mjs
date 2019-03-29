@@ -1,4 +1,4 @@
-export default function githzerais() {
+function githzerais() {
   let names;
   let rnd;
   let rnd2;
@@ -20,3 +20,4 @@ export default function githzerais() {
     return names;
   }
 }
+module.exports = githzerais

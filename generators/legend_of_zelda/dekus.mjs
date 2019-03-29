@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function dekus() {
+function dekus() {
   let names;
   const nm1 = ['B', 'D', 'F', 'G', 'H', 'K', 'L', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
@@ -15,3 +15,4 @@ export default function dekus() {
     return names;
   }
 }
+module.exports = dekus

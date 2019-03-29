@@ -1,4 +1,4 @@
-export default function barbarians() {
+function barbarians() {
   let names;
   let rnd;
   let rnd2;
@@ -89,3 +89,4 @@ export default function barbarians() {
     return names;
   }
 }
+module.exports = barbarians

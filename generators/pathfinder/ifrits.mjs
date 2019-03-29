@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function ifrits() {
+function ifrits() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'd', 'g', 'j', 'k', 'm', 'n', 'r', 't', 'v', 'z'];
@@ -24,3 +24,4 @@ export default function ifrits() {
     return names;
   }
 }
+module.exports = ifrits

@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function wines() {
+function wines() {
   let names;
   const nm1 = ['', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'bl', 'br', 'ch', 'cl', 'dh', 'fr', 'fl', 'gh', 'gr', 'sh', 'tr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ueu', 'ou', 'au', 'ai', 'ue', 'eau', 'au', 'ei', 'ee', 'ia', 'ie', 'io', 'uei', 'oui', 'ieu', 'eo'];
@@ -17,3 +17,4 @@ export default function wines() {
     return names;
   }
 }
+module.exports = wines

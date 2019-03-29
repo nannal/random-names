@@ -1,4 +1,4 @@
-export default function warriorCats() {
+function warriorCats() {
   let names;
   let rnd;
   let rnd2;
@@ -56,3 +56,4 @@ export default function warriorCats() {
     return names;
   }
 }
+module.exports = warriorCats

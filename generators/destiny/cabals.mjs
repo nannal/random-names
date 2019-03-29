@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function cabals() {
+function cabals() {
   let names;
   let rnd2;
   const nm1 = ['d', 'dh', 'g', 'gh', 'k', 'kh', 'm', 'n', 'sh', 't', 'th', 'tl', 'v', 'z', 'zh'];
@@ -23,3 +23,4 @@ export default function cabals() {
     return names;
   }
 }
+module.exports = cabals

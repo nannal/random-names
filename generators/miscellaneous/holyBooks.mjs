@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function holyBooks() {
+function holyBooks() {
   let names;
   const nm3 = ['Book', 'Books', 'Scroll', 'Scrolls', 'Testament', 'Testaments', 'Codex', 'Codices', 'Chronicle', 'Chronicles', 'Tome', 'Tomes', 'Word', 'Words'];
   const nm4 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -24,3 +24,4 @@ export default function holyBooks() {
     return names;
   }
 }
+module.exports = holyBooks

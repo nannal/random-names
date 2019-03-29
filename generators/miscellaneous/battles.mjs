@@ -1,4 +1,4 @@
-export default function battles() {
+function battles() {
   let names;
   let rnd;
   let rnd2;
@@ -35,3 +35,4 @@ export default function battles() {
     return names;
   }
 }
+module.exports = battles

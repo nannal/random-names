@@ -1,4 +1,4 @@
-export default function militaryRanks() {
+function militaryRanks() {
   let names;
   let rnd0;
   let rnd1;
@@ -22,3 +22,4 @@ export default function militaryRanks() {
     return names;
   }
 }
+module.exports = militaryRanks

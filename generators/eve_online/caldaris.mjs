@@ -1,4 +1,4 @@
-export default function caldaris() {
+function caldaris() {
   let names;
   let rnd;
   let rnd2;
@@ -28,3 +28,4 @@ export default function caldaris() {
     return names;
   }
 }
+module.exports = caldaris

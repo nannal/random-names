@@ -1,4 +1,4 @@
-export default function orcishCitys() {
+function orcishCitys() {
   let names;
   let rnd;
   let rnd2;
@@ -49,3 +49,4 @@ export default function orcishCitys() {
     return names;
   }
 }
+module.exports = orcishCitys

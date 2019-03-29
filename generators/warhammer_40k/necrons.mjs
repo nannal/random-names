@@ -1,4 +1,4 @@
-export default function necrons() {
+function necrons() {
   let names;
   let rnd;
   let rnd2;
@@ -11,3 +11,4 @@ export default function necrons() {
     return names;
   }
 }
+module.exports = necrons

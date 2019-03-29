@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function silurians() {
+function silurians() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', 'd', 'h', 'k', 'l', 'm', 'r', 't'];
@@ -21,3 +21,4 @@ export default function silurians() {
     return names;
   }
 }
+module.exports = silurians

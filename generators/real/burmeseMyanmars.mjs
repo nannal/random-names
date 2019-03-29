@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function burmeseMyanmars() {
+function burmeseMyanmars() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm2 = ['Aeindra', 'Ag', 'Aung', 'Aye', 'Cho', 'Ei', 'Eindra', 'Eka', 'Hayma', 'Haymar', 'Hlaing', 'Hline', 'Hnin', 'Hsu', 'Htay', 'Htet', 'Htun', 'Inzali', 'Kay', 'Khaing', 'Khin', 'Khine', 'Kyaw', 'Le', 'Marlar', 'May', 'Mon', 'Myat', 'Myint', 'Myitzu', 'Naing', 'Nanda', 'Nandar', 'New', 'Nhin', 'Nila', 'Nilar', 'Nine', 'Nway', 'Nwe', 'Ohmar', 'Ommar', 'Phone', 'Phyo', 'Phyu', 'Pwint', 'San', 'Sanda', 'Sandar', 'Su', 'Thanda', 'Thandar', 'Thawda', 'Thawdar', 'Thawka', 'Theingi', 'Thet', 'Thi', 'Thida', 'Thidar', 'Thin', 'Thinza', 'Thinzar', 'Thiri', 'Thu', 'Thuzar', 'Tun', 'U', 'Win', 'Yadana', 'Yadanar', 'Yati', 'Yee', 'Yi', 'Yin', 'Yu', 'Yuzana', 'Zar', 'Zaw', 'Zin'];
@@ -25,3 +25,4 @@ export default function burmeseMyanmars() {
     return names;
   }
 }
+module.exports = burmeseMyanmars

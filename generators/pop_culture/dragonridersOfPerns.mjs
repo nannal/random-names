@@ -1,4 +1,4 @@
-export default function dragonridersOfPerns() {
+function dragonridersOfPerns() {
   let names;
   let rnd;
   let rnd2;
@@ -93,3 +93,4 @@ export default function dragonridersOfPerns() {
     return names;
   }
 }
+module.exports = dragonridersOfPerns

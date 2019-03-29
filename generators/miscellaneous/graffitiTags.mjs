@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function graffitiTags() {
+function graffitiTags() {
   let names;
   const nm1 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'bd', 'bg', 'bh', 'bk', 'bl', 'br', 'by', 'bz', 'c', 'cd', 'cf', 'ch', 'chr', 'cj', 'cl', 'cm', 'cn', 'cr', 'cry', 'cy', 'cz', 'd', 'df', 'dg', 'dh', 'dk', 'dl', 'dm', 'dr', 'dy', 'dz', 'f', 'fh', 'fl', 'fr', 'fy', 'fx', 'g', 'gd', 'gh', 'gl', 'gn', 'gr', 'gy', 'gry', 'h', 'hy', 'j', 'jy', 'k', 'kh', 'kl', 'kn', 'kr', 'ky', 'kry', 'kz', 'l', 'lh', 'ly', 'lx', 'm', 'mn', 'mj', 'mr', 'my', 'mx', 'mk', 'n', 'nh', 'ny', 'nj', 'nx', 'nm', 'p', 'ph', 'ph', 'pj', 'pl', 'pm', 'pn', 'pr', 'ps', 'pz', 'py', 'pry', 'phy', 'q', 'ql', 'qr', 'qz', 'qv', 'r', 'rc', 'rh', 'rq', 'rk', 'rm', 'rt', 'rx', 'ry', 's', 'sc', 'sh', 'sk', 'sl', 'sm', 'sn', 'sq', 'sr', 'st', 'str', 'sy', 'sty', 'stry', 'sly', 'sz', 'sx', 't', 'td', 'th', 'tl', 'tp', 'tr', 'ts', 'tv', 'ty', 'tz', 'try', 'thy', 'th', 'v', 'vn', 'vm', 'vl', 'vx', 'vq', 'vs', 'vz', 'vh', 'vy', 'w', 'wh', 'wk', 'wq', 'wy', 'x', 'xc', 'xh', 'xz', 'xy', 'xr', 'xt', 'xs', 'y', 'z', 'zh', 'zn', 'zs', 'zv', 'zw', 'zy', 'zx'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ea', 'eo', 'eu', 'ei', 'ee', 'ia', 'io', 'iu', 'ie', 'ae', 'ao', 'ai', 'aa', 'ua', 'ui', 'ue', 'oi', 'oo', 'ou', 'oe'];
@@ -17,3 +17,4 @@ export default function graffitiTags() {
     return names;
   }
 }
+module.exports = graffitiTags

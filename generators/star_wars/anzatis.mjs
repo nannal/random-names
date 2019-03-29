@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function anzatis() {
+function anzatis() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'b', 'd', 'g', 'h', 'k', 'm', 'n', 'r', 's', 'v', 'z'];
@@ -22,3 +22,4 @@ export default function anzatis() {
     return names;
   }
 }
+module.exports = anzatis

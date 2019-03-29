@@ -1,4 +1,4 @@
-export default function quarians() {
+function quarians() {
   let names1;
   let names4;
   let names3;
@@ -35,3 +35,4 @@ export default function quarians() {
   const rnd10 = Math.floor(Math.random() * names8.length);
   return `${names1[rnd0] + names2[rnd1] + names3[rnd2] + names4[rnd3]}'${names5[rnd4]}${names2[rnd5]}${names6[rnd6]} ${names7[rnd7]} ${names5[rnd8]}${names2[rnd9]}${names8[rnd10]}`;
 }
+module.exports = quarians

@@ -1,4 +1,4 @@
-export default function temples() {
+function temples() {
   let names;
   let rnd;
   let rnd2;
@@ -55,3 +55,4 @@ export default function temples() {
     return names;
   }
 }
+module.exports = temples

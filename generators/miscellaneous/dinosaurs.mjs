@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function dinosaurs() {
+function dinosaurs() {
   let names;
   const nm1 = [
     [
@@ -998,3 +998,4 @@ export default function dinosaurs() {
     return names;
   }
 }
+module.exports = dinosaurs

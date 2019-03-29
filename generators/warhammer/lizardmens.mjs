@@ -1,4 +1,4 @@
-export default function lizardmens() {
+function lizardmens() {
   let names;
   let rnd;
   let rnd2;
@@ -47,3 +47,4 @@ export default function lizardmens() {
     return names;
   }
 }
+module.exports = lizardmens

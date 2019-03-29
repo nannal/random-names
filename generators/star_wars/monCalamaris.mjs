@@ -1,4 +1,4 @@
-export default function monCalamaris() {
+function monCalamaris() {
   let namelast;
   let names;
   let rnd5b;
@@ -96,3 +96,4 @@ export default function monCalamaris() {
     return names;
   }
 }
+module.exports = monCalamaris

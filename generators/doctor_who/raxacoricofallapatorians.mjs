@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function raxacoricofallapatorians() {
+function raxacoricofallapatorians() {
   let names;
   const nm1 = ['B', 'Bl', 'Br', 'D', 'Dr', 'Gr', 'G', 'Gl', 'J', 'K', 'Kr', 'L', 'S', 'Sr', 'Sl', 'Tr', 'Tl'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'ee', 'oo', 'aa'];
@@ -26,3 +26,4 @@ export default function raxacoricofallapatorians() {
     return names;
   }
 }
+module.exports = raxacoricofallapatorians

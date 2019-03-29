@@ -1,4 +1,4 @@
-export default function victorians() {
+function victorians() {
   let names;
   let rnd;
   let rnd2;
@@ -14,3 +14,4 @@ export default function victorians() {
     return names;
   }
 }
+module.exports = victorians

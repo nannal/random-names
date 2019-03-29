@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function tuskenRaiders() {
+function tuskenRaiders() {
   let namelast;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -50,3 +50,4 @@ export default function tuskenRaiders() {
     return names;
   }
 }
+module.exports = tuskenRaiders

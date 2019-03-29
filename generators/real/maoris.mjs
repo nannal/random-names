@@ -1,4 +1,4 @@
-export default function maoris() {
+function maoris() {
   let names;
   let rnd;
   let rnd2;
@@ -19,3 +19,4 @@ export default function maoris() {
     return names;
   }
 }
+module.exports = maoris

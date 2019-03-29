@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function charrs() {
+function charrs() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['D', 'R', 'T', 'G', 'K', 'Al', 'As', 'V', 'W'];
@@ -31,3 +31,4 @@ export default function charrs() {
     return names;
   }
 }
+module.exports = charrs

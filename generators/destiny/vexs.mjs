@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function vexs() {
+function vexs() {
   let names;
   const nm1 = ['', '', '', '', 'c', 'g', 'h', 'k', 'n', 's', 't', 'th', 'z'];
   const nm2 = ['a', 'e', 'a', 'e', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'eo', 'io', 'y', 'y', 'ia', 'ea'];
@@ -11,3 +11,4 @@ export default function vexs() {
     return names;
   }
 }
+module.exports = vexs

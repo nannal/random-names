@@ -1,6 +1,6 @@
 var sample = require ('lodash.sample')
 
-export default function bats() {
+function bats() {
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ace', 'Acrobat', 'Ajax', 'Angel', 'Apollo', 'Archangel', 'Artemis', 'Ash', 'Azar', 'Azral', 'Baltazar', 'Bandit', 'Bane', 'Basil', 'BatPitt', 'Batista', 'Batley', 'Baxter', 'Beaker', 'Bigglesworth', 'Bitz', 'Blackjack', 'Blade', 'Blaze', 'Blitz', 'Bloodwing', 'Blues', 'Booboo', 'Bruce', 'Brutus', 'Bubba', 'Bubbles', 'Bullet', 'Buster', 'Butch', 'Buttons', 'Chaos', 'Char', 'Chocula', 'Cole', 'Comet', 'Cookie', 'Count', 'Cupcake', 'Darkess', 'Darth', 'Dexter', 'Diablo', 'Dimitri', 'Ding', 'Dodge', 'Dodger', 'Doom', 'Drac', 'Dracula', 'Draculon', 'Drake', 'Echo', 'Equinox', 'Fangs', 'Flapper', 'Flappy', 'Flaps', 'Flash', 'Flicker', 'Fuzz', 'Gambat', 'Gargle', 'Gargles', 'Gargoyle', 'Gavalon', 'Ghost', 'Gizmo', 'Glider', 'Gloom', 'Glyde', 'Golbat', 'Gouge', 'Grey', 'Guano', 'Hannibal', 'Hawke', 'Hunter', 'Hyperion', 'Impaler', 'Jet', 'Kane', 'Khan', 'Kindle', 'Lecter', 'Lockjaw', 'Lucifer', 'Marble', 'Matrix', 'Merlin', 'Midas', 'Midnight', 'Mirage', 'Monty', 'Moon', 'Mothra', 'Muse', 'Nerf', 'Nibbles', 'Nightmare', 'Nightwing', 'Nugget', 'Nukem', 'Nyx', 'Onyx', 'Orion', 'Ozzy', 'Patch', 'Patches', 'Pebbles', 'Phantom', 'Pickle', 'Psych', 'Quickfang', 'Quilla', 'Rabies', 'Rainbow', 'Rascal', 'Remus', 'Render', 'Rhonin', 'Ripmaw', 'Rocky', 'Rufus', 'Sabath', 'Sawyer', 'Screech', 'Screechy', 'Shade', 'Shadow', 'Shreek', 'Shrike', 'Slate', 'Slithe', 'Snuffle', 'Sonar', 'Sonny', 'Spectre', 'Spitfire', 'Spudnik', 'Spuds', 'Swoops', 'Thunder', 'Tiberius', 'Titan', 'Twinkle', 'Umber', 'Vamp', 'Vlad', 'Vladimir', 'Vulkan', 'Wayne', 'Wiggles', 'Wingnut', 'Xanadu', 'Zion'];
@@ -14,3 +14,4 @@ export default function bats() {
     return names;
   }
 }
+module.exports = bats

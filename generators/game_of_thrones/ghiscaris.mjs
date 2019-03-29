@@ -1,4 +1,4 @@
-export default function ghiscaris() {
+function ghiscaris() {
   const type = Math.random() < 0.5 ? 0 : 1;
   const nm1 = ['', '', 'dr', 'g', 'gr', 'h', 'kr', 'm', 'pr', 'q', 'r', 'sr', 'sh', 'z', 'zh'];
   const nm2 = ['a', 'ei', 'i', 'o', 'e', 'a', 'e', 'i', 'o', 'a', 'a'];
@@ -53,3 +53,4 @@ export default function ghiscaris() {
   }
   return names;
 }
+module.exports = ghiscaris

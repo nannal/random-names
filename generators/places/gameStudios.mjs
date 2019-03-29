@@ -1,4 +1,4 @@
-export default function gameStudios() {
+function gameStudios() {
   let names;
   let rnd;
   let rnd1;
@@ -32,3 +32,4 @@ export default function gameStudios() {
     return names;
   }
 }
+module.exports = gameStudios

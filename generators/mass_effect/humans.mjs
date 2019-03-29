@@ -1,4 +1,4 @@
-export default function humans() {
+function humans() {
   let names;
   let rnd;
   let rnd1;
@@ -19,3 +19,4 @@ export default function humans() {
     return names;
   }
 }
+module.exports = humans

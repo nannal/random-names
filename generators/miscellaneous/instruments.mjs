@@ -1,4 +1,4 @@
-export default function instruments() {
+function instruments() {
   let names;
   let rnd;
   let rnd2;
@@ -60,3 +60,4 @@ export default function instruments() {
     return names;
   }
 }
+module.exports = instruments

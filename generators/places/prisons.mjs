@@ -1,4 +1,4 @@
-export default function prisons() {
+function prisons() {
   let names;
   let rnd;
   let rnd2;
@@ -11,3 +11,4 @@ export default function prisons() {
     return names;
   }
 }
+module.exports = prisons

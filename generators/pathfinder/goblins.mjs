@@ -1,4 +1,4 @@
-export default function goblins() {
+function goblins() {
   let names;
   let rnd;
   let rnd2;
@@ -61,3 +61,4 @@ export default function goblins() {
     return names;
   }
 }
+module.exports = goblins

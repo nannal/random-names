@@ -1,4 +1,4 @@
-export default function tians() {
+function tians() {
   let names;
   let rnd;
   let rnd2;
@@ -207,3 +207,4 @@ export default function tians() {
     return names;
   }
 }
+module.exports = tians

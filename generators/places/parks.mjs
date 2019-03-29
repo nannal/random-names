@@ -1,4 +1,4 @@
-export default function parks() {
+function parks() {
   let name;
   let rnd;
   let rnd2;
@@ -31,3 +31,4 @@ export default function parks() {
     return name;
   }
 }
+module.exports = parks
